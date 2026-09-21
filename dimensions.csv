@@ -1,0 +1,4 @@
+dimension_id,name,display_name,has_skylight,ultrawarm,natural,coordinate_scale,bed_works,respawn_anchor_works
+0,overworld,Overworld,True,False,True,1.0,True,False
+-1,the_nether,The Nether,False,True,False,8.0,False,True
+1,the_end,The End,False,False,False,1.0,False,False

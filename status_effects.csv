@@ -1,0 +1,41 @@
+effect_id,name,display_name,type
+0,Speed,Speed,good
+1,Slowness,Slowness,bad
+2,Haste,Haste,good
+3,MiningFatigue,Mining Fatigue,bad
+4,Strength,Strength,good
+5,InstantHealth,Instant Health,good
+6,InstantDamage,Instant Damage,bad
+7,JumpBoost,Jump Boost,good
+8,Nausea,Nausea,bad
+9,Regeneration,Regeneration,good
+10,Resistance,Resistance,good
+11,FireResistance,Fire Resistance,good
+12,WaterBreathing,Water Breathing,good
+13,Invisibility,Invisibility,good
+14,Blindness,Blindness,bad
+15,NightVision,Night Vision,good
+16,Hunger,Hunger,bad
+17,Weakness,Weakness,bad
+18,Poison,Poison,bad
+19,Wither,Wither,bad
+20,HealthBoost,Health Boost,good
+21,Absorption,Absorption,good
+22,Saturation,Saturation,good
+23,Glowing,Glowing,bad
+24,Levitation,Levitation,bad
+25,Luck,Luck,good
+26,BadLuck,Bad Luck,bad
+27,SlowFalling,Slow Falling,good
+28,ConduitPower,Conduit Power,good
+29,DolphinsGrace,Dolphin's Grace,good
+30,BadOmen,Bad Omen,bad
+31,HeroOfTheVillage,Hero of the Village,good
+32,Darkness,Darkness,bad
+33,TrialOmen,Trial Omen,bad
+34,RaidOmen,Raid Omen,bad
+35,WindCharged,Wind Charged,bad
+36,Weaving,Weaving,bad
+37,Oozing,Oozing,bad
+38,Infested,Infested,bad
+39,BreathOfTheNautilus,Breath of the Nautilus,good

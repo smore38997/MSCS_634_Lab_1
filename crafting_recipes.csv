@@ -1,0 +1,1680 @@
+recipe_id,result_item,result_count,recipe_type,ingredients,num_distinct_ingredients
+1,acacia_boat,1,shaped,acacia_planks,1
+2,acacia_door,3,shaped,acacia_planks,1
+3,acacia_fence,3,shaped,acacia_planks; stick,2
+4,acacia_fence_gate,1,shaped,acacia_planks; stick,2
+5,acacia_hanging_sign,6,shaped,stripped_acacia_log; iron_chain,2
+6,acacia_pressure_plate,1,shaped,acacia_planks,1
+7,acacia_shelf,6,shaped,stripped_acacia_log,1
+8,acacia_sign,3,shaped,acacia_planks; stick,2
+9,acacia_slab,6,shaped,acacia_planks,1
+10,acacia_stairs,4,shaped,acacia_planks,1
+11,acacia_trapdoor,2,shaped,acacia_planks,1
+12,acacia_wood,3,shaped,acacia_log,1
+13,activator_rail,6,shaped,redstone_torch; iron_ingot; stick,3
+14,amethyst_block,1,shaped,amethyst_shard,1
+15,andesite_slab,6,shaped,andesite,1
+16,andesite_stairs,4,shaped,andesite,1
+17,andesite_wall,6,shaped,andesite,1
+18,anvil,1,shaped,iron_block; iron_ingot,2
+19,armor_stand,1,shaped,smooth_stone_slab; stick,2
+20,arrow,4,shaped,stick; feather; flint,3
+21,bamboo_door,3,shaped,bamboo_planks,1
+22,bamboo_fence,3,shaped,bamboo_planks; stick,2
+23,bamboo_fence_gate,1,shaped,bamboo_planks; stick,2
+24,bamboo_hanging_sign,6,shaped,stripped_bamboo_block; iron_chain,2
+25,bamboo_mosaic,1,shaped,bamboo_slab,1
+26,bamboo_mosaic_slab,6,shaped,bamboo_mosaic,1
+27,bamboo_mosaic_stairs,4,shaped,bamboo_mosaic,1
+28,bamboo_pressure_plate,1,shaped,bamboo_planks,1
+29,bamboo_raft,1,shaped,bamboo_planks,1
+30,bamboo_shelf,6,shaped,stripped_bamboo_block,1
+31,bamboo_sign,3,shaped,bamboo_planks; stick,2
+32,bamboo_slab,6,shaped,bamboo_planks,1
+33,bamboo_stairs,4,shaped,bamboo_planks,1
+34,bamboo_trapdoor,2,shaped,bamboo_planks,1
+35,barrel,1,shaped,cherry_planks; cherry_slab,2
+36,barrel,1,shaped,bamboo_planks; bamboo_slab,2
+37,barrel,1,shaped,mangrove_planks; mangrove_slab,2
+38,barrel,1,shaped,warped_planks; warped_slab,2
+39,barrel,1,shaped,crimson_planks; crimson_slab,2
+40,barrel,1,shaped,pale_oak_planks; pale_oak_slab,2
+41,barrel,1,shaped,dark_oak_planks; dark_oak_slab,2
+42,barrel,1,shaped,acacia_planks; acacia_slab,2
+43,barrel,1,shaped,jungle_planks; jungle_slab,2
+44,barrel,1,shaped,birch_planks; birch_slab,2
+45,barrel,1,shaped,spruce_planks; spruce_slab,2
+46,barrel,1,shaped,oak_planks; oak_slab,2
+47,beacon,1,shaped,glass; obsidian; nether_star,3
+48,beehive,1,shaped,cherry_planks; honeycomb,2
+49,beehive,1,shaped,bamboo_planks; honeycomb,2
+50,beehive,1,shaped,mangrove_planks; honeycomb,2
+51,beehive,1,shaped,warped_planks; honeycomb,2
+52,beehive,1,shaped,crimson_planks; honeycomb,2
+53,beehive,1,shaped,pale_oak_planks; honeycomb,2
+54,beehive,1,shaped,dark_oak_planks; honeycomb,2
+55,beehive,1,shaped,acacia_planks; honeycomb,2
+56,beehive,1,shaped,jungle_planks; honeycomb,2
+57,beehive,1,shaped,birch_planks; honeycomb,2
+58,beehive,1,shaped,spruce_planks; honeycomb,2
+59,beehive,1,shaped,oak_planks; honeycomb,2
+60,birch_boat,1,shaped,birch_planks,1
+61,birch_door,3,shaped,birch_planks,1
+62,birch_fence,3,shaped,birch_planks; stick,2
+63,birch_fence_gate,1,shaped,birch_planks; stick,2
+64,birch_hanging_sign,6,shaped,stripped_birch_log; iron_chain,2
+65,birch_pressure_plate,1,shaped,birch_planks,1
+66,birch_shelf,6,shaped,stripped_birch_log,1
+67,birch_sign,3,shaped,birch_planks; stick,2
+68,birch_slab,6,shaped,birch_planks,1
+69,birch_stairs,4,shaped,birch_planks,1
+70,birch_trapdoor,2,shaped,birch_planks,1
+71,birch_wood,3,shaped,birch_log,1
+72,black_banner,1,shaped,black_wool; stick,2
+73,black_bed,1,shaped,cherry_planks; black_wool,2
+74,black_bed,1,shaped,bamboo_planks; black_wool,2
+75,black_bed,1,shaped,mangrove_planks; black_wool,2
+76,black_bed,1,shaped,warped_planks; black_wool,2
+77,black_bed,1,shaped,crimson_planks; black_wool,2
+78,black_bed,1,shaped,pale_oak_planks; black_wool,2
+79,black_bed,1,shaped,dark_oak_planks; black_wool,2
+80,black_bed,1,shaped,acacia_planks; black_wool,2
+81,black_bed,1,shaped,jungle_planks; black_wool,2
+82,black_bed,1,shaped,birch_planks; black_wool,2
+83,black_bed,1,shaped,spruce_planks; black_wool,2
+84,black_bed,1,shaped,oak_planks; black_wool,2
+85,black_bed,1,shapeless,black_dye; blue_bed,2
+86,black_carpet,3,shaped,black_wool,1
+87,black_carpet,1,shapeless,blue_carpet; black_dye,2
+88,black_harness,1,shaped,glass; black_wool; leather,3
+89,black_harness,1,shapeless,blue_harness; black_dye,2
+90,black_stained_glass,8,shaped,glass; black_dye,2
+91,black_stained_glass_pane,16,shaped,black_stained_glass,1
+92,black_stained_glass_pane,8,shaped,glass_pane; black_dye,2
+93,black_terracotta,8,shaped,terracotta; black_dye,2
+94,blackstone_slab,6,shaped,blackstone,1
+95,blackstone_stairs,4,shaped,blackstone,1
+96,blackstone_wall,6,shaped,blackstone,1
+97,blast_furnace,1,shaped,smooth_stone; furnace; iron_ingot,3
+98,blue_banner,1,shaped,blue_wool; stick,2
+99,blue_bed,1,shaped,cherry_planks; blue_wool,2
+100,blue_bed,1,shaped,bamboo_planks; blue_wool,2
+101,blue_bed,1,shaped,mangrove_planks; blue_wool,2
+102,blue_bed,1,shaped,warped_planks; blue_wool,2
+103,blue_bed,1,shaped,crimson_planks; blue_wool,2
+104,blue_bed,1,shaped,pale_oak_planks; blue_wool,2
+105,blue_bed,1,shaped,dark_oak_planks; blue_wool,2
+106,blue_bed,1,shaped,acacia_planks; blue_wool,2
+107,blue_bed,1,shaped,jungle_planks; blue_wool,2
+108,blue_bed,1,shaped,birch_planks; blue_wool,2
+109,blue_bed,1,shaped,spruce_planks; blue_wool,2
+110,blue_bed,1,shaped,oak_planks; blue_wool,2
+111,blue_bed,1,shapeless,blue_dye; black_bed,2
+112,blue_carpet,3,shaped,blue_wool,1
+113,blue_carpet,1,shapeless,black_carpet; blue_dye,2
+114,blue_harness,1,shaped,glass; blue_wool; leather,3
+115,blue_harness,1,shapeless,black_harness; blue_dye,2
+116,blue_stained_glass,8,shaped,glass; blue_dye,2
+117,blue_stained_glass_pane,16,shaped,blue_stained_glass,1
+118,blue_stained_glass_pane,8,shaped,glass_pane; blue_dye,2
+119,blue_terracotta,8,shaped,terracotta; blue_dye,2
+120,bolt_armor_trim_smithing_template,2,shaped,waxed_copper_block; diamond; bolt_armor_trim_smithing_template,3
+121,bolt_armor_trim_smithing_template,2,shaped,copper_block; diamond; bolt_armor_trim_smithing_template,3
+122,bone_block,1,shaped,bone_meal,1
+123,bookshelf,1,shaped,cherry_planks; book,2
+124,bookshelf,1,shaped,bamboo_planks; book,2
+125,bookshelf,1,shaped,mangrove_planks; book,2
+126,bookshelf,1,shaped,warped_planks; book,2
+127,bookshelf,1,shaped,crimson_planks; book,2
+128,bookshelf,1,shaped,pale_oak_planks; book,2
+129,bookshelf,1,shaped,dark_oak_planks; book,2
+130,bookshelf,1,shaped,acacia_planks; book,2
+131,bookshelf,1,shaped,jungle_planks; book,2
+132,bookshelf,1,shaped,birch_planks; book,2
+133,bookshelf,1,shaped,spruce_planks; book,2
+134,bookshelf,1,shaped,oak_planks; book,2
+135,bow,1,shaped,stick; string,2
+136,bowl,4,shaped,cherry_planks,1
+137,bowl,4,shaped,bamboo_planks,1
+138,bowl,4,shaped,mangrove_planks,1
+139,bowl,4,shaped,warped_planks,1
+140,bowl,4,shaped,crimson_planks,1
+141,bowl,4,shaped,pale_oak_planks,1
+142,bowl,4,shaped,dark_oak_planks,1
+143,bowl,4,shaped,acacia_planks,1
+144,bowl,4,shaped,jungle_planks,1
+145,bowl,4,shaped,birch_planks,1
+146,bowl,4,shaped,spruce_planks,1
+147,bowl,4,shaped,oak_planks,1
+148,bread,1,shaped,wheat,1
+149,brewing_stand,1,shaped,cobbled_deepslate; blaze_rod,2
+150,brewing_stand,1,shaped,blaze_rod; blackstone,2
+151,brewing_stand,1,shaped,cobblestone; blaze_rod,2
+152,brick_slab,6,shaped,bricks,1
+153,brick_stairs,4,shaped,bricks,1
+154,brick_wall,6,shaped,bricks,1
+155,bricks,1,shaped,brick,1
+156,brown_banner,1,shaped,brown_wool; stick,2
+157,brown_bed,1,shaped,cherry_planks; brown_wool,2
+158,brown_bed,1,shaped,bamboo_planks; brown_wool,2
+159,brown_bed,1,shaped,mangrove_planks; brown_wool,2
+160,brown_bed,1,shaped,warped_planks; brown_wool,2
+161,brown_bed,1,shaped,crimson_planks; brown_wool,2
+162,brown_bed,1,shaped,pale_oak_planks; brown_wool,2
+163,brown_bed,1,shaped,dark_oak_planks; brown_wool,2
+164,brown_bed,1,shaped,acacia_planks; brown_wool,2
+165,brown_bed,1,shaped,jungle_planks; brown_wool,2
+166,brown_bed,1,shaped,birch_planks; brown_wool,2
+167,brown_bed,1,shaped,spruce_planks; brown_wool,2
+168,brown_bed,1,shaped,oak_planks; brown_wool,2
+169,brown_bed,1,shapeless,brown_dye; black_bed,2
+170,brown_carpet,3,shaped,brown_wool,1
+171,brown_carpet,1,shapeless,black_carpet; brown_dye,2
+172,brown_harness,1,shaped,glass; brown_wool; leather,3
+173,brown_harness,1,shapeless,black_harness; brown_dye,2
+174,brown_stained_glass,8,shaped,glass; brown_dye,2
+175,brown_stained_glass_pane,16,shaped,brown_stained_glass,1
+176,brown_stained_glass_pane,8,shaped,glass_pane; brown_dye,2
+177,brown_terracotta,8,shaped,terracotta; brown_dye,2
+178,brush,1,shaped,copper_ingot; stick; feather,3
+179,bucket,1,shaped,iron_ingot,1
+180,bundle,1,shaped,string; leather,2
+181,cake,1,shaped,wheat; milk_bucket; brown_egg; sugar,4
+182,cake,1,shaped,wheat; milk_bucket; blue_egg; sugar,4
+183,cake,1,shaped,wheat; milk_bucket; egg; sugar,4
+184,calibrated_sculk_sensor,1,shaped,sculk_sensor; amethyst_shard,2
+185,campfire,1,shaped,stripped_warped_hyphae; coal; stick,3
+186,campfire,1,shaped,warped_hyphae; coal; stick,3
+187,campfire,1,shaped,stripped_warped_stem; coal; stick,3
+188,campfire,1,shaped,warped_stem; coal; stick,3
+189,campfire,1,shaped,stripped_crimson_hyphae; coal; stick,3
+190,campfire,1,shaped,crimson_hyphae; coal; stick,3
+191,campfire,1,shaped,stripped_crimson_stem; coal; stick,3
+192,campfire,1,shaped,crimson_stem; coal; stick,3
+193,campfire,1,shaped,stripped_cherry_wood; coal; stick,3
+194,campfire,1,shaped,stripped_cherry_log; coal; stick,3
+195,campfire,1,shaped,cherry_wood; coal; stick,3
+196,campfire,1,shaped,cherry_log; coal; stick,3
+197,campfire,1,shaped,stripped_mangrove_wood; coal; stick,3
+198,campfire,1,shaped,stripped_mangrove_log; coal; stick,3
+199,campfire,1,shaped,mangrove_wood; coal; stick,3
+200,campfire,1,shaped,mangrove_log; coal; stick,3
+201,campfire,1,shaped,stripped_spruce_wood; coal; stick,3
+202,campfire,1,shaped,stripped_spruce_log; coal; stick,3
+203,campfire,1,shaped,spruce_wood; coal; stick,3
+204,campfire,1,shaped,spruce_log; coal; stick,3
+205,campfire,1,shaped,stripped_jungle_wood; coal; stick,3
+206,campfire,1,shaped,stripped_jungle_log; coal; stick,3
+207,campfire,1,shaped,jungle_wood; coal; stick,3
+208,campfire,1,shaped,jungle_log; coal; stick,3
+209,campfire,1,shaped,stripped_birch_wood; coal; stick,3
+210,campfire,1,shaped,stripped_birch_log; coal; stick,3
+211,campfire,1,shaped,birch_wood; coal; stick,3
+212,campfire,1,shaped,birch_log; coal; stick,3
+213,campfire,1,shaped,stripped_acacia_wood; coal; stick,3
+214,campfire,1,shaped,stripped_acacia_log; coal; stick,3
+215,campfire,1,shaped,acacia_wood; coal; stick,3
+216,campfire,1,shaped,acacia_log; coal; stick,3
+217,campfire,1,shaped,stripped_oak_wood; coal; stick,3
+218,campfire,1,shaped,stripped_oak_log; coal; stick,3
+219,campfire,1,shaped,oak_wood; coal; stick,3
+220,campfire,1,shaped,oak_log; coal; stick,3
+221,campfire,1,shaped,stripped_pale_oak_wood; coal; stick,3
+222,campfire,1,shaped,stripped_pale_oak_log; coal; stick,3
+223,campfire,1,shaped,pale_oak_wood; coal; stick,3
+224,campfire,1,shaped,pale_oak_log; coal; stick,3
+225,campfire,1,shaped,stripped_dark_oak_wood; coal; stick,3
+226,campfire,1,shaped,stripped_dark_oak_log; coal; stick,3
+227,campfire,1,shaped,dark_oak_wood; charcoal; stick,3
+228,campfire,1,shaped,dark_oak_log; coal; stick,3
+229,candle,1,shaped,string; honeycomb,2
+230,carrot_on_a_stick,1,shaped,fishing_rod; carrot,2
+231,cartography_table,1,shaped,cherry_planks; paper,2
+232,cartography_table,1,shaped,bamboo_planks; paper,2
+233,cartography_table,1,shaped,mangrove_planks; paper,2
+234,cartography_table,1,shaped,warped_planks; paper,2
+235,cartography_table,1,shaped,crimson_planks; paper,2
+236,cartography_table,1,shaped,pale_oak_planks; paper,2
+237,cartography_table,1,shaped,dark_oak_planks; paper,2
+238,cartography_table,1,shaped,acacia_planks; paper,2
+239,cartography_table,1,shaped,jungle_planks; paper,2
+240,cartography_table,1,shaped,birch_planks; paper,2
+241,cartography_table,1,shaped,spruce_planks; paper,2
+242,cartography_table,1,shaped,oak_planks; paper,2
+243,cauldron,1,shaped,iron_ingot,1
+244,cherry_boat,1,shaped,cherry_planks,1
+245,cherry_door,3,shaped,cherry_planks,1
+246,cherry_fence,3,shaped,cherry_planks; stick,2
+247,cherry_fence_gate,1,shaped,cherry_planks; stick,2
+248,cherry_hanging_sign,6,shaped,stripped_cherry_log; iron_chain,2
+249,cherry_pressure_plate,1,shaped,cherry_planks,1
+250,cherry_shelf,6,shaped,stripped_cherry_log,1
+251,cherry_sign,3,shaped,cherry_planks; stick,2
+252,cherry_slab,6,shaped,cherry_planks,1
+253,cherry_stairs,4,shaped,cherry_planks,1
+254,cherry_trapdoor,2,shaped,cherry_planks,1
+255,cherry_wood,3,shaped,cherry_log,1
+256,chest,1,shaped,cherry_planks,1
+257,chest,1,shaped,bamboo_planks,1
+258,chest,1,shaped,mangrove_planks,1
+259,chest,1,shaped,warped_planks,1
+260,chest,1,shaped,crimson_planks,1
+261,chest,1,shaped,pale_oak_planks,1
+262,chest,1,shaped,dark_oak_planks,1
+263,chest,1,shaped,acacia_planks,1
+264,chest,1,shaped,jungle_planks,1
+265,chest,1,shaped,birch_planks,1
+266,chest,1,shaped,spruce_planks,1
+267,chest,1,shaped,oak_planks,1
+268,chiseled_bookshelf,1,shaped,cherry_planks; cherry_slab,2
+269,chiseled_bookshelf,1,shaped,bamboo_planks; bamboo_slab,2
+270,chiseled_bookshelf,1,shaped,mangrove_planks; mangrove_slab,2
+271,chiseled_bookshelf,1,shaped,warped_planks; warped_slab,2
+272,chiseled_bookshelf,1,shaped,crimson_planks; crimson_slab,2
+273,chiseled_bookshelf,1,shaped,pale_oak_planks; pale_oak_slab,2
+274,chiseled_bookshelf,1,shaped,dark_oak_planks; dark_oak_slab,2
+275,chiseled_bookshelf,1,shaped,acacia_planks; acacia_slab,2
+276,chiseled_bookshelf,1,shaped,jungle_planks; jungle_slab,2
+277,chiseled_bookshelf,1,shaped,birch_planks; birch_slab,2
+278,chiseled_bookshelf,1,shaped,spruce_planks; spruce_slab,2
+279,chiseled_bookshelf,1,shaped,oak_planks; oak_slab,2
+280,chiseled_copper,1,shaped,cut_copper_slab,1
+281,chiseled_deepslate,1,shaped,cobbled_deepslate_slab,1
+282,chiseled_nether_bricks,1,shaped,nether_brick_slab,1
+283,chiseled_polished_blackstone,1,shaped,polished_blackstone_slab,1
+284,chiseled_quartz_block,1,shaped,quartz_slab,1
+285,chiseled_red_sandstone,1,shaped,red_sandstone_slab,1
+286,chiseled_resin_bricks,1,shaped,resin_brick_slab,1
+287,chiseled_sandstone,1,shaped,sandstone_slab,1
+288,chiseled_stone_bricks,1,shaped,stone_brick_slab,1
+289,chiseled_tuff,1,shaped,tuff_slab,1
+290,chiseled_tuff_bricks,1,shaped,tuff_brick_slab,1
+291,clay,1,shaped,clay_ball,1
+292,clock,1,shaped,redstone; gold_ingot,2
+293,coal_block,1,shaped,coal,1
+294,coarse_dirt,4,shaped,dirt; gravel,2
+295,coast_armor_trim_smithing_template,2,shaped,cobblestone; diamond; coast_armor_trim_smithing_template,3
+296,cobbled_deepslate_slab,6,shaped,cobbled_deepslate,1
+297,cobbled_deepslate_stairs,4,shaped,cobbled_deepslate,1
+298,cobbled_deepslate_wall,6,shaped,cobbled_deepslate,1
+299,cobblestone_slab,6,shaped,cobblestone,1
+300,cobblestone_stairs,4,shaped,cobblestone,1
+301,cobblestone_wall,6,shaped,cobblestone,1
+302,comparator,1,shaped,stone; redstone_torch; quartz,3
+303,compass,1,shaped,redstone; iron_ingot,2
+304,composter,1,shaped,cherry_slab,1
+305,composter,1,shaped,bamboo_slab,1
+306,composter,1,shaped,mangrove_slab,1
+307,composter,1,shaped,warped_slab,1
+308,composter,1,shaped,crimson_slab,1
+309,composter,1,shaped,pale_oak_slab,1
+310,composter,1,shaped,dark_oak_slab,1
+311,composter,1,shaped,acacia_slab,1
+312,composter,1,shaped,jungle_slab,1
+313,composter,1,shaped,birch_slab,1
+314,composter,1,shaped,spruce_slab,1
+315,composter,1,shaped,oak_slab,1
+316,conduit,1,shaped,nautilus_shell; heart_of_the_sea,2
+317,cookie,8,shaped,wheat; cocoa_beans,2
+318,copper_axe,1,shaped,copper_ingot; stick,2
+319,copper_bars,16,shaped,copper_ingot,1
+320,copper_block,1,shaped,copper_ingot,1
+321,copper_boots,1,shaped,copper_ingot,1
+322,copper_bulb,4,shaped,copper_block; redstone; blaze_rod,3
+323,copper_chain,1,shaped,copper_ingot; copper_nugget,2
+324,copper_chest,1,shaped,chest; copper_ingot,2
+325,copper_chestplate,1,shaped,copper_ingot,1
+326,copper_door,3,shaped,copper_ingot,1
+327,copper_grate,4,shaped,copper_block,1
+328,copper_helmet,1,shaped,copper_ingot,1
+329,copper_hoe,1,shaped,copper_ingot; stick,2
+330,copper_ingot,1,shaped,copper_nugget,1
+331,copper_ingot,9,shapeless,copper_block,1
+332,copper_ingot,9,shapeless,waxed_copper_block,1
+333,copper_lantern,1,shaped,copper_torch; copper_nugget,2
+334,copper_leggings,1,shaped,copper_ingot,1
+335,copper_pickaxe,1,shaped,copper_ingot; stick,2
+336,copper_shovel,1,shaped,copper_ingot; stick,2
+337,copper_spear,1,shaped,copper_ingot; stick,2
+338,copper_sword,1,shaped,copper_ingot; stick,2
+339,copper_torch,4,shaped,charcoal; stick; copper_nugget,3
+340,copper_torch,4,shaped,coal; stick; copper_nugget,3
+341,copper_trapdoor,1,shaped,copper_ingot,1
+342,crafter,1,shaped,crafting_table; redstone; dropper; iron_ingot,4
+343,crafting_table,1,shaped,cherry_planks,1
+344,crafting_table,1,shaped,bamboo_planks,1
+345,crafting_table,1,shaped,mangrove_planks,1
+346,crafting_table,1,shaped,warped_planks,1
+347,crafting_table,1,shaped,crimson_planks,1
+348,crafting_table,1,shaped,pale_oak_planks,1
+349,crafting_table,1,shaped,dark_oak_planks,1
+350,crafting_table,1,shaped,acacia_planks,1
+351,crafting_table,1,shaped,jungle_planks,1
+352,crafting_table,1,shaped,birch_planks,1
+353,crafting_table,1,shaped,spruce_planks,1
+354,crafting_table,1,shaped,oak_planks,1
+355,creaking_heart,1,shaped,pale_oak_log; resin_block,2
+356,crimson_door,3,shaped,crimson_planks,1
+357,crimson_fence,3,shaped,crimson_planks; stick,2
+358,crimson_fence_gate,1,shaped,crimson_planks; stick,2
+359,crimson_hanging_sign,6,shaped,stripped_crimson_stem; iron_chain,2
+360,crimson_hyphae,3,shaped,crimson_stem,1
+361,crimson_pressure_plate,1,shaped,crimson_planks,1
+362,crimson_shelf,6,shaped,stripped_crimson_stem,1
+363,crimson_sign,3,shaped,crimson_planks; stick,2
+364,crimson_slab,6,shaped,crimson_planks,1
+365,crimson_stairs,4,shaped,crimson_planks,1
+366,crimson_trapdoor,2,shaped,crimson_planks,1
+367,crossbow,1,shaped,tripwire_hook; iron_ingot; stick; string,4
+368,cut_copper,4,shaped,copper_block,1
+369,cut_copper_slab,6,shaped,cut_copper,1
+370,cut_copper_stairs,4,shaped,cut_copper,1
+371,cut_red_sandstone,4,shaped,red_sandstone,1
+372,cut_red_sandstone_slab,6,shaped,cut_red_sandstone,1
+373,cut_sandstone,4,shaped,sandstone,1
+374,cut_sandstone_slab,6,shaped,cut_sandstone,1
+375,cyan_banner,1,shaped,cyan_wool; stick,2
+376,cyan_bed,1,shaped,cherry_planks; cyan_wool,2
+377,cyan_bed,1,shaped,bamboo_planks; cyan_wool,2
+378,cyan_bed,1,shaped,mangrove_planks; cyan_wool,2
+379,cyan_bed,1,shaped,warped_planks; cyan_wool,2
+380,cyan_bed,1,shaped,crimson_planks; cyan_wool,2
+381,cyan_bed,1,shaped,pale_oak_planks; cyan_wool,2
+382,cyan_bed,1,shaped,dark_oak_planks; cyan_wool,2
+383,cyan_bed,1,shaped,acacia_planks; cyan_wool,2
+384,cyan_bed,1,shaped,jungle_planks; cyan_wool,2
+385,cyan_bed,1,shaped,birch_planks; cyan_wool,2
+386,cyan_bed,1,shaped,spruce_planks; cyan_wool,2
+387,cyan_bed,1,shaped,oak_planks; cyan_wool,2
+388,cyan_bed,1,shapeless,cyan_dye; black_bed,2
+389,cyan_carpet,3,shaped,cyan_wool,1
+390,cyan_carpet,1,shapeless,black_carpet; cyan_dye,2
+391,cyan_harness,1,shaped,glass; cyan_wool; leather,3
+392,cyan_harness,1,shapeless,black_harness; cyan_dye,2
+393,cyan_stained_glass,8,shaped,glass; cyan_dye,2
+394,cyan_stained_glass_pane,16,shaped,cyan_stained_glass,1
+395,cyan_stained_glass_pane,8,shaped,glass_pane; cyan_dye,2
+396,cyan_terracotta,8,shaped,terracotta; cyan_dye,2
+397,dark_oak_boat,1,shaped,dark_oak_planks,1
+398,dark_oak_door,3,shaped,dark_oak_planks,1
+399,dark_oak_fence,3,shaped,dark_oak_planks; stick,2
+400,dark_oak_fence_gate,1,shaped,dark_oak_planks; stick,2
+401,dark_oak_hanging_sign,6,shaped,stripped_dark_oak_log; iron_chain,2
+402,dark_oak_pressure_plate,1,shaped,dark_oak_planks,1
+403,dark_oak_shelf,6,shaped,stripped_dark_oak_log,1
+404,dark_oak_sign,3,shaped,dark_oak_planks; stick,2
+405,dark_oak_slab,6,shaped,dark_oak_planks,1
+406,dark_oak_stairs,4,shaped,dark_oak_planks,1
+407,dark_oak_trapdoor,2,shaped,dark_oak_planks,1
+408,dark_oak_wood,3,shaped,dark_oak_log,1
+409,dark_prismarine,1,shaped,black_dye; prismarine_shard,2
+410,dark_prismarine_slab,6,shaped,dark_prismarine,1
+411,dark_prismarine_stairs,4,shaped,dark_prismarine,1
+412,daylight_detector,1,shaped,glass; cherry_slab; quartz,3
+413,daylight_detector,1,shaped,glass; bamboo_slab; quartz,3
+414,daylight_detector,1,shaped,glass; mangrove_slab; quartz,3
+415,daylight_detector,1,shaped,glass; warped_slab; quartz,3
+416,daylight_detector,1,shaped,glass; crimson_slab; quartz,3
+417,daylight_detector,1,shaped,glass; pale_oak_slab; quartz,3
+418,daylight_detector,1,shaped,glass; dark_oak_slab; quartz,3
+419,daylight_detector,1,shaped,glass; acacia_slab; quartz,3
+420,daylight_detector,1,shaped,glass; jungle_slab; quartz,3
+421,daylight_detector,1,shaped,glass; birch_slab; quartz,3
+422,daylight_detector,1,shaped,glass; spruce_slab; quartz,3
+423,daylight_detector,1,shaped,glass; oak_slab; quartz,3
+424,decorated_pot,1,shaped,brick,1
+425,deepslate_brick_slab,6,shaped,deepslate_bricks,1
+426,deepslate_brick_stairs,4,shaped,deepslate_bricks,1
+427,deepslate_brick_wall,6,shaped,deepslate_bricks,1
+428,deepslate_bricks,4,shaped,polished_deepslate,1
+429,deepslate_tile_slab,6,shaped,deepslate_tiles,1
+430,deepslate_tile_stairs,4,shaped,deepslate_tiles,1
+431,deepslate_tile_wall,6,shaped,deepslate_tiles,1
+432,deepslate_tiles,4,shaped,deepslate_bricks,1
+433,detector_rail,6,shaped,redstone; stone_pressure_plate; iron_ingot,3
+434,diamond_axe,1,shaped,diamond; stick,2
+435,diamond_block,1,shaped,diamond,1
+436,diamond_boots,1,shaped,diamond,1
+437,diamond_chestplate,1,shaped,diamond,1
+438,diamond_helmet,1,shaped,diamond,1
+439,diamond_hoe,1,shaped,diamond; stick,2
+440,diamond_leggings,1,shaped,diamond,1
+441,diamond_pickaxe,1,shaped,diamond; stick,2
+442,diamond_shovel,1,shaped,diamond; stick,2
+443,diamond_spear,1,shaped,diamond; stick,2
+444,diamond_sword,1,shaped,diamond; stick,2
+445,diorite,2,shaped,cobblestone; quartz,2
+446,diorite_slab,6,shaped,diorite,1
+447,diorite_stairs,4,shaped,diorite,1
+448,diorite_wall,6,shaped,diorite,1
+449,dispenser,1,shaped,cobblestone; redstone; bow,3
+450,dried_ghast,1,shaped,soul_sand; ghast_tear,2
+451,dried_kelp_block,1,shaped,dried_kelp,1
+452,dripstone_block,1,shaped,pointed_dripstone,1
+453,dropper,1,shaped,cobblestone; redstone,2
+454,dune_armor_trim_smithing_template,2,shaped,sandstone; diamond; dune_armor_trim_smithing_template,3
+455,emerald_block,1,shaped,emerald,1
+456,enchanting_table,1,shaped,obsidian; diamond; book,3
+457,end_crystal,1,shaped,glass; ghast_tear; ender_eye,3
+458,end_rod,4,shaped,blaze_rod; popped_chorus_fruit,2
+459,end_stone_brick_slab,6,shaped,end_stone_bricks,1
+460,end_stone_brick_stairs,4,shaped,end_stone_bricks,1
+461,end_stone_brick_wall,6,shaped,end_stone_bricks,1
+462,end_stone_bricks,4,shaped,end_stone,1
+463,ender_chest,1,shaped,obsidian; ender_eye,2
+464,exposed_chiseled_copper,1,shaped,exposed_cut_copper_slab,1
+465,exposed_copper_bulb,4,shaped,exposed_copper; redstone; blaze_rod,3
+466,exposed_copper_grate,4,shaped,exposed_copper,1
+467,exposed_cut_copper,4,shaped,exposed_copper,1
+468,exposed_cut_copper_slab,6,shaped,exposed_cut_copper,1
+469,exposed_cut_copper_stairs,4,shaped,exposed_cut_copper,1
+470,eye_armor_trim_smithing_template,2,shaped,end_stone; diamond; eye_armor_trim_smithing_template,3
+471,fishing_rod,1,shaped,stick; string,2
+472,fletching_table,1,shaped,cherry_planks; flint,2
+473,fletching_table,1,shaped,bamboo_planks; flint,2
+474,fletching_table,1,shaped,mangrove_planks; flint,2
+475,fletching_table,1,shaped,warped_planks; flint,2
+476,fletching_table,1,shaped,crimson_planks; flint,2
+477,fletching_table,1,shaped,pale_oak_planks; flint,2
+478,fletching_table,1,shaped,dark_oak_planks; flint,2
+479,fletching_table,1,shaped,acacia_planks; flint,2
+480,fletching_table,1,shaped,jungle_planks; flint,2
+481,fletching_table,1,shaped,birch_planks; flint,2
+482,fletching_table,1,shaped,spruce_planks; flint,2
+483,fletching_table,1,shaped,oak_planks; flint,2
+484,flow_armor_trim_smithing_template,2,shaped,diamond; breeze_rod; flow_armor_trim_smithing_template,3
+485,flower_pot,1,shaped,brick,1
+486,furnace,1,shaped,cobbled_deepslate,1
+487,furnace,1,shaped,blackstone,1
+488,furnace,1,shaped,cobblestone,1
+489,glass_bottle,3,shaped,glass,1
+490,glass_pane,16,shaped,glass,1
+491,glistering_melon_slice,1,shaped,melon_slice; gold_nugget,2
+492,glowstone,1,shaped,glowstone_dust,1
+493,gold_block,1,shaped,gold_ingot,1
+494,gold_ingot,1,shaped,gold_nugget,1
+495,gold_ingot,9,shapeless,gold_block,1
+496,golden_apple,1,shaped,apple; gold_ingot,2
+497,golden_axe,1,shaped,gold_ingot; stick,2
+498,golden_boots,1,shaped,gold_ingot,1
+499,golden_carrot,1,shaped,gold_nugget; carrot,2
+500,golden_chestplate,1,shaped,gold_ingot,1
+501,golden_helmet,1,shaped,gold_ingot,1
+502,golden_hoe,1,shaped,gold_ingot; stick,2
+503,golden_leggings,1,shaped,gold_ingot,1
+504,golden_pickaxe,1,shaped,gold_ingot; stick,2
+505,golden_shovel,1,shaped,gold_ingot; stick,2
+506,golden_spear,1,shaped,gold_ingot; stick,2
+507,golden_sword,1,shaped,gold_ingot; stick,2
+508,granite_slab,6,shaped,granite,1
+509,granite_stairs,4,shaped,granite,1
+510,granite_wall,6,shaped,granite,1
+511,gray_banner,1,shaped,gray_wool; stick,2
+512,gray_bed,1,shaped,cherry_planks; gray_wool,2
+513,gray_bed,1,shaped,bamboo_planks; gray_wool,2
+514,gray_bed,1,shaped,mangrove_planks; gray_wool,2
+515,gray_bed,1,shaped,warped_planks; gray_wool,2
+516,gray_bed,1,shaped,crimson_planks; gray_wool,2
+517,gray_bed,1,shaped,pale_oak_planks; gray_wool,2
+518,gray_bed,1,shaped,dark_oak_planks; gray_wool,2
+519,gray_bed,1,shaped,acacia_planks; gray_wool,2
+520,gray_bed,1,shaped,jungle_planks; gray_wool,2
+521,gray_bed,1,shaped,birch_planks; gray_wool,2
+522,gray_bed,1,shaped,spruce_planks; gray_wool,2
+523,gray_bed,1,shaped,oak_planks; gray_wool,2
+524,gray_bed,1,shapeless,gray_dye; black_bed,2
+525,gray_carpet,3,shaped,gray_wool,1
+526,gray_carpet,1,shapeless,black_carpet; gray_dye,2
+527,gray_harness,1,shaped,glass; gray_wool; leather,3
+528,gray_harness,1,shapeless,black_harness; gray_dye,2
+529,gray_stained_glass,8,shaped,glass; gray_dye,2
+530,gray_stained_glass_pane,16,shaped,gray_stained_glass,1
+531,gray_stained_glass_pane,8,shaped,glass_pane; gray_dye,2
+532,gray_terracotta,8,shaped,terracotta; gray_dye,2
+533,green_banner,1,shaped,green_wool; stick,2
+534,green_bed,1,shaped,cherry_planks; green_wool,2
+535,green_bed,1,shaped,bamboo_planks; green_wool,2
+536,green_bed,1,shaped,mangrove_planks; green_wool,2
+537,green_bed,1,shaped,warped_planks; green_wool,2
+538,green_bed,1,shaped,crimson_planks; green_wool,2
+539,green_bed,1,shaped,pale_oak_planks; green_wool,2
+540,green_bed,1,shaped,dark_oak_planks; green_wool,2
+541,green_bed,1,shaped,acacia_planks; green_wool,2
+542,green_bed,1,shaped,jungle_planks; green_wool,2
+543,green_bed,1,shaped,birch_planks; green_wool,2
+544,green_bed,1,shaped,spruce_planks; green_wool,2
+545,green_bed,1,shaped,oak_planks; green_wool,2
+546,green_bed,1,shapeless,green_dye; black_bed,2
+547,green_carpet,3,shaped,green_wool,1
+548,green_carpet,1,shapeless,black_carpet; green_dye,2
+549,green_harness,1,shaped,glass; green_wool; leather,3
+550,green_harness,1,shapeless,black_harness; green_dye,2
+551,green_stained_glass,8,shaped,glass; green_dye,2
+552,green_stained_glass_pane,16,shaped,green_stained_glass,1
+553,green_stained_glass_pane,8,shaped,glass_pane; green_dye,2
+554,green_terracotta,8,shaped,terracotta; green_dye,2
+555,grindstone,1,shaped,cherry_planks; stone_slab; stick,3
+556,grindstone,1,shaped,bamboo_planks; stone_slab; stick,3
+557,grindstone,1,shaped,mangrove_planks; stone_slab; stick,3
+558,grindstone,1,shaped,warped_planks; stone_slab; stick,3
+559,grindstone,1,shaped,crimson_planks; stone_slab; stick,3
+560,grindstone,1,shaped,pale_oak_planks; stone_slab; stick,3
+561,grindstone,1,shaped,dark_oak_planks; stone_slab; stick,3
+562,grindstone,1,shaped,acacia_planks; stone_slab; stick,3
+563,grindstone,1,shaped,jungle_planks; stone_slab; stick,3
+564,grindstone,1,shaped,birch_planks; stone_slab; stick,3
+565,grindstone,1,shaped,spruce_planks; stone_slab; stick,3
+566,grindstone,1,shaped,oak_planks; stone_slab; stick,3
+567,heavy_weighted_pressure_plate,1,shaped,iron_ingot,1
+568,honey_block,1,shaped,honey_bottle,1
+569,honeycomb_block,1,shaped,honeycomb,1
+570,hopper,1,shaped,chest; iron_ingot,2
+571,host_armor_trim_smithing_template,2,shaped,terracotta; diamond; host_armor_trim_smithing_template,3
+572,iron_axe,1,shaped,iron_ingot; stick,2
+573,iron_bars,16,shaped,iron_ingot,1
+574,iron_block,1,shaped,iron_ingot,1
+575,iron_boots,1,shaped,iron_ingot,1
+576,iron_chain,1,shaped,iron_ingot; iron_nugget,2
+577,iron_chestplate,1,shaped,iron_ingot,1
+578,iron_door,3,shaped,iron_ingot,1
+579,iron_helmet,1,shaped,iron_ingot,1
+580,iron_hoe,1,shaped,iron_ingot; stick,2
+581,iron_ingot,1,shaped,iron_nugget,1
+582,iron_ingot,9,shapeless,iron_block,1
+583,iron_leggings,1,shaped,iron_ingot,1
+584,iron_pickaxe,1,shaped,iron_ingot; stick,2
+585,iron_shovel,1,shaped,iron_ingot; stick,2
+586,iron_spear,1,shaped,iron_ingot; stick,2
+587,iron_sword,1,shaped,iron_ingot; stick,2
+588,iron_trapdoor,1,shaped,iron_ingot,1
+589,item_frame,1,shaped,stick; leather,2
+590,jack_o_lantern,1,shaped,torch; carved_pumpkin,2
+591,jukebox,1,shaped,cherry_planks; diamond,2
+592,jukebox,1,shaped,bamboo_planks; diamond,2
+593,jukebox,1,shaped,mangrove_planks; diamond,2
+594,jukebox,1,shaped,warped_planks; diamond,2
+595,jukebox,1,shaped,crimson_planks; diamond,2
+596,jukebox,1,shaped,pale_oak_planks; diamond,2
+597,jukebox,1,shaped,dark_oak_planks; diamond,2
+598,jukebox,1,shaped,acacia_planks; diamond,2
+599,jukebox,1,shaped,jungle_planks; diamond,2
+600,jukebox,1,shaped,birch_planks; diamond,2
+601,jukebox,1,shaped,spruce_planks; diamond,2
+602,jukebox,1,shaped,oak_planks; diamond,2
+603,jungle_boat,1,shaped,jungle_planks,1
+604,jungle_door,3,shaped,jungle_planks,1
+605,jungle_fence,3,shaped,jungle_planks; stick,2
+606,jungle_fence_gate,1,shaped,jungle_planks; stick,2
+607,jungle_hanging_sign,6,shaped,stripped_jungle_log; iron_chain,2
+608,jungle_pressure_plate,1,shaped,jungle_planks,1
+609,jungle_shelf,6,shaped,stripped_jungle_log,1
+610,jungle_sign,3,shaped,jungle_planks; stick,2
+611,jungle_slab,6,shaped,jungle_planks,1
+612,jungle_stairs,4,shaped,jungle_planks,1
+613,jungle_trapdoor,2,shaped,jungle_planks,1
+614,jungle_wood,3,shaped,jungle_log,1
+615,ladder,3,shaped,stick,1
+616,lantern,1,shaped,torch; iron_nugget,2
+617,lapis_block,1,shaped,lapis_lazuli,1
+618,lead,2,shaped,string,1
+619,leather,1,shaped,rabbit_hide,1
+620,leather_boots,1,shaped,leather,1
+621,leather_chestplate,1,shaped,leather,1
+622,leather_helmet,1,shaped,leather,1
+623,leather_horse_armor,1,shaped,leather,1
+624,leather_leggings,1,shaped,leather,1
+625,lectern,1,shaped,cherry_slab; bookshelf,2
+626,lectern,1,shaped,bamboo_slab; bookshelf,2
+627,lectern,1,shaped,mangrove_slab; bookshelf,2
+628,lectern,1,shaped,warped_slab; bookshelf,2
+629,lectern,1,shaped,crimson_slab; bookshelf,2
+630,lectern,1,shaped,pale_oak_slab; bookshelf,2
+631,lectern,1,shaped,dark_oak_slab; bookshelf,2
+632,lectern,1,shaped,acacia_slab; bookshelf,2
+633,lectern,1,shaped,jungle_slab; bookshelf,2
+634,lectern,1,shaped,birch_slab; bookshelf,2
+635,lectern,1,shaped,spruce_slab; bookshelf,2
+636,lectern,1,shaped,oak_slab; bookshelf,2
+637,lever,1,shaped,cobblestone; stick,2
+638,light_blue_banner,1,shaped,light_blue_wool; stick,2
+639,light_blue_bed,1,shaped,cherry_planks; light_blue_wool,2
+640,light_blue_bed,1,shaped,bamboo_planks; light_blue_wool,2
+641,light_blue_bed,1,shaped,mangrove_planks; light_blue_wool,2
+642,light_blue_bed,1,shaped,warped_planks; light_blue_wool,2
+643,light_blue_bed,1,shaped,crimson_planks; light_blue_wool,2
+644,light_blue_bed,1,shaped,pale_oak_planks; light_blue_wool,2
+645,light_blue_bed,1,shaped,dark_oak_planks; light_blue_wool,2
+646,light_blue_bed,1,shaped,acacia_planks; light_blue_wool,2
+647,light_blue_bed,1,shaped,jungle_planks; light_blue_wool,2
+648,light_blue_bed,1,shaped,birch_planks; light_blue_wool,2
+649,light_blue_bed,1,shaped,spruce_planks; light_blue_wool,2
+650,light_blue_bed,1,shaped,oak_planks; light_blue_wool,2
+651,light_blue_bed,1,shapeless,light_blue_dye; black_bed,2
+652,light_blue_carpet,3,shaped,light_blue_wool,1
+653,light_blue_carpet,1,shapeless,black_carpet; light_blue_dye,2
+654,light_blue_harness,1,shaped,glass; light_blue_wool; leather,3
+655,light_blue_harness,1,shapeless,black_harness; light_blue_dye,2
+656,light_blue_stained_glass,8,shaped,glass; light_blue_dye,2
+657,light_blue_stained_glass_pane,16,shaped,light_blue_stained_glass,1
+658,light_blue_stained_glass_pane,8,shaped,glass_pane; light_blue_dye,2
+659,light_blue_terracotta,8,shaped,terracotta; light_blue_dye,2
+660,light_gray_banner,1,shaped,light_gray_wool; stick,2
+661,light_gray_bed,1,shaped,cherry_planks; light_gray_wool,2
+662,light_gray_bed,1,shaped,bamboo_planks; light_gray_wool,2
+663,light_gray_bed,1,shaped,mangrove_planks; light_gray_wool,2
+664,light_gray_bed,1,shaped,warped_planks; light_gray_wool,2
+665,light_gray_bed,1,shaped,crimson_planks; light_gray_wool,2
+666,light_gray_bed,1,shaped,pale_oak_planks; light_gray_wool,2
+667,light_gray_bed,1,shaped,dark_oak_planks; light_gray_wool,2
+668,light_gray_bed,1,shaped,acacia_planks; light_gray_wool,2
+669,light_gray_bed,1,shaped,jungle_planks; light_gray_wool,2
+670,light_gray_bed,1,shaped,birch_planks; light_gray_wool,2
+671,light_gray_bed,1,shaped,spruce_planks; light_gray_wool,2
+672,light_gray_bed,1,shaped,oak_planks; light_gray_wool,2
+673,light_gray_bed,1,shapeless,light_gray_dye; black_bed,2
+674,light_gray_carpet,3,shaped,light_gray_wool,1
+675,light_gray_carpet,1,shapeless,black_carpet; light_gray_dye,2
+676,light_gray_harness,1,shaped,glass; light_gray_wool; leather,3
+677,light_gray_harness,1,shapeless,black_harness; light_gray_dye,2
+678,light_gray_stained_glass,8,shaped,glass; light_gray_dye,2
+679,light_gray_stained_glass_pane,16,shaped,light_gray_stained_glass,1
+680,light_gray_stained_glass_pane,8,shaped,glass_pane; light_gray_dye,2
+681,light_gray_terracotta,8,shaped,terracotta; light_gray_dye,2
+682,light_weighted_pressure_plate,1,shaped,gold_ingot,1
+683,lightning_rod,1,shaped,copper_ingot,1
+684,lime_banner,1,shaped,lime_wool; stick,2
+685,lime_bed,1,shaped,cherry_planks; lime_wool,2
+686,lime_bed,1,shaped,bamboo_planks; lime_wool,2
+687,lime_bed,1,shaped,mangrove_planks; lime_wool,2
+688,lime_bed,1,shaped,warped_planks; lime_wool,2
+689,lime_bed,1,shaped,crimson_planks; lime_wool,2
+690,lime_bed,1,shaped,pale_oak_planks; lime_wool,2
+691,lime_bed,1,shaped,dark_oak_planks; lime_wool,2
+692,lime_bed,1,shaped,acacia_planks; lime_wool,2
+693,lime_bed,1,shaped,jungle_planks; lime_wool,2
+694,lime_bed,1,shaped,birch_planks; lime_wool,2
+695,lime_bed,1,shaped,spruce_planks; lime_wool,2
+696,lime_bed,1,shaped,oak_planks; lime_wool,2
+697,lime_bed,1,shapeless,lime_dye; black_bed,2
+698,lime_carpet,3,shaped,lime_wool,1
+699,lime_carpet,1,shapeless,black_carpet; lime_dye,2
+700,lime_harness,1,shaped,glass; lime_wool; leather,3
+701,lime_harness,1,shapeless,black_harness; lime_dye,2
+702,lime_stained_glass,8,shaped,glass; lime_dye,2
+703,lime_stained_glass_pane,16,shaped,lime_stained_glass,1
+704,lime_stained_glass_pane,8,shaped,glass_pane; lime_dye,2
+705,lime_terracotta,8,shaped,terracotta; lime_dye,2
+706,lodestone,1,shaped,chiseled_stone_bricks; iron_ingot,2
+707,loom,1,shaped,cherry_planks; string,2
+708,loom,1,shaped,bamboo_planks; string,2
+709,loom,1,shaped,mangrove_planks; string,2
+710,loom,1,shaped,warped_planks; string,2
+711,loom,1,shaped,crimson_planks; string,2
+712,loom,1,shaped,pale_oak_planks; string,2
+713,loom,1,shaped,dark_oak_planks; string,2
+714,loom,1,shaped,acacia_planks; string,2
+715,loom,1,shaped,jungle_planks; string,2
+716,loom,1,shaped,birch_planks; string,2
+717,loom,1,shaped,spruce_planks; string,2
+718,loom,1,shaped,oak_planks; string,2
+719,mace,1,shaped,heavy_core; breeze_rod,2
+720,magenta_banner,1,shaped,magenta_wool; stick,2
+721,magenta_bed,1,shaped,cherry_planks; magenta_wool,2
+722,magenta_bed,1,shaped,bamboo_planks; magenta_wool,2
+723,magenta_bed,1,shaped,mangrove_planks; magenta_wool,2
+724,magenta_bed,1,shaped,warped_planks; magenta_wool,2
+725,magenta_bed,1,shaped,crimson_planks; magenta_wool,2
+726,magenta_bed,1,shaped,pale_oak_planks; magenta_wool,2
+727,magenta_bed,1,shaped,dark_oak_planks; magenta_wool,2
+728,magenta_bed,1,shaped,acacia_planks; magenta_wool,2
+729,magenta_bed,1,shaped,jungle_planks; magenta_wool,2
+730,magenta_bed,1,shaped,birch_planks; magenta_wool,2
+731,magenta_bed,1,shaped,spruce_planks; magenta_wool,2
+732,magenta_bed,1,shaped,oak_planks; magenta_wool,2
+733,magenta_bed,1,shapeless,magenta_dye; black_bed,2
+734,magenta_carpet,3,shaped,magenta_wool,1
+735,magenta_carpet,1,shapeless,black_carpet; magenta_dye,2
+736,magenta_harness,1,shaped,glass; magenta_wool; leather,3
+737,magenta_harness,1,shapeless,black_harness; magenta_dye,2
+738,magenta_stained_glass,8,shaped,glass; magenta_dye,2
+739,magenta_stained_glass_pane,16,shaped,magenta_stained_glass,1
+740,magenta_stained_glass_pane,8,shaped,glass_pane; magenta_dye,2
+741,magenta_terracotta,8,shaped,terracotta; magenta_dye,2
+742,magma_block,1,shaped,magma_cream,1
+743,mangrove_boat,1,shaped,mangrove_planks,1
+744,mangrove_door,3,shaped,mangrove_planks,1
+745,mangrove_fence,3,shaped,mangrove_planks; stick,2
+746,mangrove_fence_gate,1,shaped,mangrove_planks; stick,2
+747,mangrove_hanging_sign,6,shaped,stripped_mangrove_log; iron_chain,2
+748,mangrove_pressure_plate,1,shaped,mangrove_planks,1
+749,mangrove_shelf,6,shaped,stripped_mangrove_log,1
+750,mangrove_sign,3,shaped,mangrove_planks; stick,2
+751,mangrove_slab,6,shaped,mangrove_planks,1
+752,mangrove_stairs,4,shaped,mangrove_planks,1
+753,mangrove_trapdoor,2,shaped,mangrove_planks,1
+754,mangrove_wood,3,shaped,mangrove_log,1
+755,map,1,shaped,paper; compass,2
+756,air,0,shaped,paper; filled_map,2
+757,minecart,1,shaped,iron_ingot,1
+758,moss_carpet,3,shaped,moss_block,1
+759,mossy_cobblestone_slab,6,shaped,mossy_cobblestone,1
+760,mossy_cobblestone_stairs,4,shaped,mossy_cobblestone,1
+761,mossy_cobblestone_wall,6,shaped,mossy_cobblestone,1
+762,mossy_stone_brick_slab,6,shaped,mossy_stone_bricks,1
+763,mossy_stone_brick_stairs,4,shaped,mossy_stone_bricks,1
+764,mossy_stone_brick_wall,6,shaped,mossy_stone_bricks,1
+765,mud_brick_slab,6,shaped,mud_bricks,1
+766,mud_brick_stairs,4,shaped,mud_bricks,1
+767,mud_brick_wall,6,shaped,mud_bricks,1
+768,mud_bricks,4,shaped,packed_mud,1
+769,nether_brick_fence,6,shaped,nether_bricks; nether_brick,2
+770,nether_brick_slab,6,shaped,nether_bricks,1
+771,nether_brick_stairs,4,shaped,nether_bricks,1
+772,nether_brick_wall,6,shaped,nether_bricks,1
+773,nether_bricks,1,shaped,nether_brick,1
+774,netherite_block,1,shaped,netherite_ingot,1
+775,netherite_upgrade_smithing_template,2,shaped,netherrack; diamond; netherite_upgrade_smithing_template,3
+776,note_block,1,shaped,cherry_planks; redstone,2
+777,note_block,1,shaped,bamboo_planks; redstone,2
+778,note_block,1,shaped,mangrove_planks; redstone,2
+779,note_block,1,shaped,warped_planks; redstone,2
+780,note_block,1,shaped,crimson_planks; redstone,2
+781,note_block,1,shaped,pale_oak_planks; redstone,2
+782,note_block,1,shaped,dark_oak_planks; redstone,2
+783,note_block,1,shaped,acacia_planks; redstone,2
+784,note_block,1,shaped,jungle_planks; redstone,2
+785,note_block,1,shaped,birch_planks; redstone,2
+786,note_block,1,shaped,spruce_planks; redstone,2
+787,note_block,1,shaped,oak_planks; redstone,2
+788,oak_boat,1,shaped,oak_planks,1
+789,oak_door,3,shaped,oak_planks,1
+790,oak_fence,3,shaped,oak_planks; stick,2
+791,oak_fence_gate,1,shaped,oak_planks; stick,2
+792,oak_hanging_sign,6,shaped,stripped_oak_log; iron_chain,2
+793,oak_pressure_plate,1,shaped,oak_planks,1
+794,oak_shelf,6,shaped,stripped_oak_log,1
+795,oak_sign,3,shaped,oak_planks; stick,2
+796,oak_slab,6,shaped,oak_planks,1
+797,oak_stairs,4,shaped,oak_planks,1
+798,oak_trapdoor,2,shaped,oak_planks,1
+799,oak_wood,3,shaped,oak_log,1
+800,observer,1,shaped,cobblestone; redstone; quartz,3
+801,orange_banner,1,shaped,orange_wool; stick,2
+802,orange_bed,1,shaped,cherry_planks; orange_wool,2
+803,orange_bed,1,shaped,bamboo_planks; orange_wool,2
+804,orange_bed,1,shaped,mangrove_planks; orange_wool,2
+805,orange_bed,1,shaped,warped_planks; orange_wool,2
+806,orange_bed,1,shaped,crimson_planks; orange_wool,2
+807,orange_bed,1,shaped,pale_oak_planks; orange_wool,2
+808,orange_bed,1,shaped,dark_oak_planks; orange_wool,2
+809,orange_bed,1,shaped,acacia_planks; orange_wool,2
+810,orange_bed,1,shaped,jungle_planks; orange_wool,2
+811,orange_bed,1,shaped,birch_planks; orange_wool,2
+812,orange_bed,1,shaped,spruce_planks; orange_wool,2
+813,orange_bed,1,shaped,oak_planks; orange_wool,2
+814,orange_bed,1,shapeless,orange_dye; black_bed,2
+815,orange_carpet,3,shaped,orange_wool,1
+816,orange_carpet,1,shapeless,black_carpet; orange_dye,2
+817,orange_harness,1,shaped,glass; orange_wool; leather,3
+818,orange_harness,1,shapeless,black_harness; orange_dye,2
+819,orange_stained_glass,8,shaped,glass; orange_dye,2
+820,orange_stained_glass_pane,16,shaped,orange_stained_glass,1
+821,orange_stained_glass_pane,8,shaped,glass_pane; orange_dye,2
+822,orange_terracotta,8,shaped,terracotta; orange_dye,2
+823,oxidized_chiseled_copper,1,shaped,oxidized_cut_copper_slab,1
+824,oxidized_copper_bulb,4,shaped,oxidized_copper; redstone; blaze_rod,3
+825,oxidized_copper_grate,4,shaped,oxidized_copper,1
+826,oxidized_cut_copper,4,shaped,oxidized_copper,1
+827,oxidized_cut_copper_slab,6,shaped,oxidized_cut_copper,1
+828,oxidized_cut_copper_stairs,4,shaped,oxidized_cut_copper,1
+829,painting,1,shaped,black_wool; stick,2
+830,painting,1,shaped,red_wool; stick,2
+831,painting,1,shaped,green_wool; stick,2
+832,painting,1,shaped,brown_wool; stick,2
+833,painting,1,shaped,blue_wool; stick,2
+834,painting,1,shaped,purple_wool; stick,2
+835,painting,1,shaped,cyan_wool; stick,2
+836,painting,1,shaped,light_gray_wool; stick,2
+837,painting,1,shaped,gray_wool; stick,2
+838,painting,1,shaped,pink_wool; stick,2
+839,painting,1,shaped,lime_wool; stick,2
+840,painting,1,shaped,yellow_wool; stick,2
+841,painting,1,shaped,light_blue_wool; stick,2
+842,painting,1,shaped,magenta_wool; stick,2
+843,painting,1,shaped,orange_wool; stick,2
+844,painting,1,shaped,white_wool; stick,2
+845,pale_moss_carpet,3,shaped,pale_moss_block,1
+846,pale_oak_boat,1,shaped,pale_oak_planks,1
+847,pale_oak_door,3,shaped,pale_oak_planks,1
+848,pale_oak_fence,3,shaped,pale_oak_planks; stick,2
+849,pale_oak_fence_gate,1,shaped,pale_oak_planks; stick,2
+850,pale_oak_hanging_sign,6,shaped,stripped_pale_oak_log; iron_chain,2
+851,pale_oak_pressure_plate,1,shaped,pale_oak_planks,1
+852,pale_oak_shelf,6,shaped,stripped_pale_oak_log,1
+853,pale_oak_sign,3,shaped,pale_oak_planks; stick,2
+854,pale_oak_slab,6,shaped,pale_oak_planks,1
+855,pale_oak_stairs,4,shaped,pale_oak_planks,1
+856,pale_oak_trapdoor,2,shaped,pale_oak_planks,1
+857,pale_oak_wood,3,shaped,pale_oak_log,1
+858,paper,3,shaped,sugar_cane,1
+859,pink_banner,1,shaped,pink_wool; stick,2
+860,pink_bed,1,shaped,cherry_planks; pink_wool,2
+861,pink_bed,1,shaped,bamboo_planks; pink_wool,2
+862,pink_bed,1,shaped,mangrove_planks; pink_wool,2
+863,pink_bed,1,shaped,warped_planks; pink_wool,2
+864,pink_bed,1,shaped,crimson_planks; pink_wool,2
+865,pink_bed,1,shaped,pale_oak_planks; pink_wool,2
+866,pink_bed,1,shaped,dark_oak_planks; pink_wool,2
+867,pink_bed,1,shaped,acacia_planks; pink_wool,2
+868,pink_bed,1,shaped,jungle_planks; pink_wool,2
+869,pink_bed,1,shaped,birch_planks; pink_wool,2
+870,pink_bed,1,shaped,spruce_planks; pink_wool,2
+871,pink_bed,1,shaped,oak_planks; pink_wool,2
+872,pink_bed,1,shapeless,pink_dye; black_bed,2
+873,pink_carpet,3,shaped,pink_wool,1
+874,pink_carpet,1,shapeless,black_carpet; pink_dye,2
+875,pink_harness,1,shaped,glass; pink_wool; leather,3
+876,pink_harness,1,shapeless,black_harness; pink_dye,2
+877,pink_stained_glass,8,shaped,glass; pink_dye,2
+878,pink_stained_glass_pane,16,shaped,pink_stained_glass,1
+879,pink_stained_glass_pane,8,shaped,glass_pane; pink_dye,2
+880,pink_terracotta,8,shaped,terracotta; pink_dye,2
+881,piston,1,shaped,cobblestone; cherry_planks; redstone; iron_ingot,4
+882,piston,1,shaped,cobblestone; bamboo_planks; redstone; iron_ingot,4
+883,piston,1,shaped,cobblestone; mangrove_planks; redstone; iron_ingot,4
+884,piston,1,shaped,cobblestone; warped_planks; redstone; iron_ingot,4
+885,piston,1,shaped,cobblestone; crimson_planks; redstone; iron_ingot,4
+886,piston,1,shaped,cobblestone; pale_oak_planks; redstone; iron_ingot,4
+887,piston,1,shaped,cobblestone; dark_oak_planks; redstone; iron_ingot,4
+888,piston,1,shaped,cobblestone; acacia_planks; redstone; iron_ingot,4
+889,piston,1,shaped,cobblestone; jungle_planks; redstone; iron_ingot,4
+890,piston,1,shaped,cobblestone; birch_planks; redstone; iron_ingot,4
+891,piston,1,shaped,cobblestone; spruce_planks; redstone; iron_ingot,4
+892,piston,1,shaped,cobblestone; oak_planks; redstone; iron_ingot,4
+893,polished_andesite,4,shaped,andesite,1
+894,polished_andesite_slab,6,shaped,polished_andesite,1
+895,polished_andesite_stairs,4,shaped,polished_andesite,1
+896,polished_basalt,4,shaped,basalt,1
+897,polished_blackstone,4,shaped,blackstone,1
+898,polished_blackstone_brick_slab,6,shaped,polished_blackstone_bricks,1
+899,polished_blackstone_brick_stairs,4,shaped,polished_blackstone_bricks,1
+900,polished_blackstone_brick_wall,6,shaped,polished_blackstone_bricks,1
+901,polished_blackstone_bricks,4,shaped,polished_blackstone,1
+902,polished_blackstone_pressure_plate,1,shaped,polished_blackstone,1
+903,polished_blackstone_slab,6,shaped,polished_blackstone,1
+904,polished_blackstone_stairs,4,shaped,polished_blackstone,1
+905,polished_blackstone_wall,6,shaped,polished_blackstone,1
+906,polished_deepslate,4,shaped,cobbled_deepslate,1
+907,polished_deepslate_slab,6,shaped,polished_deepslate,1
+908,polished_deepslate_stairs,4,shaped,polished_deepslate,1
+909,polished_deepslate_wall,6,shaped,polished_deepslate,1
+910,polished_diorite,4,shaped,diorite,1
+911,polished_diorite_slab,6,shaped,polished_diorite,1
+912,polished_diorite_stairs,4,shaped,polished_diorite,1
+913,polished_granite,4,shaped,granite,1
+914,polished_granite_slab,6,shaped,polished_granite,1
+915,polished_granite_stairs,4,shaped,polished_granite,1
+916,polished_tuff,4,shaped,tuff,1
+917,polished_tuff_slab,6,shaped,polished_tuff,1
+918,polished_tuff_stairs,4,shaped,polished_tuff,1
+919,polished_tuff_wall,6,shaped,polished_tuff,1
+920,powered_rail,6,shaped,redstone; gold_ingot; stick,3
+921,prismarine,1,shaped,prismarine_shard,1
+922,prismarine_brick_slab,6,shaped,prismarine_bricks,1
+923,prismarine_brick_stairs,4,shaped,prismarine_bricks,1
+924,prismarine_slab,6,shaped,prismarine,1
+925,prismarine_stairs,4,shaped,prismarine,1
+926,prismarine_wall,6,shaped,prismarine,1
+927,purple_banner,1,shaped,purple_wool; stick,2
+928,purple_bed,1,shaped,cherry_planks; purple_wool,2
+929,purple_bed,1,shaped,bamboo_planks; purple_wool,2
+930,purple_bed,1,shaped,mangrove_planks; purple_wool,2
+931,purple_bed,1,shaped,warped_planks; purple_wool,2
+932,purple_bed,1,shaped,crimson_planks; purple_wool,2
+933,purple_bed,1,shaped,pale_oak_planks; purple_wool,2
+934,purple_bed,1,shaped,dark_oak_planks; purple_wool,2
+935,purple_bed,1,shaped,acacia_planks; purple_wool,2
+936,purple_bed,1,shaped,jungle_planks; purple_wool,2
+937,purple_bed,1,shaped,birch_planks; purple_wool,2
+938,purple_bed,1,shaped,spruce_planks; purple_wool,2
+939,purple_bed,1,shaped,oak_planks; purple_wool,2
+940,purple_bed,1,shapeless,purple_dye; black_bed,2
+941,purple_carpet,3,shaped,purple_wool,1
+942,purple_carpet,1,shapeless,black_carpet; purple_dye,2
+943,purple_harness,1,shaped,glass; purple_wool; leather,3
+944,purple_harness,1,shapeless,black_harness; purple_dye,2
+945,purple_stained_glass,8,shaped,glass; purple_dye,2
+946,purple_stained_glass_pane,16,shaped,purple_stained_glass,1
+947,purple_stained_glass_pane,8,shaped,glass_pane; purple_dye,2
+948,purple_terracotta,8,shaped,terracotta; purple_dye,2
+949,purpur_block,4,shaped,popped_chorus_fruit,1
+950,purpur_pillar,1,shaped,purpur_slab,1
+951,purpur_slab,6,shaped,purpur_pillar,1
+952,purpur_slab,6,shaped,purpur_block,1
+953,purpur_stairs,4,shaped,purpur_pillar,1
+954,purpur_stairs,4,shaped,purpur_block,1
+955,quartz_block,1,shaped,quartz,1
+956,quartz_bricks,4,shaped,quartz_block,1
+957,quartz_pillar,2,shaped,quartz_block,1
+958,quartz_slab,6,shaped,quartz_pillar,1
+959,quartz_slab,6,shaped,quartz_block,1
+960,quartz_slab,6,shaped,chiseled_quartz_block,1
+961,quartz_stairs,4,shaped,quartz_pillar,1
+962,quartz_stairs,4,shaped,quartz_block,1
+963,quartz_stairs,4,shaped,chiseled_quartz_block,1
+964,rail,16,shaped,iron_ingot; stick,2
+965,raiser_armor_trim_smithing_template,2,shaped,terracotta; diamond; raiser_armor_trim_smithing_template,3
+966,raw_copper_block,1,shaped,raw_copper,1
+967,raw_gold_block,1,shaped,raw_gold,1
+968,raw_iron_block,1,shaped,raw_iron,1
+969,recovery_compass,1,shaped,compass; echo_shard,2
+970,red_banner,1,shaped,red_wool; stick,2
+971,red_bed,1,shaped,cherry_planks; red_wool,2
+972,red_bed,1,shaped,bamboo_planks; red_wool,2
+973,red_bed,1,shaped,mangrove_planks; red_wool,2
+974,red_bed,1,shaped,warped_planks; red_wool,2
+975,red_bed,1,shaped,crimson_planks; red_wool,2
+976,red_bed,1,shaped,pale_oak_planks; red_wool,2
+977,red_bed,1,shaped,dark_oak_planks; red_wool,2
+978,red_bed,1,shaped,acacia_planks; red_wool,2
+979,red_bed,1,shaped,jungle_planks; red_wool,2
+980,red_bed,1,shaped,birch_planks; red_wool,2
+981,red_bed,1,shaped,spruce_planks; red_wool,2
+982,red_bed,1,shaped,oak_planks; red_wool,2
+983,red_bed,1,shapeless,red_dye; black_bed,2
+984,red_carpet,3,shaped,red_wool,1
+985,red_carpet,1,shapeless,black_carpet; red_dye,2
+986,red_harness,1,shaped,glass; red_wool; leather,3
+987,red_harness,1,shapeless,black_harness; red_dye,2
+988,red_nether_brick_slab,6,shaped,red_nether_bricks,1
+989,red_nether_brick_stairs,4,shaped,red_nether_bricks,1
+990,red_nether_brick_wall,6,shaped,red_nether_bricks,1
+991,red_nether_bricks,1,shaped,nether_wart; nether_brick,2
+992,red_sandstone,1,shaped,red_sand,1
+993,red_sandstone_slab,6,shaped,chiseled_red_sandstone,1
+994,red_sandstone_slab,6,shaped,red_sandstone,1
+995,red_sandstone_stairs,4,shaped,cut_red_sandstone,1
+996,red_sandstone_stairs,4,shaped,chiseled_red_sandstone,1
+997,red_sandstone_stairs,4,shaped,red_sandstone,1
+998,red_sandstone_wall,6,shaped,red_sandstone,1
+999,red_stained_glass,8,shaped,glass; red_dye,2
+1000,red_stained_glass_pane,16,shaped,red_stained_glass,1
+1001,red_stained_glass_pane,8,shaped,glass_pane; red_dye,2
+1002,red_terracotta,8,shaped,terracotta; red_dye,2
+1003,redstone_block,1,shaped,redstone,1
+1004,redstone_lamp,1,shaped,glowstone; redstone,2
+1005,redstone_torch,1,shaped,redstone; stick,2
+1006,repeater,1,shaped,stone; redstone; redstone_torch,3
+1007,resin_block,1,shaped,resin_clump,1
+1008,resin_brick_slab,6,shaped,resin_bricks,1
+1009,resin_brick_stairs,4,shaped,resin_bricks,1
+1010,resin_brick_wall,6,shaped,resin_bricks,1
+1011,resin_bricks,1,shaped,resin_brick,1
+1012,respawn_anchor,1,shaped,glowstone; crying_obsidian,2
+1013,rib_armor_trim_smithing_template,2,shaped,netherrack; diamond; rib_armor_trim_smithing_template,3
+1014,saddle,1,shaped,iron_ingot; leather,2
+1015,sandstone,1,shaped,sand,1
+1016,sandstone_slab,6,shaped,chiseled_sandstone,1
+1017,sandstone_slab,6,shaped,sandstone,1
+1018,sandstone_stairs,4,shaped,cut_sandstone,1
+1019,sandstone_stairs,4,shaped,chiseled_sandstone,1
+1020,sandstone_stairs,4,shaped,sandstone,1
+1021,sandstone_wall,6,shaped,sandstone,1
+1022,scaffolding,6,shaped,bamboo; string,2
+1023,sea_lantern,1,shaped,prismarine_shard; prismarine_crystals,2
+1024,sentry_armor_trim_smithing_template,2,shaped,cobblestone; diamond; sentry_armor_trim_smithing_template,3
+1025,shaper_armor_trim_smithing_template,2,shaped,terracotta; diamond; shaper_armor_trim_smithing_template,3
+1026,shears,1,shaped,iron_ingot,1
+1027,shield,1,shaped,cherry_planks; iron_ingot,2
+1028,shield,1,shaped,bamboo_planks; iron_ingot,2
+1029,shield,1,shaped,mangrove_planks; iron_ingot,2
+1030,shield,1,shaped,warped_planks; iron_ingot,2
+1031,shield,1,shaped,crimson_planks; iron_ingot,2
+1032,shield,1,shaped,pale_oak_planks; iron_ingot,2
+1033,shield,1,shaped,dark_oak_planks; iron_ingot,2
+1034,shield,1,shaped,acacia_planks; iron_ingot,2
+1035,shield,1,shaped,jungle_planks; iron_ingot,2
+1036,shield,1,shaped,birch_planks; iron_ingot,2
+1037,shield,1,shaped,spruce_planks; iron_ingot,2
+1038,shield,1,shaped,oak_planks; iron_ingot,2
+1039,shulker_box,1,shaped,chest; shulker_shell,2
+1040,silence_armor_trim_smithing_template,2,shaped,cobbled_deepslate; diamond; silence_armor_trim_smithing_template,3
+1041,slime_block,1,shaped,slime_ball,1
+1042,smithing_table,1,shaped,cherry_planks; iron_ingot,2
+1043,smithing_table,1,shaped,bamboo_planks; iron_ingot,2
+1044,smithing_table,1,shaped,mangrove_planks; iron_ingot,2
+1045,smithing_table,1,shaped,warped_planks; iron_ingot,2
+1046,smithing_table,1,shaped,crimson_planks; iron_ingot,2
+1047,smithing_table,1,shaped,pale_oak_planks; iron_ingot,2
+1048,smithing_table,1,shaped,dark_oak_planks; iron_ingot,2
+1049,smithing_table,1,shaped,acacia_planks; iron_ingot,2
+1050,smithing_table,1,shaped,jungle_planks; iron_ingot,2
+1051,smithing_table,1,shaped,birch_planks; iron_ingot,2
+1052,smithing_table,1,shaped,spruce_planks; iron_ingot,2
+1053,smithing_table,1,shaped,oak_planks; iron_ingot,2
+1054,smoker,1,shaped,stripped_warped_hyphae; furnace,2
+1055,smoker,1,shaped,warped_hyphae; furnace,2
+1056,smoker,1,shaped,stripped_warped_stem; furnace,2
+1057,smoker,1,shaped,warped_stem; furnace,2
+1058,smoker,1,shaped,stripped_crimson_hyphae; furnace,2
+1059,smoker,1,shaped,crimson_hyphae; furnace,2
+1060,smoker,1,shaped,stripped_crimson_stem; furnace,2
+1061,smoker,1,shaped,crimson_stem; furnace,2
+1062,smoker,1,shaped,stripped_cherry_wood; furnace,2
+1063,smoker,1,shaped,stripped_cherry_log; furnace,2
+1064,smoker,1,shaped,cherry_wood; furnace,2
+1065,smoker,1,shaped,cherry_log; furnace,2
+1066,smoker,1,shaped,stripped_mangrove_wood; furnace,2
+1067,smoker,1,shaped,stripped_mangrove_log; furnace,2
+1068,smoker,1,shaped,mangrove_wood; furnace,2
+1069,smoker,1,shaped,mangrove_log; furnace,2
+1070,smoker,1,shaped,stripped_spruce_wood; furnace,2
+1071,smoker,1,shaped,stripped_spruce_log; furnace,2
+1072,smoker,1,shaped,spruce_wood; furnace,2
+1073,smoker,1,shaped,spruce_log; furnace,2
+1074,smoker,1,shaped,stripped_jungle_wood; furnace,2
+1075,smoker,1,shaped,stripped_jungle_log; furnace,2
+1076,smoker,1,shaped,jungle_wood; furnace,2
+1077,smoker,1,shaped,jungle_log; furnace,2
+1078,smoker,1,shaped,stripped_birch_wood; furnace,2
+1079,smoker,1,shaped,stripped_birch_log; furnace,2
+1080,smoker,1,shaped,birch_wood; furnace,2
+1081,smoker,1,shaped,birch_log; furnace,2
+1082,smoker,1,shaped,stripped_acacia_wood; furnace,2
+1083,smoker,1,shaped,stripped_acacia_log; furnace,2
+1084,smoker,1,shaped,acacia_wood; furnace,2
+1085,smoker,1,shaped,acacia_log; furnace,2
+1086,smoker,1,shaped,stripped_oak_wood; furnace,2
+1087,smoker,1,shaped,stripped_oak_log; furnace,2
+1088,smoker,1,shaped,oak_wood; furnace,2
+1089,smoker,1,shaped,oak_log; furnace,2
+1090,smoker,1,shaped,stripped_pale_oak_wood; furnace,2
+1091,smoker,1,shaped,stripped_pale_oak_log; furnace,2
+1092,smoker,1,shaped,pale_oak_wood; furnace,2
+1093,smoker,1,shaped,pale_oak_log; furnace,2
+1094,smoker,1,shaped,stripped_dark_oak_wood; furnace,2
+1095,smoker,1,shaped,stripped_dark_oak_log; furnace,2
+1096,smoker,1,shaped,dark_oak_wood; furnace,2
+1097,smoker,1,shaped,dark_oak_log; furnace,2
+1098,smooth_quartz_slab,6,shaped,smooth_quartz,1
+1099,smooth_quartz_stairs,4,shaped,smooth_quartz,1
+1100,smooth_red_sandstone_slab,6,shaped,smooth_red_sandstone,1
+1101,smooth_red_sandstone_stairs,4,shaped,smooth_red_sandstone,1
+1102,smooth_sandstone_slab,6,shaped,smooth_sandstone,1
+1103,smooth_sandstone_stairs,4,shaped,smooth_sandstone,1
+1104,smooth_stone_slab,6,shaped,smooth_stone,1
+1105,snout_armor_trim_smithing_template,2,shaped,diamond; blackstone; snout_armor_trim_smithing_template,3
+1106,snow,6,shaped,snow_block,1
+1107,snow_block,1,shaped,snowball,1
+1108,soul_campfire,1,shaped,stripped_warped_hyphae; soul_sand; stick,3
+1109,soul_campfire,1,shaped,warped_hyphae; soul_sand; stick,3
+1110,soul_campfire,1,shaped,stripped_warped_stem; soul_sand; stick,3
+1111,soul_campfire,1,shaped,warped_stem; soul_sand; stick,3
+1112,soul_campfire,1,shaped,stripped_crimson_hyphae; soul_sand; stick,3
+1113,soul_campfire,1,shaped,crimson_hyphae; soul_sand; stick,3
+1114,soul_campfire,1,shaped,stripped_crimson_stem; soul_sand; stick,3
+1115,soul_campfire,1,shaped,crimson_stem; soul_sand; stick,3
+1116,soul_campfire,1,shaped,stripped_cherry_wood; soul_sand; stick,3
+1117,soul_campfire,1,shaped,stripped_cherry_log; soul_sand; stick,3
+1118,soul_campfire,1,shaped,cherry_wood; soul_sand; stick,3
+1119,soul_campfire,1,shaped,cherry_log; soul_sand; stick,3
+1120,soul_campfire,1,shaped,stripped_mangrove_wood; soul_sand; stick,3
+1121,soul_campfire,1,shaped,stripped_mangrove_log; soul_sand; stick,3
+1122,soul_campfire,1,shaped,mangrove_wood; soul_sand; stick,3
+1123,soul_campfire,1,shaped,mangrove_log; soul_sand; stick,3
+1124,soul_campfire,1,shaped,stripped_spruce_wood; soul_sand; stick,3
+1125,soul_campfire,1,shaped,stripped_spruce_log; soul_sand; stick,3
+1126,soul_campfire,1,shaped,spruce_wood; soul_sand; stick,3
+1127,soul_campfire,1,shaped,spruce_log; soul_sand; stick,3
+1128,soul_campfire,1,shaped,stripped_jungle_wood; soul_sand; stick,3
+1129,soul_campfire,1,shaped,stripped_jungle_log; soul_sand; stick,3
+1130,soul_campfire,1,shaped,jungle_wood; soul_sand; stick,3
+1131,soul_campfire,1,shaped,jungle_log; soul_sand; stick,3
+1132,soul_campfire,1,shaped,stripped_birch_wood; soul_sand; stick,3
+1133,soul_campfire,1,shaped,stripped_birch_log; soul_sand; stick,3
+1134,soul_campfire,1,shaped,birch_wood; soul_sand; stick,3
+1135,soul_campfire,1,shaped,birch_log; soul_sand; stick,3
+1136,soul_campfire,1,shaped,stripped_acacia_wood; soul_sand; stick,3
+1137,soul_campfire,1,shaped,stripped_acacia_log; soul_sand; stick,3
+1138,soul_campfire,1,shaped,acacia_wood; soul_sand; stick,3
+1139,soul_campfire,1,shaped,acacia_log; soul_sand; stick,3
+1140,soul_campfire,1,shaped,stripped_oak_wood; soul_sand; stick,3
+1141,soul_campfire,1,shaped,stripped_oak_log; soul_sand; stick,3
+1142,soul_campfire,1,shaped,oak_wood; soul_sand; stick,3
+1143,soul_campfire,1,shaped,oak_log; soul_sand; stick,3
+1144,soul_campfire,1,shaped,stripped_pale_oak_wood; soul_sand; stick,3
+1145,soul_campfire,1,shaped,stripped_pale_oak_log; soul_sand; stick,3
+1146,soul_campfire,1,shaped,pale_oak_wood; soul_sand; stick,3
+1147,soul_campfire,1,shaped,pale_oak_log; soul_sand; stick,3
+1148,soul_campfire,1,shaped,stripped_dark_oak_wood; soul_sand; stick,3
+1149,soul_campfire,1,shaped,stripped_dark_oak_log; soul_sand; stick,3
+1150,soul_campfire,1,shaped,dark_oak_wood; soul_soil; stick,3
+1151,soul_campfire,1,shaped,dark_oak_log; soul_sand; stick,3
+1152,soul_lantern,1,shaped,soul_torch; iron_nugget,2
+1153,soul_torch,4,shaped,soul_soil; charcoal; stick,3
+1154,soul_torch,4,shaped,soul_sand; coal; stick,3
+1155,spectral_arrow,2,shaped,arrow; glowstone_dust,2
+1156,spire_armor_trim_smithing_template,2,shaped,purpur_block; diamond; spire_armor_trim_smithing_template,3
+1157,spruce_boat,1,shaped,spruce_planks,1
+1158,spruce_door,3,shaped,spruce_planks,1
+1159,spruce_fence,3,shaped,spruce_planks; stick,2
+1160,spruce_fence_gate,1,shaped,spruce_planks; stick,2
+1161,spruce_hanging_sign,6,shaped,stripped_spruce_log; iron_chain,2
+1162,spruce_pressure_plate,1,shaped,spruce_planks,1
+1163,spruce_shelf,6,shaped,stripped_spruce_log,1
+1164,spruce_sign,3,shaped,spruce_planks; stick,2
+1165,spruce_slab,6,shaped,spruce_planks,1
+1166,spruce_stairs,4,shaped,spruce_planks,1
+1167,spruce_trapdoor,2,shaped,spruce_planks,1
+1168,spruce_wood,3,shaped,spruce_log,1
+1169,spyglass,1,shaped,amethyst_shard; copper_ingot,2
+1170,stick,4,shaped,cherry_planks,1
+1171,stick,4,shaped,bamboo_planks,1
+1172,stick,4,shaped,mangrove_planks,1
+1173,stick,4,shaped,warped_planks,1
+1174,stick,4,shaped,crimson_planks,1
+1175,stick,4,shaped,pale_oak_planks,1
+1176,stick,4,shaped,dark_oak_planks,1
+1177,stick,4,shaped,acacia_planks,1
+1178,stick,4,shaped,jungle_planks,1
+1179,stick,4,shaped,birch_planks,1
+1180,stick,4,shaped,spruce_planks,1
+1181,stick,4,shaped,oak_planks,1
+1182,stick,1,shaped,bamboo,1
+1183,sticky_piston,1,shaped,piston; slime_ball,2
+1184,stone_axe,1,shaped,cobbled_deepslate; stick,2
+1185,stone_axe,1,shaped,stick; blackstone,2
+1186,stone_axe,1,shaped,cobblestone; stick,2
+1187,stone_brick_slab,6,shaped,stone_bricks,1
+1188,stone_brick_stairs,4,shaped,stone_bricks,1
+1189,stone_brick_wall,6,shaped,stone_bricks,1
+1190,stone_bricks,4,shaped,stone,1
+1191,stone_hoe,1,shaped,cobbled_deepslate; stick,2
+1192,stone_hoe,1,shaped,stick; blackstone,2
+1193,stone_hoe,1,shaped,cobblestone; stick,2
+1194,stone_pickaxe,1,shaped,cobbled_deepslate; stick,2
+1195,stone_pickaxe,1,shaped,stick; blackstone,2
+1196,stone_pickaxe,1,shaped,cobblestone; stick,2
+1197,stone_pressure_plate,1,shaped,stone,1
+1198,stone_shovel,1,shaped,cobbled_deepslate; stick,2
+1199,stone_shovel,1,shaped,stick; blackstone,2
+1200,stone_shovel,1,shaped,cobblestone; stick,2
+1201,stone_slab,6,shaped,stone,1
+1202,stone_spear,1,shaped,cobbled_deepslate; stick,2
+1203,stone_spear,1,shaped,stick; blackstone,2
+1204,stone_spear,1,shaped,cobblestone; stick,2
+1205,stone_stairs,4,shaped,stone,1
+1206,stone_sword,1,shaped,cobbled_deepslate; stick,2
+1207,stone_sword,1,shaped,stick; blackstone,2
+1208,stone_sword,1,shaped,cobblestone; stick,2
+1209,stonecutter,1,shaped,stone; iron_ingot,2
+1210,stripped_acacia_wood,3,shaped,stripped_acacia_log,1
+1211,stripped_birch_wood,3,shaped,stripped_birch_log,1
+1212,stripped_cherry_wood,3,shaped,stripped_cherry_log,1
+1213,stripped_crimson_hyphae,3,shaped,stripped_crimson_stem,1
+1214,stripped_dark_oak_wood,3,shaped,stripped_dark_oak_log,1
+1215,stripped_jungle_wood,3,shaped,stripped_jungle_log,1
+1216,stripped_mangrove_wood,3,shaped,stripped_mangrove_log,1
+1217,stripped_oak_wood,3,shaped,stripped_oak_log,1
+1218,stripped_pale_oak_wood,3,shaped,stripped_pale_oak_log,1
+1219,stripped_spruce_wood,3,shaped,stripped_spruce_log,1
+1220,stripped_warped_hyphae,3,shaped,stripped_warped_stem,1
+1221,target,1,shaped,hay_block; redstone,2
+1222,tide_armor_trim_smithing_template,2,shaped,prismarine; diamond; tide_armor_trim_smithing_template,3
+1223,tinted_glass,2,shaped,glass; amethyst_shard,2
+1224,tnt,1,shaped,red_sand; gunpowder,2
+1225,tnt,1,shaped,sand; gunpowder,2
+1226,torch,4,shaped,charcoal; stick,2
+1227,torch,4,shaped,coal; stick,2
+1228,tripwire_hook,2,shaped,cherry_planks; iron_ingot; stick,3
+1229,tripwire_hook,2,shaped,bamboo_planks; iron_ingot; stick,3
+1230,tripwire_hook,2,shaped,mangrove_planks; iron_ingot; stick,3
+1231,tripwire_hook,2,shaped,warped_planks; iron_ingot; stick,3
+1232,tripwire_hook,2,shaped,crimson_planks; iron_ingot; stick,3
+1233,tripwire_hook,2,shaped,pale_oak_planks; iron_ingot; stick,3
+1234,tripwire_hook,2,shaped,dark_oak_planks; iron_ingot; stick,3
+1235,tripwire_hook,2,shaped,acacia_planks; iron_ingot; stick,3
+1236,tripwire_hook,2,shaped,jungle_planks; iron_ingot; stick,3
+1237,tripwire_hook,2,shaped,birch_planks; iron_ingot; stick,3
+1238,tripwire_hook,2,shaped,spruce_planks; iron_ingot; stick,3
+1239,tripwire_hook,2,shaped,oak_planks; iron_ingot; stick,3
+1240,tuff_brick_slab,6,shaped,tuff_bricks,1
+1241,tuff_brick_stairs,4,shaped,tuff_bricks,1
+1242,tuff_brick_wall,6,shaped,tuff_bricks,1
+1243,tuff_bricks,4,shaped,polished_tuff,1
+1244,tuff_slab,6,shaped,tuff,1
+1245,tuff_stairs,4,shaped,tuff,1
+1246,tuff_wall,6,shaped,tuff,1
+1247,turtle_helmet,1,shaped,turtle_scute,1
+1248,vex_armor_trim_smithing_template,2,shaped,cobblestone; diamond; vex_armor_trim_smithing_template,3
+1249,ward_armor_trim_smithing_template,2,shaped,cobbled_deepslate; diamond; ward_armor_trim_smithing_template,3
+1250,warped_door,3,shaped,warped_planks,1
+1251,warped_fence,3,shaped,warped_planks; stick,2
+1252,warped_fence_gate,1,shaped,warped_planks; stick,2
+1253,warped_fungus_on_a_stick,1,shaped,warped_fungus; fishing_rod,2
+1254,warped_hanging_sign,6,shaped,stripped_warped_stem; iron_chain,2
+1255,warped_hyphae,3,shaped,warped_stem,1
+1256,warped_pressure_plate,1,shaped,warped_planks,1
+1257,warped_shelf,6,shaped,stripped_warped_stem,1
+1258,warped_sign,3,shaped,warped_planks; stick,2
+1259,warped_slab,6,shaped,warped_planks,1
+1260,warped_stairs,4,shaped,warped_planks,1
+1261,warped_trapdoor,2,shaped,warped_planks,1
+1262,waxed_chiseled_copper,1,shaped,waxed_cut_copper_slab,1
+1263,waxed_chiseled_copper,1,shapeless,chiseled_copper; honeycomb,2
+1264,waxed_copper_bulb,4,shaped,waxed_copper_block; redstone; blaze_rod,3
+1265,waxed_copper_bulb,1,shapeless,honeycomb; copper_bulb,2
+1266,waxed_copper_grate,4,shaped,waxed_copper_block,1
+1267,waxed_copper_grate,1,shapeless,honeycomb; copper_grate,2
+1268,waxed_cut_copper,4,shaped,waxed_copper_block,1
+1269,waxed_cut_copper,1,shapeless,cut_copper; honeycomb,2
+1270,waxed_cut_copper_slab,6,shaped,waxed_cut_copper,1
+1271,waxed_cut_copper_slab,1,shapeless,cut_copper_slab; honeycomb,2
+1272,waxed_cut_copper_stairs,4,shaped,waxed_cut_copper,1
+1273,waxed_cut_copper_stairs,1,shapeless,cut_copper_stairs; honeycomb,2
+1274,waxed_exposed_chiseled_copper,1,shaped,waxed_exposed_cut_copper_slab,1
+1275,waxed_exposed_chiseled_copper,1,shapeless,exposed_chiseled_copper; honeycomb,2
+1276,waxed_exposed_copper_bulb,4,shaped,waxed_exposed_copper; redstone; blaze_rod,3
+1277,waxed_exposed_copper_bulb,1,shapeless,honeycomb; exposed_copper_bulb,2
+1278,waxed_exposed_copper_grate,4,shaped,waxed_exposed_copper,1
+1279,waxed_exposed_copper_grate,1,shapeless,honeycomb; exposed_copper_grate,2
+1280,waxed_exposed_cut_copper,4,shaped,waxed_exposed_copper,1
+1281,waxed_exposed_cut_copper,1,shapeless,exposed_cut_copper; honeycomb,2
+1282,waxed_exposed_cut_copper_slab,6,shaped,waxed_exposed_cut_copper,1
+1283,waxed_exposed_cut_copper_slab,1,shapeless,exposed_cut_copper_slab; honeycomb,2
+1284,waxed_exposed_cut_copper_stairs,4,shaped,waxed_exposed_cut_copper,1
+1285,waxed_exposed_cut_copper_stairs,1,shapeless,exposed_cut_copper_stairs; honeycomb,2
+1286,waxed_oxidized_chiseled_copper,1,shaped,waxed_oxidized_cut_copper_slab,1
+1287,waxed_oxidized_chiseled_copper,1,shapeless,oxidized_chiseled_copper; honeycomb,2
+1288,waxed_oxidized_copper_bulb,4,shaped,waxed_oxidized_copper; redstone; blaze_rod,3
+1289,waxed_oxidized_copper_bulb,1,shapeless,honeycomb; oxidized_copper_bulb,2
+1290,waxed_oxidized_copper_grate,4,shaped,waxed_oxidized_copper,1
+1291,waxed_oxidized_copper_grate,1,shapeless,honeycomb; oxidized_copper_grate,2
+1292,waxed_oxidized_cut_copper,4,shaped,waxed_oxidized_copper,1
+1293,waxed_oxidized_cut_copper,1,shapeless,oxidized_cut_copper; honeycomb,2
+1294,waxed_oxidized_cut_copper_slab,6,shaped,waxed_oxidized_cut_copper,1
+1295,waxed_oxidized_cut_copper_slab,1,shapeless,oxidized_cut_copper_slab; honeycomb,2
+1296,waxed_oxidized_cut_copper_stairs,4,shaped,waxed_oxidized_cut_copper,1
+1297,waxed_oxidized_cut_copper_stairs,1,shapeless,oxidized_cut_copper_stairs; honeycomb,2
+1298,waxed_weathered_chiseled_copper,1,shaped,waxed_weathered_cut_copper_slab,1
+1299,waxed_weathered_chiseled_copper,1,shapeless,weathered_chiseled_copper; honeycomb,2
+1300,waxed_weathered_copper_bulb,4,shaped,waxed_weathered_copper; redstone; blaze_rod,3
+1301,waxed_weathered_copper_bulb,1,shapeless,honeycomb; weathered_copper_bulb,2
+1302,waxed_weathered_copper_grate,4,shaped,waxed_weathered_copper,1
+1303,waxed_weathered_copper_grate,1,shapeless,honeycomb; weathered_copper_grate,2
+1304,waxed_weathered_cut_copper,4,shaped,waxed_weathered_copper,1
+1305,waxed_weathered_cut_copper,1,shapeless,weathered_cut_copper; honeycomb,2
+1306,waxed_weathered_cut_copper_slab,6,shaped,waxed_weathered_cut_copper,1
+1307,waxed_weathered_cut_copper_slab,1,shapeless,weathered_cut_copper_slab; honeycomb,2
+1308,waxed_weathered_cut_copper_stairs,4,shaped,waxed_weathered_cut_copper,1
+1309,waxed_weathered_cut_copper_stairs,1,shapeless,weathered_cut_copper_stairs; honeycomb,2
+1310,wayfinder_armor_trim_smithing_template,2,shaped,terracotta; diamond; wayfinder_armor_trim_smithing_template,3
+1311,weathered_chiseled_copper,1,shaped,weathered_cut_copper_slab,1
+1312,weathered_copper_bulb,4,shaped,weathered_copper; redstone; blaze_rod,3
+1313,weathered_copper_grate,4,shaped,weathered_copper,1
+1314,weathered_cut_copper,4,shaped,weathered_copper,1
+1315,weathered_cut_copper_slab,6,shaped,weathered_cut_copper,1
+1316,weathered_cut_copper_stairs,4,shaped,weathered_cut_copper,1
+1317,white_banner,1,shaped,white_wool; stick,2
+1318,white_bed,1,shaped,cherry_planks; white_wool,2
+1319,white_bed,1,shaped,bamboo_planks; white_wool,2
+1320,white_bed,1,shaped,mangrove_planks; white_wool,2
+1321,white_bed,1,shaped,warped_planks; white_wool,2
+1322,white_bed,1,shaped,crimson_planks; white_wool,2
+1323,white_bed,1,shaped,pale_oak_planks; white_wool,2
+1324,white_bed,1,shaped,dark_oak_planks; white_wool,2
+1325,white_bed,1,shaped,acacia_planks; white_wool,2
+1326,white_bed,1,shaped,jungle_planks; white_wool,2
+1327,white_bed,1,shaped,birch_planks; white_wool,2
+1328,white_bed,1,shaped,spruce_planks; white_wool,2
+1329,white_bed,1,shaped,oak_planks; white_wool,2
+1330,white_bed,1,shapeless,white_dye; black_bed,2
+1331,white_carpet,3,shaped,white_wool,1
+1332,white_carpet,1,shapeless,black_carpet; white_dye,2
+1333,white_harness,1,shaped,glass; white_wool; leather,3
+1334,white_harness,1,shapeless,black_harness; white_dye,2
+1335,white_stained_glass,8,shaped,glass; white_dye,2
+1336,white_stained_glass_pane,16,shaped,white_stained_glass,1
+1337,white_stained_glass_pane,8,shaped,glass_pane; white_dye,2
+1338,white_terracotta,8,shaped,terracotta; white_dye,2
+1339,white_wool,1,shaped,string,1
+1340,white_wool,1,shapeless,black_wool; white_dye,2
+1341,wild_armor_trim_smithing_template,2,shaped,mossy_cobblestone; diamond; wild_armor_trim_smithing_template,3
+1342,wolf_armor,1,shaped,armadillo_scute,1
+1343,wooden_axe,1,shaped,cherry_planks; stick,2
+1344,wooden_axe,1,shaped,bamboo_planks; stick,2
+1345,wooden_axe,1,shaped,mangrove_planks; stick,2
+1346,wooden_axe,1,shaped,warped_planks; stick,2
+1347,wooden_axe,1,shaped,crimson_planks; stick,2
+1348,wooden_axe,1,shaped,pale_oak_planks; stick,2
+1349,wooden_axe,1,shaped,dark_oak_planks; stick,2
+1350,wooden_axe,1,shaped,acacia_planks; stick,2
+1351,wooden_axe,1,shaped,jungle_planks; stick,2
+1352,wooden_axe,1,shaped,birch_planks; stick,2
+1353,wooden_axe,1,shaped,spruce_planks; stick,2
+1354,wooden_axe,1,shaped,oak_planks; stick,2
+1355,wooden_hoe,1,shaped,cherry_planks; stick,2
+1356,wooden_hoe,1,shaped,bamboo_planks; stick,2
+1357,wooden_hoe,1,shaped,mangrove_planks; stick,2
+1358,wooden_hoe,1,shaped,warped_planks; stick,2
+1359,wooden_hoe,1,shaped,crimson_planks; stick,2
+1360,wooden_hoe,1,shaped,pale_oak_planks; stick,2
+1361,wooden_hoe,1,shaped,dark_oak_planks; stick,2
+1362,wooden_hoe,1,shaped,acacia_planks; stick,2
+1363,wooden_hoe,1,shaped,jungle_planks; stick,2
+1364,wooden_hoe,1,shaped,birch_planks; stick,2
+1365,wooden_hoe,1,shaped,spruce_planks; stick,2
+1366,wooden_hoe,1,shaped,oak_planks; stick,2
+1367,wooden_pickaxe,1,shaped,cherry_planks; stick,2
+1368,wooden_pickaxe,1,shaped,bamboo_planks; stick,2
+1369,wooden_pickaxe,1,shaped,mangrove_planks; stick,2
+1370,wooden_pickaxe,1,shaped,warped_planks; stick,2
+1371,wooden_pickaxe,1,shaped,crimson_planks; stick,2
+1372,wooden_pickaxe,1,shaped,pale_oak_planks; stick,2
+1373,wooden_pickaxe,1,shaped,dark_oak_planks; stick,2
+1374,wooden_pickaxe,1,shaped,acacia_planks; stick,2
+1375,wooden_pickaxe,1,shaped,jungle_planks; stick,2
+1376,wooden_pickaxe,1,shaped,birch_planks; stick,2
+1377,wooden_pickaxe,1,shaped,spruce_planks; stick,2
+1378,wooden_pickaxe,1,shaped,oak_planks; stick,2
+1379,wooden_shovel,1,shaped,cherry_planks; stick,2
+1380,wooden_shovel,1,shaped,bamboo_planks; stick,2
+1381,wooden_shovel,1,shaped,mangrove_planks; stick,2
+1382,wooden_shovel,1,shaped,warped_planks; stick,2
+1383,wooden_shovel,1,shaped,crimson_planks; stick,2
+1384,wooden_shovel,1,shaped,pale_oak_planks; stick,2
+1385,wooden_shovel,1,shaped,dark_oak_planks; stick,2
+1386,wooden_shovel,1,shaped,acacia_planks; stick,2
+1387,wooden_shovel,1,shaped,jungle_planks; stick,2
+1388,wooden_shovel,1,shaped,birch_planks; stick,2
+1389,wooden_shovel,1,shaped,spruce_planks; stick,2
+1390,wooden_shovel,1,shaped,oak_planks; stick,2
+1391,wooden_spear,1,shaped,cherry_planks; stick,2
+1392,wooden_spear,1,shaped,bamboo_planks; stick,2
+1393,wooden_spear,1,shaped,mangrove_planks; stick,2
+1394,wooden_spear,1,shaped,warped_planks; stick,2
+1395,wooden_spear,1,shaped,crimson_planks; stick,2
+1396,wooden_spear,1,shaped,pale_oak_planks; stick,2
+1397,wooden_spear,1,shaped,dark_oak_planks; stick,2
+1398,wooden_spear,1,shaped,acacia_planks; stick,2
+1399,wooden_spear,1,shaped,jungle_planks; stick,2
+1400,wooden_spear,1,shaped,birch_planks; stick,2
+1401,wooden_spear,1,shaped,spruce_planks; stick,2
+1402,wooden_spear,1,shaped,oak_planks; stick,2
+1403,wooden_sword,1,shaped,cherry_planks; stick,2
+1404,wooden_sword,1,shaped,bamboo_planks; stick,2
+1405,wooden_sword,1,shaped,mangrove_planks; stick,2
+1406,wooden_sword,1,shaped,warped_planks; stick,2
+1407,wooden_sword,1,shaped,crimson_planks; stick,2
+1408,wooden_sword,1,shaped,pale_oak_planks; stick,2
+1409,wooden_sword,1,shaped,dark_oak_planks; stick,2
+1410,wooden_sword,1,shaped,acacia_planks; stick,2
+1411,wooden_sword,1,shaped,jungle_planks; stick,2
+1412,wooden_sword,1,shaped,birch_planks; stick,2
+1413,wooden_sword,1,shaped,spruce_planks; stick,2
+1414,wooden_sword,1,shaped,oak_planks; stick,2
+1415,yellow_banner,1,shaped,yellow_wool; stick,2
+1416,yellow_bed,1,shaped,cherry_planks; yellow_wool,2
+1417,yellow_bed,1,shaped,bamboo_planks; yellow_wool,2
+1418,yellow_bed,1,shaped,mangrove_planks; yellow_wool,2
+1419,yellow_bed,1,shaped,warped_planks; yellow_wool,2
+1420,yellow_bed,1,shaped,crimson_planks; yellow_wool,2
+1421,yellow_bed,1,shaped,pale_oak_planks; yellow_wool,2
+1422,yellow_bed,1,shaped,dark_oak_planks; yellow_wool,2
+1423,yellow_bed,1,shaped,acacia_planks; yellow_wool,2
+1424,yellow_bed,1,shaped,jungle_planks; yellow_wool,2
+1425,yellow_bed,1,shaped,birch_planks; yellow_wool,2
+1426,yellow_bed,1,shaped,spruce_planks; yellow_wool,2
+1427,yellow_bed,1,shaped,oak_planks; yellow_wool,2
+1428,yellow_bed,1,shapeless,yellow_dye; black_bed,2
+1429,yellow_carpet,3,shaped,yellow_wool,1
+1430,yellow_carpet,1,shapeless,black_carpet; yellow_dye,2
+1431,yellow_harness,1,shaped,glass; yellow_wool; leather,3
+1432,yellow_harness,1,shapeless,black_harness; yellow_dye,2
+1433,yellow_stained_glass,8,shaped,glass; yellow_dye,2
+1434,yellow_stained_glass_pane,16,shaped,yellow_stained_glass,1
+1435,yellow_stained_glass_pane,8,shaped,glass_pane; yellow_dye,2
+1436,yellow_terracotta,8,shaped,terracotta; yellow_dye,2
+1437,granite,1,shapeless,diorite; quartz,2
+1438,book,1,shapeless,leather; paper,2
+1439,andesite,2,shapeless,diorite; cobblestone,2
+1440,slime_ball,9,shapeless,slime_block,1
+1441,packed_ice,1,shapeless,ice,1
+1442,oak_planks,4,shapeless,oak_log,1
+1443,spruce_planks,4,shapeless,spruce_log,1
+1444,birch_planks,4,shapeless,birch_log,1
+1445,jungle_planks,4,shapeless,jungle_log,1
+1446,acacia_planks,4,shapeless,acacia_log,1
+1447,cherry_planks,4,shapeless,cherry_log,1
+1448,dark_oak_planks,4,shapeless,dark_oak_log,1
+1449,white_dye,1,shapeless,bone_meal,1
+1450,white_dye,1,shapeless,lily_of_the_valley,1
+1451,orange_dye,1,shapeless,open_eyeblossom,1
+1452,orange_dye,1,shapeless,orange_tulip,1
+1453,orange_dye,2,shapeless,yellow_dye; red_dye,2
+1454,orange_dye,1,shapeless,torchflower,1
+1455,pale_oak_planks,4,shapeless,pale_oak_log,1
+1456,magenta_dye,1,shapeless,allium,1
+1457,magenta_dye,3,shapeless,pink_dye; blue_dye; red_dye,3
+1458,magenta_dye,4,shapeless,white_dye; blue_dye; red_dye,3
+1459,magenta_dye,2,shapeless,lilac,1
+1460,magenta_dye,2,shapeless,pink_dye; purple_dye,2
+1461,mangrove_planks,4,shapeless,mangrove_log,1
+1462,bamboo_planks,2,shapeless,bamboo_block,1
+1463,light_blue_dye,1,shapeless,blue_orchid,1
+1464,light_blue_dye,2,shapeless,white_dye; blue_dye,2
+1465,crimson_planks,4,shapeless,crimson_stem,1
+1466,yellow_dye,1,shapeless,dandelion,1
+1467,yellow_dye,2,shapeless,sunflower,1
+1468,yellow_dye,1,shapeless,wildflowers,1
+1469,lime_dye,2,shapeless,white_dye; green_dye,2
+1470,warped_planks,4,shapeless,warped_stem,1
+1471,pink_dye,1,shapeless,cactus_flower,1
+1472,pink_dye,2,shapeless,peony,1
+1473,pink_dye,1,shapeless,pink_petals,1
+1474,pink_dye,1,shapeless,pink_tulip,1
+1475,pink_dye,2,shapeless,white_dye; red_dye,2
+1476,gray_dye,2,shapeless,white_dye; black_dye,2
+1477,gray_dye,1,shapeless,closed_eyeblossom,1
+1478,light_gray_dye,1,shapeless,azure_bluet,1
+1479,light_gray_dye,3,shapeless,white_dye; black_dye,2
+1480,light_gray_dye,2,shapeless,white_dye; gray_dye,2
+1481,light_gray_dye,1,shapeless,oxeye_daisy,1
+1482,light_gray_dye,1,shapeless,white_tulip,1
+1483,cyan_dye,2,shapeless,blue_dye; green_dye,2
+1484,cyan_dye,2,shapeless,pitcher_plant,1
+1485,prismarine_bricks,1,shapeless,prismarine_shard,1
+1486,purple_dye,2,shapeless,blue_dye; red_dye,2
+1487,blue_dye,1,shapeless,lapis_lazuli,1
+1488,blue_dye,1,shapeless,cornflower,1
+1489,brown_dye,1,shapeless,cocoa_beans,1
+1490,red_dye,1,shapeless,beetroot,1
+1491,red_dye,1,shapeless,poppy,1
+1492,red_dye,2,shapeless,rose_bush,1
+1493,red_dye,1,shapeless,red_tulip,1
+1494,black_dye,1,shapeless,ink_sac,1
+1495,black_dye,1,shapeless,wither_rose,1
+1496,bone_meal,3,shapeless,bone,1
+1497,bone_meal,9,shapeless,bone_block,1
+1498,sugar,3,shapeless,honey_bottle,1
+1499,sugar,1,shapeless,sugar_cane,1
+1500,nether_wart_block,1,shapeless,nether_wart,1
+1501,dried_kelp,9,shapeless,dried_kelp_block,1
+1502,pumpkin_seeds,4,shapeless,pumpkin,1
+1503,melon_seeds,1,shapeless,melon_slice,1
+1504,gold_nugget,9,shapeless,gold_ingot,1
+1505,fermented_spider_eye,1,shapeless,brown_mushroom; sugar; spider_eye,3
+1506,blaze_powder,2,shapeless,blaze_rod,1
+1507,magma_cream,1,shapeless,slime_ball; blaze_powder,2
+1508,ender_eye,1,shapeless,ender_pearl; blaze_powder,2
+1509,waxed_copper_block,1,shapeless,copper_block; honeycomb,2
+1510,waxed_exposed_copper,1,shapeless,exposed_copper; honeycomb,2
+1511,waxed_weathered_copper,1,shapeless,weathered_copper; honeycomb,2
+1512,waxed_oxidized_copper,1,shapeless,oxidized_copper; honeycomb,2
+1513,white_concrete_powder,8,shapeless,sand; gravel; white_dye,3
+1514,orange_concrete_powder,8,shapeless,sand; gravel; orange_dye,3
+1515,magenta_concrete_powder,8,shapeless,sand; gravel; magenta_dye,3
+1516,light_blue_concrete_powder,8,shapeless,sand; gravel; light_blue_dye,3
+1517,yellow_concrete_powder,8,shapeless,sand; gravel; yellow_dye,3
+1518,lime_concrete_powder,8,shapeless,sand; gravel; lime_dye,3
+1519,pink_concrete_powder,8,shapeless,sand; gravel; pink_dye,3
+1520,gray_concrete_powder,8,shapeless,sand; gravel; gray_dye,3
+1521,light_gray_concrete_powder,8,shapeless,sand; gravel; light_gray_dye,3
+1522,cyan_concrete_powder,8,shapeless,sand; gravel; cyan_dye,3
+1523,purple_concrete_powder,8,shapeless,sand; gravel; purple_dye,3
+1524,blue_concrete_powder,8,shapeless,sand; gravel; blue_dye,3
+1525,brown_concrete_powder,8,shapeless,sand; gravel; brown_dye,3
+1526,green_concrete_powder,8,shapeless,sand; gravel; green_dye,3
+1527,red_concrete_powder,8,shapeless,sand; gravel; red_dye,3
+1528,black_concrete_powder,8,shapeless,sand; gravel; black_dye,3
+1529,muddy_mangrove_roots,1,shapeless,mud; mangrove_roots,2
+1530,bamboo_block,1,shapeless,bamboo,1
+1531,blue_ice,1,shapeless,packed_ice,1
+1532,fire_charge,3,shapeless,coal; gunpowder; blaze_powder,3
+1533,wind_charge,4,shapeless,breeze_rod,1
+1534,writable_book,1,shapeless,feather; book; ink_sac,3
+1535,glow_item_frame,1,shapeless,glow_ink_sac; item_frame,2
+1536,redstone,9,shapeless,redstone_block,1
+1537,orange_wool,1,shapeless,black_wool; orange_dye,2
+1538,magenta_wool,1,shapeless,black_wool; magenta_dye,2
+1539,light_blue_wool,1,shapeless,black_wool; light_blue_dye,2
+1540,yellow_wool,1,shapeless,black_wool; yellow_dye,2
+1541,pumpkin_pie,1,shapeless,pumpkin; egg; sugar,3
+1542,lime_wool,1,shapeless,black_wool; lime_dye,2
+1543,firework_rocket,3,shapeless,gunpowder; paper,2
+1544,pink_wool,1,shapeless,black_wool; pink_dye,2
+1545,gray_wool,1,shapeless,black_wool; gray_dye,2
+1546,light_gray_wool,1,shapeless,black_wool; light_gray_dye,2
+1547,cyan_wool,1,shapeless,black_wool; cyan_dye,2
+1548,purple_wool,1,shapeless,black_wool; purple_dye,2
+1549,blue_wool,1,shapeless,black_wool; blue_dye,2
+1550,brown_wool,1,shapeless,black_wool; brown_dye,2
+1551,waxed_lightning_rod,1,shapeless,lightning_rod; honeycomb,2
+1552,green_wool,1,shapeless,black_wool; green_dye,2
+1553,waxed_exposed_lightning_rod,1,shapeless,exposed_lightning_rod; honeycomb,2
+1554,red_wool,1,shapeless,black_wool; red_dye,2
+1555,rabbit_stew,1,shapeless,brown_mushroom; bowl; carrot; baked_potato; cooked_rabbit,5
+1556,rabbit_stew,1,shapeless,red_mushroom; bowl; carrot; baked_potato; cooked_rabbit,5
+1557,waxed_weathered_lightning_rod,1,shapeless,weathered_lightning_rod; honeycomb,2
+1558,black_wool,1,shapeless,blue_wool; black_dye,2
+1559,waxed_oxidized_lightning_rod,1,shapeless,oxidized_lightning_rod; honeycomb,2
+1560,trapped_chest,1,shapeless,chest; tripwire_hook,2
+1561,stone_button,1,shapeless,stone,1
+1562,polished_blackstone_button,1,shapeless,polished_blackstone,1
+1563,oak_button,1,shapeless,oak_planks,1
+1564,spruce_button,1,shapeless,spruce_planks,1
+1565,birch_button,1,shapeless,birch_planks,1
+1566,jungle_button,1,shapeless,jungle_planks,1
+1567,acacia_button,1,shapeless,acacia_planks,1
+1568,cherry_button,1,shapeless,cherry_planks,1
+1569,dark_oak_button,1,shapeless,dark_oak_planks,1
+1570,pale_oak_button,1,shapeless,pale_oak_planks,1
+1571,mangrove_button,1,shapeless,mangrove_planks,1
+1572,bamboo_button,1,shapeless,bamboo_planks,1
+1573,crimson_button,1,shapeless,crimson_planks,1
+1574,warped_button,1,shapeless,warped_planks,1
+1575,beetroot_soup,1,shapeless,bowl; beetroot,2
+1576,iron_nugget,9,shapeless,iron_ingot,1
+1577,copper_nugget,9,shapeless,copper_ingot,1
+1578,waxed_copper_door,1,shapeless,copper_door; honeycomb,2
+1579,waxed_exposed_copper_door,1,shapeless,exposed_copper_door; honeycomb,2
+1580,waxed_weathered_copper_door,1,shapeless,weathered_copper_door; honeycomb,2
+1581,waxed_oxidized_copper_door,1,shapeless,oxidized_copper_door; honeycomb,2
+1582,music_disc_5,1,shapeless,disc_fragment_5,1
+1583,waxed_copper_trapdoor,1,shapeless,copper_trapdoor; honeycomb,2
+1584,waxed_exposed_copper_trapdoor,1,shapeless,exposed_copper_trapdoor; honeycomb,2
+1585,waxed_weathered_copper_trapdoor,1,shapeless,weathered_copper_trapdoor; honeycomb,2
+1586,waxed_oxidized_copper_trapdoor,1,shapeless,oxidized_copper_trapdoor; honeycomb,2
+1587,suspicious_stew,1,shapeless,allium; brown_mushroom; red_mushroom; bowl,4
+1588,suspicious_stew,1,shapeless,azure_bluet; brown_mushroom; red_mushroom; bowl,4
+1589,suspicious_stew,1,shapeless,blue_orchid; brown_mushroom; red_mushroom; bowl,4
+1590,suspicious_stew,1,shapeless,closed_eyeblossom; brown_mushroom; red_mushroom; bowl,4
+1591,suspicious_stew,1,shapeless,cornflower; brown_mushroom; red_mushroom; bowl,4
+1592,suspicious_stew,1,shapeless,dandelion; brown_mushroom; red_mushroom; bowl,4
+1593,suspicious_stew,1,shapeless,lily_of_the_valley; brown_mushroom; red_mushroom; bowl,4
+1594,suspicious_stew,1,shapeless,open_eyeblossom; brown_mushroom; red_mushroom; bowl,4
+1595,suspicious_stew,1,shapeless,orange_tulip; brown_mushroom; red_mushroom; bowl,4
+1596,suspicious_stew,1,shapeless,oxeye_daisy; brown_mushroom; red_mushroom; bowl,4
+1597,suspicious_stew,1,shapeless,pink_tulip; brown_mushroom; red_mushroom; bowl,4
+1598,suspicious_stew,1,shapeless,poppy; brown_mushroom; red_mushroom; bowl,4
+1599,suspicious_stew,1,shapeless,red_tulip; brown_mushroom; red_mushroom; bowl,4
+1600,suspicious_stew,1,shapeless,torchflower; brown_mushroom; red_mushroom; bowl,4
+1601,suspicious_stew,1,shapeless,white_tulip; brown_mushroom; red_mushroom; bowl,4
+1602,suspicious_stew,1,shapeless,wither_rose; brown_mushroom; red_mushroom; bowl,4
+1603,flower_banner_pattern,1,shapeless,oxeye_daisy; paper,2
+1604,creeper_banner_pattern,1,shapeless,paper; creeper_head,2
+1605,mossy_cobblestone,1,shapeless,cobblestone; moss_block,2
+1606,mossy_cobblestone,1,shapeless,cobblestone; vine,2
+1607,skull_banner_pattern,1,shapeless,paper; wither_skeleton_skull,2
+1608,mojang_banner_pattern,1,shapeless,enchanted_golden_apple; paper,2
+1609,field_masoned_banner_pattern,1,shapeless,bricks; paper,2
+1610,bordure_indented_banner_pattern,1,shapeless,vine; paper,2
+1611,chest_minecart,1,shapeless,chest; minecart,2
+1612,furnace_minecart,1,shapeless,furnace; minecart,2
+1613,tnt_minecart,1,shapeless,tnt; minecart,2
+1614,waxed_copper_lantern,1,shapeless,copper_lantern; honeycomb,2
+1615,hopper_minecart,1,shapeless,hopper; minecart,2
+1616,waxed_exposed_copper_lantern,1,shapeless,exposed_copper_lantern; honeycomb,2
+1617,waxed_weathered_copper_lantern,1,shapeless,weathered_copper_lantern; honeycomb,2
+1618,waxed_oxidized_copper_lantern,1,shapeless,oxidized_copper_lantern; honeycomb,2
+1619,oak_chest_boat,1,shapeless,chest; oak_boat,2
+1620,spruce_chest_boat,1,shapeless,chest; spruce_boat,2
+1621,birch_chest_boat,1,shapeless,chest; birch_boat,2
+1622,honey_bottle,4,shapeless,honey_block; glass_bottle,2
+1623,jungle_chest_boat,1,shapeless,chest; jungle_boat,2
+1624,acacia_chest_boat,1,shapeless,chest; acacia_boat,2
+1625,cherry_chest_boat,1,shapeless,chest; cherry_boat,2
+1626,dark_oak_chest_boat,1,shapeless,chest; dark_oak_boat,2
+1627,pale_oak_chest_boat,1,shapeless,chest; pale_oak_boat,2
+1628,mangrove_chest_boat,1,shapeless,chest; mangrove_boat,2
+1629,bamboo_chest_raft,1,shapeless,chest; bamboo_raft,2
+1630,white_candle,1,shapeless,white_dye; candle,2
+1631,mossy_stone_bricks,1,shapeless,moss_block; stone_bricks,2
+1632,mossy_stone_bricks,1,shapeless,stone_bricks; vine,2
+1633,orange_candle,1,shapeless,orange_dye; candle,2
+1634,magenta_candle,1,shapeless,magenta_dye; candle,2
+1635,light_blue_candle,1,shapeless,light_blue_dye; candle,2
+1636,flint_and_steel,1,shapeless,iron_ingot; flint,2
+1637,packed_mud,1,shapeless,mud; wheat,2
+1638,yellow_candle,1,shapeless,yellow_dye; candle,2
+1639,lime_candle,1,shapeless,lime_dye; candle,2
+1640,pink_candle,1,shapeless,pink_dye; candle,2
+1641,gray_candle,1,shapeless,gray_dye; candle,2
+1642,light_gray_candle,1,shapeless,light_gray_dye; candle,2
+1643,coal,9,shapeless,coal_block,1
+1644,cyan_candle,1,shapeless,cyan_dye; candle,2
+1645,purple_candle,1,shapeless,purple_dye; candle,2
+1646,blue_candle,1,shapeless,blue_dye; candle,2
+1647,diamond,9,shapeless,diamond_block,1
+1648,brown_candle,1,shapeless,brown_dye; candle,2
+1649,emerald,9,shapeless,emerald_block,1
+1650,green_candle,1,shapeless,green_dye; candle,2
+1651,lapis_lazuli,9,shapeless,lapis_block,1
+1652,red_candle,1,shapeless,red_dye; candle,2
+1653,black_candle,1,shapeless,black_dye; candle,2
+1654,raw_iron,9,shapeless,raw_iron_block,1
+1655,raw_copper,9,shapeless,raw_copper_block,1
+1656,raw_gold,9,shapeless,raw_gold_block,1
+1657,waxed_copper_bars,1,shapeless,copper_bars; honeycomb,2
+1658,waxed_exposed_copper_bars,1,shapeless,exposed_copper_bars; honeycomb,2
+1659,netherite_ingot,1,shapeless,gold_ingot; netherite_scrap,2
+1660,netherite_ingot,9,shapeless,netherite_block,1
+1661,waxed_weathered_copper_bars,1,shapeless,weathered_copper_bars; honeycomb,2
+1662,waxed_oxidized_copper_bars,1,shapeless,oxidized_copper_bars; honeycomb,2
+1663,waxed_copper_chain,1,shapeless,copper_chain; honeycomb,2
+1664,waxed_exposed_copper_chain,1,shapeless,exposed_copper_chain; honeycomb,2
+1665,waxed_weathered_copper_chain,1,shapeless,weathered_copper_chain; honeycomb,2
+1666,waxed_oxidized_copper_chain,1,shapeless,oxidized_copper_chain; honeycomb,2
+1667,melon,1,shapeless,melon_slice,1
+1668,resin_clump,9,shapeless,resin_block,1
+1669,mushroom_stew,1,shapeless,brown_mushroom; red_mushroom; bowl,3
+1670,wheat,9,shapeless,hay_block,1
+1671,waxed_copper_chest,1,shapeless,honeycomb; copper_chest,2
+1672,waxed_exposed_copper_chest,1,shapeless,honeycomb; exposed_copper_chest,2
+1673,waxed_weathered_copper_chest,1,shapeless,honeycomb; weathered_copper_chest,2
+1674,waxed_oxidized_copper_chest,1,shapeless,honeycomb; oxidized_copper_chest,2
+1675,waxed_copper_golem_statue,1,shapeless,honeycomb; copper_golem_statue,2
+1676,waxed_exposed_copper_golem_statue,1,shapeless,honeycomb; exposed_copper_golem_statue,2
+1677,waxed_weathered_copper_golem_statue,1,shapeless,honeycomb; weathered_copper_golem_statue,2
+1678,waxed_oxidized_copper_golem_statue,1,shapeless,honeycomb; oxidized_copper_golem_statue,2
+1679,hay_block,1,shapeless,wheat,1

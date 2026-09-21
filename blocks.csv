@@ -1,0 +1,1167 @@
+block_id,name,display_name,hardness,resistance,stack_size,diggable,material,transparent,emit_light,filter_light,default_state,min_state_id,max_state_id
+0,air,Air,0.0,0.0,64,False,default,True,0,0,0,0,0
+1,stone,Stone,1.5,6.0,64,True,mineable/pickaxe,False,0,15,1,1,1
+2,granite,Granite,1.5,6.0,64,True,mineable/pickaxe,False,0,15,2,2,2
+3,polished_granite,Polished Granite,1.5,6.0,64,True,mineable/pickaxe,False,0,15,3,3,3
+4,diorite,Diorite,1.5,6.0,64,True,mineable/pickaxe,False,0,15,4,4,4
+5,polished_diorite,Polished Diorite,1.5,6.0,64,True,mineable/pickaxe,False,0,15,5,5,5
+6,andesite,Andesite,1.5,6.0,64,True,mineable/pickaxe,False,0,15,6,6,6
+7,polished_andesite,Polished Andesite,1.5,6.0,64,True,mineable/pickaxe,False,0,15,7,7,7
+8,grass_block,Grass Block,0.6,0.6,64,True,mineable/shovel,False,0,15,9,8,9
+9,dirt,Dirt,0.5,0.5,64,True,mineable/shovel,False,0,15,10,10,10
+10,coarse_dirt,Coarse Dirt,0.5,0.5,64,True,mineable/shovel,False,0,15,11,11,11
+11,podzol,Podzol,0.5,0.5,64,True,mineable/shovel,False,0,15,13,12,13
+12,cobblestone,Cobblestone,2.0,6.0,64,True,mineable/pickaxe,False,0,15,14,14,14
+13,oak_planks,Oak Planks,2.0,3.0,64,True,mineable/axe,False,0,15,15,15,15
+14,spruce_planks,Spruce Planks,2.0,3.0,64,True,mineable/axe,False,0,15,16,16,16
+15,birch_planks,Birch Planks,2.0,3.0,64,True,mineable/axe,False,0,15,17,17,17
+16,jungle_planks,Jungle Planks,2.0,3.0,64,True,mineable/axe,False,0,15,18,18,18
+17,acacia_planks,Acacia Planks,2.0,3.0,64,True,mineable/axe,False,0,15,19,19,19
+18,cherry_planks,Cherry Planks,2.0,3.0,64,True,mineable/axe,False,0,15,20,20,20
+19,dark_oak_planks,Dark Oak Planks,2.0,3.0,64,True,mineable/axe,False,0,15,21,21,21
+20,pale_oak_wood,Pale Oak Wood,2.0,2.0,64,True,mineable/axe,False,0,15,23,22,24
+21,pale_oak_planks,Pale Oak Planks,2.0,3.0,64,True,mineable/axe,False,0,15,25,25,25
+22,mangrove_planks,Mangrove Planks,2.0,3.0,64,True,mineable/axe,False,0,15,26,26,26
+23,bamboo_planks,Bamboo Planks,2.0,3.0,64,True,mineable/axe,False,0,15,27,27,27
+24,bamboo_mosaic,Bamboo Mosaic,2.0,3.0,64,True,mineable/axe,False,0,15,28,28,28
+25,oak_sapling,Oak Sapling,0.0,0.0,64,True,default,True,0,0,29,29,30
+26,spruce_sapling,Spruce Sapling,0.0,0.0,64,True,default,True,0,0,31,31,32
+27,birch_sapling,Birch Sapling,0.0,0.0,64,True,default,True,0,0,33,33,34
+28,jungle_sapling,Jungle Sapling,0.0,0.0,64,True,default,True,0,0,35,35,36
+29,acacia_sapling,Acacia Sapling,0.0,0.0,64,True,default,True,0,0,37,37,38
+30,cherry_sapling,Cherry Sapling,0.0,0.0,64,True,default,True,0,0,39,39,40
+31,dark_oak_sapling,Dark Oak Sapling,0.0,0.0,64,True,default,True,0,0,41,41,42
+32,pale_oak_sapling,Pale Oak Sapling,0.0,0.0,64,True,default,True,0,0,43,43,44
+33,mangrove_propagule,Mangrove Propagule,0.0,0.0,64,True,default,True,0,0,50,45,84
+34,bedrock,Bedrock,-1.0,3600000.0,64,False,default,False,0,15,85,85,85
+35,water,Water,100.0,100.0,64,True,default,True,0,1,86,86,101
+36,lava,Lava,100.0,100.0,64,True,default,True,15,1,102,102,117
+37,sand,Sand,0.5,0.5,64,True,mineable/shovel,False,0,15,118,118,118
+38,suspicious_sand,Suspicious Sand,0.25,0.25,64,True,mineable/shovel,False,0,15,119,119,122
+39,red_sand,Red Sand,0.5,0.5,64,True,mineable/shovel,False,0,15,123,123,123
+40,gravel,Gravel,0.6,0.6,64,True,mineable/shovel,False,0,15,124,124,124
+41,suspicious_gravel,Suspicious Gravel,0.25,0.25,64,True,mineable/shovel,False,0,15,125,125,128
+42,gold_ore,Gold Ore,3.0,3.0,64,True,incorrect_for_wooden_tool,False,0,15,129,129,129
+43,deepslate_gold_ore,Deepslate Gold Ore,4.5,3.0,64,True,incorrect_for_wooden_tool,False,0,15,130,130,130
+44,iron_ore,Iron Ore,3.0,3.0,64,True,incorrect_for_wooden_tool,False,0,15,131,131,131
+45,deepslate_iron_ore,Deepslate Iron Ore,4.5,3.0,64,True,incorrect_for_wooden_tool,False,0,15,132,132,132
+46,coal_ore,Coal Ore,3.0,3.0,64,True,mineable/pickaxe,False,0,15,133,133,133
+47,deepslate_coal_ore,Deepslate Coal Ore,4.5,3.0,64,True,mineable/pickaxe,False,0,15,134,134,134
+48,nether_gold_ore,Nether Gold Ore,3.0,3.0,64,True,mineable/pickaxe,False,0,15,135,135,135
+49,oak_log,Oak Log,2.0,2.0,64,True,mineable/axe,False,0,15,137,136,138
+50,spruce_log,Spruce Log,2.0,2.0,64,True,mineable/axe,False,0,15,140,139,141
+51,birch_log,Birch Log,2.0,2.0,64,True,mineable/axe,False,0,15,143,142,144
+52,jungle_log,Jungle Log,2.0,2.0,64,True,mineable/axe,False,0,15,146,145,147
+53,acacia_log,Acacia Log,2.0,2.0,64,True,mineable/axe,False,0,15,149,148,150
+54,cherry_log,Cherry Log,2.0,2.0,64,True,mineable/axe,False,0,15,152,151,153
+55,dark_oak_log,Dark Oak Log,2.0,2.0,64,True,mineable/axe,False,0,15,155,154,156
+56,pale_oak_log,Pale Oak Log,2.0,2.0,64,True,mineable/axe,False,0,15,158,157,159
+57,mangrove_log,Mangrove Log,2.0,2.0,64,True,mineable/axe,False,0,15,161,160,162
+58,mangrove_roots,Mangrove Roots,0.7,0.7,64,True,mineable/axe,True,0,1,164,163,164
+59,muddy_mangrove_roots,Muddy Mangrove Roots,0.7,0.7,64,True,mineable/shovel,False,0,15,166,165,167
+60,bamboo_block,Block of Bamboo,2.0,2.0,64,True,mineable/axe,False,0,15,169,168,170
+61,stripped_spruce_log,Stripped Spruce Log,2.0,2.0,64,True,mineable/axe,False,0,15,172,171,173
+62,stripped_birch_log,Stripped Birch Log,2.0,2.0,64,True,mineable/axe,False,0,15,175,174,176
+63,stripped_jungle_log,Stripped Jungle Log,2.0,2.0,64,True,mineable/axe,False,0,15,178,177,179
+64,stripped_acacia_log,Stripped Acacia Log,2.0,2.0,64,True,mineable/axe,False,0,15,181,180,182
+65,stripped_cherry_log,Stripped Cherry Log,2.0,2.0,64,True,mineable/axe,False,0,15,184,183,185
+66,stripped_dark_oak_log,Stripped Dark Oak Log,2.0,2.0,64,True,mineable/axe,False,0,15,187,186,188
+67,stripped_pale_oak_log,Stripped Pale Oak Log,2.0,2.0,64,True,mineable/axe,False,0,15,190,189,191
+68,stripped_oak_log,Stripped Oak Log,2.0,2.0,64,True,mineable/axe,False,0,15,193,192,194
+69,stripped_mangrove_log,Stripped Mangrove Log,2.0,2.0,64,True,mineable/axe,False,0,15,196,195,197
+70,stripped_bamboo_block,Block of Stripped Bamboo,2.0,2.0,64,True,mineable/axe,False,0,15,199,198,200
+71,oak_wood,Oak Wood,2.0,2.0,64,True,mineable/axe,False,0,15,202,201,203
+72,spruce_wood,Spruce Wood,2.0,2.0,64,True,mineable/axe,False,0,15,205,204,206
+73,birch_wood,Birch Wood,2.0,2.0,64,True,mineable/axe,False,0,15,208,207,209
+74,jungle_wood,Jungle Wood,2.0,2.0,64,True,mineable/axe,False,0,15,211,210,212
+75,acacia_wood,Acacia Wood,2.0,2.0,64,True,mineable/axe,False,0,15,214,213,215
+76,cherry_wood,Cherry Wood,2.0,2.0,64,True,mineable/axe,False,0,15,217,216,218
+77,dark_oak_wood,Dark Oak Wood,2.0,2.0,64,True,mineable/axe,False,0,15,220,219,221
+78,mangrove_wood,Mangrove Wood,2.0,2.0,64,True,mineable/axe,False,0,15,223,222,224
+79,stripped_oak_wood,Stripped Oak Wood,2.0,2.0,64,True,mineable/axe,False,0,15,226,225,227
+80,stripped_spruce_wood,Stripped Spruce Wood,2.0,2.0,64,True,mineable/axe,False,0,15,229,228,230
+81,stripped_birch_wood,Stripped Birch Wood,2.0,2.0,64,True,mineable/axe,False,0,15,232,231,233
+82,stripped_jungle_wood,Stripped Jungle Wood,2.0,2.0,64,True,mineable/axe,False,0,15,235,234,236
+83,stripped_acacia_wood,Stripped Acacia Wood,2.0,2.0,64,True,mineable/axe,False,0,15,238,237,239
+84,stripped_cherry_wood,Stripped Cherry Wood,2.0,2.0,64,True,mineable/axe,False,0,15,241,240,242
+85,stripped_dark_oak_wood,Stripped Dark Oak Wood,2.0,2.0,64,True,mineable/axe,False,0,15,244,243,245
+86,stripped_pale_oak_wood,Stripped Pale Oak Wood,2.0,2.0,64,True,mineable/axe,False,0,15,247,246,248
+87,stripped_mangrove_wood,Stripped Mangrove Wood,2.0,2.0,64,True,mineable/axe,False,0,15,250,249,251
+88,oak_leaves,Oak Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,279,252,279
+89,spruce_leaves,Spruce Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,307,280,307
+90,birch_leaves,Birch Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,335,308,335
+91,jungle_leaves,Jungle Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,363,336,363
+92,acacia_leaves,Acacia Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,391,364,391
+93,cherry_leaves,Cherry Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,419,392,419
+94,dark_oak_leaves,Dark Oak Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,447,420,447
+95,pale_oak_leaves,Pale Oak Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,475,448,475
+96,mangrove_leaves,Mangrove Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,503,476,503
+97,azalea_leaves,Azalea Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,531,504,531
+98,flowering_azalea_leaves,Flowering Azalea Leaves,0.2,0.2,64,True,leaves;mineable/hoe,True,0,1,559,532,559
+99,sponge,Sponge,0.6,0.6,64,True,mineable/hoe,False,0,15,560,560,560
+100,wet_sponge,Wet Sponge,0.6,0.6,64,True,mineable/hoe,False,0,15,561,561,561
+101,glass,Glass,0.3,0.3,64,True,default,True,0,0,562,562,562
+102,lapis_ore,Lapis Lazuli Ore,3.0,3.0,64,True,incorrect_for_wooden_tool,False,0,15,563,563,563
+103,deepslate_lapis_ore,Deepslate Lapis Lazuli Ore,4.5,3.0,64,True,incorrect_for_wooden_tool,False,0,15,564,564,564
+104,lapis_block,Block of Lapis Lazuli,3.0,3.0,64,True,incorrect_for_wooden_tool,False,0,15,565,565,565
+105,dispenser,Dispenser,3.5,3.5,64,True,mineable/pickaxe,False,0,15,567,566,577
+106,sandstone,Sandstone,0.8,0.8,64,True,mineable/pickaxe,False,0,15,578,578,578
+107,chiseled_sandstone,Chiseled Sandstone,0.8,0.8,64,True,mineable/pickaxe,False,0,15,579,579,579
+108,cut_sandstone,Cut Sandstone,0.8,0.8,64,True,mineable/pickaxe,False,0,15,580,580,580
+109,note_block,Note Block,0.8,0.8,64,True,mineable/axe,False,0,15,582,581,1730
+110,white_bed,White Bed,0.2,0.2,1,True,default,True,0,0,1734,1731,1746
+111,orange_bed,Orange Bed,0.2,0.2,1,True,default,True,0,0,1750,1747,1762
+112,magenta_bed,Magenta Bed,0.2,0.2,1,True,default,True,0,0,1766,1763,1778
+113,light_blue_bed,Light Blue Bed,0.2,0.2,1,True,default,True,0,0,1782,1779,1794
+114,yellow_bed,Yellow Bed,0.2,0.2,1,True,default,True,0,0,1798,1795,1810
+115,lime_bed,Lime Bed,0.2,0.2,1,True,default,True,0,0,1814,1811,1826
+116,pink_bed,Pink Bed,0.2,0.2,1,True,default,True,0,0,1830,1827,1842
+117,gray_bed,Gray Bed,0.2,0.2,1,True,default,True,0,0,1846,1843,1858
+118,light_gray_bed,Light Gray Bed,0.2,0.2,1,True,default,True,0,0,1862,1859,1874
+119,cyan_bed,Cyan Bed,0.2,0.2,1,True,default,True,0,0,1878,1875,1890
+120,purple_bed,Purple Bed,0.2,0.2,1,True,default,True,0,0,1894,1891,1906
+121,blue_bed,Blue Bed,0.2,0.2,1,True,default,True,0,0,1910,1907,1922
+122,brown_bed,Brown Bed,0.2,0.2,1,True,default,True,0,0,1926,1923,1938
+123,green_bed,Green Bed,0.2,0.2,1,True,default,True,0,0,1942,1939,1954
+124,red_bed,Red Bed,0.2,0.2,1,True,default,True,0,0,1958,1955,1970
+125,black_bed,Black Bed,0.2,0.2,1,True,default,True,0,0,1974,1971,1986
+126,powered_rail,Powered Rail,0.7,0.7,64,True,mineable/pickaxe,True,0,0,2000,1987,2010
+127,detector_rail,Detector Rail,0.7,0.7,64,True,mineable/pickaxe,True,0,0,2024,2011,2034
+128,sticky_piston,Sticky Piston,1.5,1.5,64,True,mineable/pickaxe,False,0,15,2041,2035,2046
+129,cobweb,Cobweb,4.0,4.0,64,True,coweb,True,0,1,2047,2047,2047
+130,short_grass,Short Grass,0.0,0.0,64,True,default,True,0,0,2048,2048,2048
+131,fern,Fern,0.0,0.0,64,True,default,True,0,0,2049,2049,2049
+132,dead_bush,Dead Bush,0.0,0.0,64,True,default,True,0,0,2050,2050,2050
+133,bush,Bush,0.0,0.0,64,True,default,True,0,0,2051,2051,2051
+134,short_dry_grass,Short Dry Grass,0.0,0.0,64,True,default,True,0,0,2052,2052,2052
+135,tall_dry_grass,Tall Dry Grass,0.0,0.0,64,True,default,True,0,0,2053,2053,2053
+136,seagrass,Seagrass,0.0,0.0,64,True,default,True,0,1,2054,2054,2054
+137,tall_seagrass,Tall Seagrass,0.0,0.0,64,True,default,True,0,1,2056,2055,2056
+138,piston,Piston,1.5,1.5,64,True,mineable/pickaxe,False,0,15,2063,2057,2068
+139,piston_head,Piston Head,1.5,1.5,64,True,mineable/pickaxe,False,0,0,2071,2069,2092
+140,white_wool,White Wool,0.8,0.8,64,True,wool,False,0,15,2093,2093,2093
+141,orange_wool,Orange Wool,0.8,0.8,64,True,wool,False,0,15,2094,2094,2094
+142,magenta_wool,Magenta Wool,0.8,0.8,64,True,wool,False,0,15,2095,2095,2095
+143,light_blue_wool,Light Blue Wool,0.8,0.8,64,True,wool,False,0,15,2096,2096,2096
+144,yellow_wool,Yellow Wool,0.8,0.8,64,True,wool,False,0,15,2097,2097,2097
+145,lime_wool,Lime Wool,0.8,0.8,64,True,wool,False,0,15,2098,2098,2098
+146,pink_wool,Pink Wool,0.8,0.8,64,True,wool,False,0,15,2099,2099,2099
+147,gray_wool,Gray Wool,0.8,0.8,64,True,wool,False,0,15,2100,2100,2100
+148,light_gray_wool,Light Gray Wool,0.8,0.8,64,True,wool,False,0,15,2101,2101,2101
+149,cyan_wool,Cyan Wool,0.8,0.8,64,True,wool,False,0,15,2102,2102,2102
+150,purple_wool,Purple Wool,0.8,0.8,64,True,wool,False,0,15,2103,2103,2103
+151,blue_wool,Blue Wool,0.8,0.8,64,True,wool,False,0,15,2104,2104,2104
+152,brown_wool,Brown Wool,0.8,0.8,64,True,wool,False,0,15,2105,2105,2105
+153,green_wool,Green Wool,0.8,0.8,64,True,wool,False,0,15,2106,2106,2106
+154,red_wool,Red Wool,0.8,0.8,64,True,wool,False,0,15,2107,2107,2107
+155,black_wool,Black Wool,0.8,0.8,64,True,wool,False,0,15,2108,2108,2108
+156,moving_piston,Moving Piston,-1.0,0.0,64,False,default,True,0,0,2109,2109,2120
+157,dandelion,Dandelion,0.0,0.0,64,True,default,True,0,0,2121,2121,2121
+158,torchflower,Torchflower,0.0,0.0,64,True,default,True,0,0,2122,2122,2122
+159,poppy,Poppy,0.0,0.0,64,True,default,True,0,0,2123,2123,2123
+160,blue_orchid,Blue Orchid,0.0,0.0,64,True,default,True,0,0,2124,2124,2124
+161,allium,Allium,0.0,0.0,64,True,default,True,0,0,2125,2125,2125
+162,azure_bluet,Azure Bluet,0.0,0.0,64,True,default,True,0,0,2126,2126,2126
+163,red_tulip,Red Tulip,0.0,0.0,64,True,default,True,0,0,2127,2127,2127
+164,orange_tulip,Orange Tulip,0.0,0.0,64,True,default,True,0,0,2128,2128,2128
+165,white_tulip,White Tulip,0.0,0.0,64,True,default,True,0,0,2129,2129,2129
+166,pink_tulip,Pink Tulip,0.0,0.0,64,True,default,True,0,0,2130,2130,2130
+167,oxeye_daisy,Oxeye Daisy,0.0,0.0,64,True,default,True,0,0,2131,2131,2131
+168,cornflower,Cornflower,0.0,0.0,64,True,default,True,0,0,2132,2132,2132
+169,wither_rose,Wither Rose,0.0,0.0,64,True,default,True,0,0,2133,2133,2133
+170,lily_of_the_valley,Lily of the Valley,0.0,0.0,64,True,default,True,0,0,2134,2134,2134
+171,brown_mushroom,Brown Mushroom,0.0,0.0,64,True,default,True,1,0,2135,2135,2135
+172,red_mushroom,Red Mushroom,0.0,0.0,64,True,default,True,0,0,2136,2136,2136
+173,gold_block,Block of Gold,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,2137,2137,2137
+174,iron_block,Block of Iron,5.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,2138,2138,2138
+175,bricks,Bricks,2.0,6.0,64,True,mineable/pickaxe,False,0,15,2139,2139,2139
+176,tnt,TNT,0.0,0.0,64,True,default,False,0,15,2141,2140,2141
+177,bookshelf,Bookshelf,1.5,1.5,64,True,mineable/axe,False,0,15,2142,2142,2142
+178,chiseled_bookshelf,Chiseled Bookshelf,1.5,1.5,64,True,mineable/axe,False,0,15,2206,2143,2398
+179,acacia_shelf,Acacia Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2408,2399,2462
+180,bamboo_shelf,Bamboo Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2472,2463,2526
+181,birch_shelf,Birch Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2536,2527,2590
+182,cherry_shelf,Cherry Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2600,2591,2654
+183,crimson_shelf,Crimson Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2664,2655,2718
+184,dark_oak_shelf,Dark Oak Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2728,2719,2782
+185,jungle_shelf,Jungle Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2792,2783,2846
+186,mangrove_shelf,Mangrove Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2856,2847,2910
+187,oak_shelf,Oak Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2920,2911,2974
+188,pale_oak_shelf,Pale Oak Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,2984,2975,3038
+189,spruce_shelf,Spruce Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,3048,3039,3102
+190,warped_shelf,Warped Shelf,2.0,3.0,64,True,mineable/axe,False,0,0,3112,3103,3166
+191,mossy_cobblestone,Mossy Cobblestone,2.0,6.0,64,True,mineable/pickaxe,False,0,15,3167,3167,3167
+192,obsidian,Obsidian,50.0,1200.0,64,True,incorrect_for_wooden_tool,False,0,15,3168,3168,3168
+193,torch,Torch,0.0,0.0,64,True,default,True,14,0,3169,3169,3169
+194,wall_torch,Torch,0.0,0.0,64,True,default,True,14,0,3170,3170,3173
+195,fire,Fire,0.0,0.0,64,True,default,True,15,0,3205,3174,3685
+196,soul_fire,Soul Fire,0.0,0.0,64,True,default,True,10,0,3686,3686,3686
+197,spawner,Monster Spawner,5.0,5.0,64,True,mineable/pickaxe,True,0,1,3687,3687,3687
+198,creaking_heart,Creaking Heart,10.0,10.0,64,True,mineable/axe,False,0,15,3695,3688,3705
+199,oak_stairs,Oak Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,3717,3706,3785
+200,chest,Chest,2.5,2.5,64,True,mineable/axe,False,0,0,3787,3786,3809
+201,redstone_wire,Redstone Wire,0.0,0.0,64,True,default,True,0,0,4970,3810,5105
+202,diamond_ore,Diamond Ore,3.0,3.0,64,True,incorrect_for_wooden_tool,False,0,15,5106,5106,5106
+203,deepslate_diamond_ore,Deepslate Diamond Ore,4.5,3.0,64,True,incorrect_for_wooden_tool,False,0,15,5107,5107,5107
+204,diamond_block,Block of Diamond,5.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,5108,5108,5108
+205,crafting_table,Crafting Table,2.5,2.5,64,True,mineable/axe,False,0,15,5109,5109,5109
+206,wheat,Wheat Crops,0.0,0.0,64,True,default,True,0,0,5110,5110,5117
+207,farmland,Farmland,0.6,0.6,64,True,mineable/shovel,False,0,0,5118,5118,5125
+208,furnace,Furnace,3.5,3.5,64,True,mineable/pickaxe,False,0,15,5127,5126,5133
+209,oak_sign,Oak Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5135,5134,5165
+210,spruce_sign,Spruce Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5167,5166,5197
+211,birch_sign,Birch Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5199,5198,5229
+212,acacia_sign,Acacia Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5231,5230,5261
+213,cherry_sign,Cherry Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5263,5262,5293
+214,jungle_sign,Jungle Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5295,5294,5325
+215,dark_oak_sign,Dark Oak Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5327,5326,5357
+216,pale_oak_sign,Pale Oak Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5359,5358,5389
+217,mangrove_sign,Mangrove Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5391,5390,5421
+218,bamboo_sign,Bamboo Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5423,5422,5453
+219,oak_door,Oak Door,3.0,3.0,64,True,mineable/axe,True,0,0,5465,5454,5517
+220,ladder,Ladder,0.4,0.4,64,True,mineable/axe,True,0,0,5519,5518,5525
+221,rail,Rail,0.7,0.7,64,True,mineable/pickaxe,True,0,0,5527,5526,5545
+222,cobblestone_stairs,Cobblestone Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,5557,5546,5625
+223,oak_wall_sign,Oak Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5627,5626,5633
+224,spruce_wall_sign,Spruce Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5635,5634,5641
+225,birch_wall_sign,Birch Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5643,5642,5649
+226,acacia_wall_sign,Acacia Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5651,5650,5657
+227,cherry_wall_sign,Cherry Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5659,5658,5665
+228,jungle_wall_sign,Jungle Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5667,5666,5673
+229,dark_oak_wall_sign,Dark Oak Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5675,5674,5681
+230,pale_oak_wall_sign,Pale Oak Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5683,5682,5689
+231,mangrove_wall_sign,Mangrove Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5691,5690,5697
+232,bamboo_wall_sign,Bamboo Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5699,5698,5705
+233,oak_hanging_sign,Oak Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5739,5706,5769
+234,spruce_hanging_sign,Spruce Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5803,5770,5833
+235,birch_hanging_sign,Birch Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5867,5834,5897
+236,acacia_hanging_sign,Acacia Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5931,5898,5961
+237,cherry_hanging_sign,Cherry Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,5995,5962,6025
+238,jungle_hanging_sign,Jungle Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6059,6026,6089
+239,dark_oak_hanging_sign,Dark Oak Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6123,6090,6153
+240,pale_oak_hanging_sign,Pale Oak Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6187,6154,6217
+241,crimson_hanging_sign,Crimson Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6251,6218,6281
+242,warped_hanging_sign,Warped Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6315,6282,6345
+243,mangrove_hanging_sign,Mangrove Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6379,6346,6409
+244,bamboo_hanging_sign,Bamboo Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6443,6410,6473
+245,oak_wall_hanging_sign,Oak Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6475,6474,6481
+246,spruce_wall_hanging_sign,Spruce Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6483,6482,6489
+247,birch_wall_hanging_sign,Birch Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6491,6490,6497
+248,acacia_wall_hanging_sign,Acacia Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6499,6498,6505
+249,cherry_wall_hanging_sign,Cherry Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6507,6506,6513
+250,jungle_wall_hanging_sign,Jungle Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6515,6514,6521
+251,dark_oak_wall_hanging_sign,Dark Oak Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6523,6522,6529
+252,pale_oak_wall_hanging_sign,Pale Oak Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6531,6530,6537
+253,mangrove_wall_hanging_sign,Mangrove Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6539,6538,6545
+254,crimson_wall_hanging_sign,Crimson Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6547,6546,6553
+255,warped_wall_hanging_sign,Warped Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6555,6554,6561
+256,bamboo_wall_hanging_sign,Bamboo Hanging Sign,1.0,1.0,16,True,mineable/axe,True,0,0,6563,6562,6569
+257,lever,Lever,0.5,0.5,64,True,default,True,0,0,6579,6570,6593
+258,stone_pressure_plate,Stone Pressure Plate,0.5,0.5,64,True,mineable/pickaxe,True,0,0,6595,6594,6595
+259,iron_door,Iron Door,5.0,5.0,64,True,mineable/pickaxe,True,0,0,6607,6596,6659
+260,oak_pressure_plate,Oak Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6661,6660,6661
+261,spruce_pressure_plate,Spruce Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6663,6662,6663
+262,birch_pressure_plate,Birch Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6665,6664,6665
+263,jungle_pressure_plate,Jungle Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6667,6666,6667
+264,acacia_pressure_plate,Acacia Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6669,6668,6669
+265,cherry_pressure_plate,Cherry Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6671,6670,6671
+266,dark_oak_pressure_plate,Dark Oak Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6673,6672,6673
+267,pale_oak_pressure_plate,Pale Oak Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6675,6674,6675
+268,mangrove_pressure_plate,Mangrove Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6677,6676,6677
+269,bamboo_pressure_plate,Bamboo Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,6679,6678,6679
+270,redstone_ore,Redstone Ore,3.0,3.0,64,True,incorrect_for_wooden_tool,False,0,15,6681,6680,6681
+271,deepslate_redstone_ore,Deepslate Redstone Ore,4.5,3.0,64,True,incorrect_for_wooden_tool,False,0,15,6683,6682,6683
+272,redstone_torch,Redstone Torch,0.0,0.0,64,True,default,True,7,0,6684,6684,6685
+273,redstone_wall_torch,Redstone Torch,0.0,0.0,64,True,default,True,7,0,6686,6686,6693
+274,stone_button,Stone Button,0.5,0.5,64,True,mineable/pickaxe,True,0,0,6703,6694,6717
+275,snow,Snow,0.1,0.1,64,True,mineable/shovel,False,0,0,6718,6718,6725
+276,ice,Ice,0.5,0.5,64,True,mineable/pickaxe,True,0,1,6726,6726,6726
+277,snow_block,Snow Block,0.2,0.2,64,True,mineable/shovel,False,0,15,6727,6727,6727
+278,cactus,Cactus,0.4,0.4,64,True,default,False,0,0,6728,6728,6743
+279,cactus_flower,Cactus Flower,0.0,0.0,64,True,default,True,0,0,6744,6744,6744
+280,clay,Clay,0.6,0.6,64,True,mineable/shovel,False,0,15,6745,6745,6745
+281,sugar_cane,Sugar Cane,0.0,0.0,64,True,default,True,0,0,6746,6746,6761
+282,jukebox,Jukebox,2.0,6.0,64,True,mineable/axe,False,0,15,6763,6762,6763
+283,oak_fence,Oak Fence,2.0,3.0,64,True,mineable/axe,False,0,0,6795,6764,6795
+284,netherrack,Netherrack,0.4,0.4,64,True,mineable/pickaxe,False,0,15,6796,6796,6796
+285,soul_sand,Soul Sand,0.5,0.5,64,True,mineable/shovel,False,0,15,6797,6797,6797
+286,soul_soil,Soul Soil,0.5,0.5,64,True,mineable/shovel,False,0,15,6798,6798,6798
+287,basalt,Basalt,1.25,4.2,64,True,mineable/pickaxe,False,0,15,6800,6799,6801
+288,polished_basalt,Polished Basalt,1.25,4.2,64,True,mineable/pickaxe,False,0,15,6803,6802,6804
+289,soul_torch,Soul Torch,0.0,0.0,64,True,default,True,10,0,6805,6805,6805
+290,soul_wall_torch,Soul Torch,0.0,0.0,64,True,default,True,10,0,6806,6806,6809
+291,copper_torch,Copper Torch,0.0,0.0,64,True,default,True,14,0,6810,6810,6810
+292,copper_wall_torch,Copper Torch,0.0,0.0,64,True,default,True,14,0,6811,6811,6814
+293,glowstone,Glowstone,0.3,0.3,64,True,default,False,15,15,6815,6815,6815
+294,nether_portal,Nether Portal,-1.0,0.0,64,False,default,True,11,0,6816,6816,6817
+295,carved_pumpkin,Carved Pumpkin,1.0,1.0,64,True,plant;mineable/axe,False,0,15,6818,6818,6821
+296,jack_o_lantern,Jack o'Lantern,1.0,1.0,64,True,gourd;mineable/axe,False,15,15,6822,6822,6825
+297,cake,Cake,0.5,0.5,1,True,default,False,0,0,6826,6826,6832
+298,repeater,Redstone Repeater,0.0,0.0,64,True,default,False,0,0,6836,6833,6896
+299,white_stained_glass,White Stained Glass,0.3,0.3,64,True,default,True,0,0,6897,6897,6897
+300,orange_stained_glass,Orange Stained Glass,0.3,0.3,64,True,default,True,0,0,6898,6898,6898
+301,magenta_stained_glass,Magenta Stained Glass,0.3,0.3,64,True,default,True,0,0,6899,6899,6899
+302,light_blue_stained_glass,Light Blue Stained Glass,0.3,0.3,64,True,default,True,0,0,6900,6900,6900
+303,yellow_stained_glass,Yellow Stained Glass,0.3,0.3,64,True,default,True,0,0,6901,6901,6901
+304,lime_stained_glass,Lime Stained Glass,0.3,0.3,64,True,default,True,0,0,6902,6902,6902
+305,pink_stained_glass,Pink Stained Glass,0.3,0.3,64,True,default,True,0,0,6903,6903,6903
+306,gray_stained_glass,Gray Stained Glass,0.3,0.3,64,True,default,True,0,0,6904,6904,6904
+307,light_gray_stained_glass,Light Gray Stained Glass,0.3,0.3,64,True,default,True,0,0,6905,6905,6905
+308,cyan_stained_glass,Cyan Stained Glass,0.3,0.3,64,True,default,True,0,0,6906,6906,6906
+309,purple_stained_glass,Purple Stained Glass,0.3,0.3,64,True,default,True,0,0,6907,6907,6907
+310,blue_stained_glass,Blue Stained Glass,0.3,0.3,64,True,default,True,0,0,6908,6908,6908
+311,brown_stained_glass,Brown Stained Glass,0.3,0.3,64,True,default,True,0,0,6909,6909,6909
+312,green_stained_glass,Green Stained Glass,0.3,0.3,64,True,default,True,0,0,6910,6910,6910
+313,red_stained_glass,Red Stained Glass,0.3,0.3,64,True,default,True,0,0,6911,6911,6911
+314,black_stained_glass,Black Stained Glass,0.3,0.3,64,True,default,True,0,0,6912,6912,6912
+315,oak_trapdoor,Oak Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,6928,6913,6976
+316,spruce_trapdoor,Spruce Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,6992,6977,7040
+317,birch_trapdoor,Birch Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,7056,7041,7104
+318,jungle_trapdoor,Jungle Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,7120,7105,7168
+319,acacia_trapdoor,Acacia Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,7184,7169,7232
+320,cherry_trapdoor,Cherry Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,7248,7233,7296
+321,dark_oak_trapdoor,Dark Oak Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,7312,7297,7360
+322,pale_oak_trapdoor,Pale Oak Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,7376,7361,7424
+323,mangrove_trapdoor,Mangrove Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,7440,7425,7488
+324,bamboo_trapdoor,Bamboo Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,7504,7489,7552
+325,stone_bricks,Stone Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,7553,7553,7553
+326,mossy_stone_bricks,Mossy Stone Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,7554,7554,7554
+327,cracked_stone_bricks,Cracked Stone Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,7555,7555,7555
+328,chiseled_stone_bricks,Chiseled Stone Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,7556,7556,7556
+329,packed_mud,Packed Mud,1.0,3.0,64,True,mineable/pickaxe,False,0,15,7557,7557,7557
+330,mud_bricks,Mud Bricks,1.5,3.0,64,True,mineable/pickaxe,False,0,15,7558,7558,7558
+331,infested_stone,Infested Stone,0.75,0.75,64,True,mineable/pickaxe,False,0,15,7559,7559,7559
+332,infested_cobblestone,Infested Cobblestone,1.0,0.75,64,True,mineable/pickaxe,False,0,15,7560,7560,7560
+333,infested_stone_bricks,Infested Stone Bricks,0.75,0.75,64,True,mineable/pickaxe,False,0,15,7561,7561,7561
+334,infested_mossy_stone_bricks,Infested Mossy Stone Bricks,0.75,0.75,64,True,mineable/pickaxe,False,0,15,7562,7562,7562
+335,infested_cracked_stone_bricks,Infested Cracked Stone Bricks,0.75,0.75,64,True,mineable/pickaxe,False,0,15,7563,7563,7563
+336,infested_chiseled_stone_bricks,Infested Chiseled Stone Bricks,0.75,0.75,64,True,mineable/pickaxe,False,0,15,7564,7564,7564
+337,brown_mushroom_block,Brown Mushroom Block,0.2,0.2,64,True,mineable/axe,False,0,15,7565,7565,7628
+338,red_mushroom_block,Red Mushroom Block,0.2,0.2,64,True,mineable/axe,False,0,15,7629,7629,7692
+339,mushroom_stem,Mushroom Stem,0.2,0.2,64,True,mineable/axe,False,0,15,7693,7693,7756
+340,iron_bars,Iron Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,7788,7757,7788
+341,copper_bars,Copper Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,7820,7789,7820
+342,exposed_copper_bars,Exposed Copper Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,7852,7821,7852
+343,weathered_copper_bars,Weathered Copper Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,7884,7853,7884
+344,oxidized_copper_bars,Oxidized Copper Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,7916,7885,7916
+345,waxed_copper_bars,Waxed Copper Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,7948,7917,7948
+346,waxed_exposed_copper_bars,Waxed Exposed Copper Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,7980,7949,7980
+347,waxed_weathered_copper_bars,Waxed Weathered Copper Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8012,7981,8012
+348,waxed_oxidized_copper_bars,Waxed Oxidized Copper Bars,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8044,8013,8044
+349,iron_chain,Iron Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8048,8045,8050
+350,copper_chain,Copper Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8054,8051,8056
+351,exposed_copper_chain,Exposed Copper Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8060,8057,8062
+352,weathered_copper_chain,Weathered Copper Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8066,8063,8068
+353,oxidized_copper_chain,Oxidized Copper Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8072,8069,8074
+354,waxed_copper_chain,Waxed Copper Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8078,8075,8080
+355,waxed_exposed_copper_chain,Waxed Exposed Copper Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8084,8081,8086
+356,waxed_weathered_copper_chain,Waxed Weathered Copper Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8090,8087,8092
+357,waxed_oxidized_copper_chain,Waxed Oxidized Copper Chain,5.0,6.0,64,True,mineable/pickaxe,True,0,0,8096,8093,8098
+358,glass_pane,Glass Pane,0.3,0.3,64,True,default,True,0,0,8130,8099,8130
+359,pumpkin,Pumpkin,1.0,1.0,64,True,gourd;mineable/axe,False,0,15,8131,8131,8131
+360,melon,Melon,1.0,1.0,64,True,gourd;mineable/axe,False,0,15,8132,8132,8132
+361,attached_pumpkin_stem,Attached Pumpkin Stem,0.0,0.0,64,True,default,True,0,0,8133,8133,8136
+362,attached_melon_stem,Attached Melon Stem,0.0,0.0,64,True,default,True,0,0,8137,8137,8140
+363,pumpkin_stem,Pumpkin Stem,0.0,0.0,64,True,default,True,0,0,8141,8141,8148
+364,melon_stem,Melon Stem,0.0,0.0,64,True,default,True,0,0,8149,8149,8156
+365,vine,Vines,0.2,0.2,64,True,vine_or_glow_lichen;plant;mineable/axe,True,0,0,8188,8157,8188
+366,glow_lichen,Glow Lichen,0.2,0.2,64,True,vine_or_glow_lichen;plant;mineable/axe,True,0,0,8316,8189,8316
+367,resin_clump,Resin Clump,0.0,0.0,64,True,default,True,0,1,8444,8317,8444
+368,oak_fence_gate,Oak Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,8452,8445,8476
+369,brick_stairs,Brick Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,8488,8477,8556
+370,stone_brick_stairs,Stone Brick Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,8568,8557,8636
+371,mud_brick_stairs,Mud Brick Stairs,1.5,3.0,64,True,mineable/pickaxe,False,0,0,8648,8637,8716
+372,mycelium,Mycelium,0.6,0.6,64,True,mineable/shovel,False,0,15,8718,8717,8718
+373,lily_pad,Lily Pad,0.0,0.0,64,True,default,True,0,0,8719,8719,8719
+374,resin_block,Block of Resin,0.0,0.0,64,True,default,False,0,15,8720,8720,8720
+375,resin_bricks,Resin Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,8721,8721,8721
+376,resin_brick_stairs,Resin Brick Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,8733,8722,8801
+377,resin_brick_slab,Resin Brick Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,8805,8802,8807
+378,resin_brick_wall,Resin Brick Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,8811,8808,9131
+379,chiseled_resin_bricks,Chiseled Resin Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,9132,9132,9132
+380,nether_bricks,Nether Bricks,2.0,6.0,64,True,mineable/pickaxe,False,0,15,9133,9133,9133
+381,nether_brick_fence,Nether Brick Fence,2.0,6.0,64,True,mineable/pickaxe,False,0,0,9165,9134,9165
+382,nether_brick_stairs,Nether Brick Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,9177,9166,9245
+383,nether_wart,Nether Wart,0.0,0.0,64,True,default,True,0,0,9246,9246,9249
+384,enchanting_table,Enchanting Table,5.0,1200.0,64,True,mineable/pickaxe,False,7,0,9250,9250,9250
+385,brewing_stand,Brewing Stand,0.5,0.5,64,True,mineable/pickaxe,True,1,0,9258,9251,9258
+386,cauldron,Cauldron,2.0,2.0,64,True,mineable/pickaxe,True,0,0,9259,9259,9259
+387,water_cauldron,Water Cauldron,2.0,2.0,64,True,mineable/pickaxe,True,0,0,9260,9260,9262
+388,lava_cauldron,Lava Cauldron,2.0,2.0,64,True,mineable/pickaxe,True,15,0,9263,9263,9263
+389,powder_snow_cauldron,Powder Snow Cauldron,2.0,2.0,64,True,mineable/pickaxe,True,0,0,9264,9264,9266
+390,end_portal,End Portal,-1.0,3600000.0,64,False,default,True,15,0,9267,9267,9267
+391,end_portal_frame,End Portal Frame,-1.0,3600000.0,64,False,default,False,1,0,9272,9268,9275
+392,end_stone,End Stone,3.0,9.0,64,True,mineable/pickaxe,False,0,15,9276,9276,9276
+393,dragon_egg,Dragon Egg,3.0,9.0,64,True,default,True,1,0,9277,9277,9277
+394,redstone_lamp,Redstone Lamp,0.3,0.3,64,True,default,False,0,15,9279,9278,9279
+395,cocoa,Cocoa,0.2,3.0,64,True,plant;mineable/axe,True,0,0,9280,9280,9291
+396,sandstone_stairs,Sandstone Stairs,0.8,0.8,64,True,mineable/pickaxe,False,0,0,9303,9292,9371
+397,emerald_ore,Emerald Ore,3.0,3.0,64,True,incorrect_for_wooden_tool,False,0,15,9372,9372,9372
+398,deepslate_emerald_ore,Deepslate Emerald Ore,4.5,3.0,64,True,incorrect_for_wooden_tool,False,0,15,9373,9373,9373
+399,ender_chest,Ender Chest,22.5,600.0,64,True,mineable/pickaxe,False,7,0,9375,9374,9381
+400,tripwire_hook,Tripwire Hook,0.0,0.0,64,True,default,True,0,0,9391,9382,9397
+401,tripwire,Tripwire,0.0,0.0,64,True,default,True,0,0,9525,9398,9525
+402,emerald_block,Block of Emerald,5.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,9526,9526,9526
+403,spruce_stairs,Spruce Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,9538,9527,9606
+404,birch_stairs,Birch Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,9618,9607,9686
+405,jungle_stairs,Jungle Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,9698,9687,9766
+406,command_block,Command Block,-1.0,3600000.0,64,False,default,False,0,15,9773,9767,9778
+407,beacon,Beacon,3.0,3.0,64,True,default,True,15,1,9779,9779,9779
+408,cobblestone_wall,Cobblestone Wall,2.0,6.0,64,True,mineable/pickaxe,False,0,0,9783,9780,10103
+409,mossy_cobblestone_wall,Mossy Cobblestone Wall,2.0,6.0,64,True,mineable/pickaxe,False,0,0,10107,10104,10427
+410,flower_pot,Flower Pot,0.0,0.0,64,True,default,True,0,0,10428,10428,10428
+411,potted_torchflower,Potted Torchflower,0.0,0.0,64,True,default,True,0,0,10429,10429,10429
+412,potted_oak_sapling,Potted Oak Sapling,0.0,0.0,64,True,default,True,0,0,10430,10430,10430
+413,potted_spruce_sapling,Potted Spruce Sapling,0.0,0.0,64,True,default,True,0,0,10431,10431,10431
+414,potted_birch_sapling,Potted Birch Sapling,0.0,0.0,64,True,default,True,0,0,10432,10432,10432
+415,potted_jungle_sapling,Potted Jungle Sapling,0.0,0.0,64,True,default,True,0,0,10433,10433,10433
+416,potted_acacia_sapling,Potted Acacia Sapling,0.0,0.0,64,True,default,True,0,0,10434,10434,10434
+417,potted_cherry_sapling,Potted Cherry Sapling,0.0,0.0,64,True,default,True,0,0,10435,10435,10435
+418,potted_dark_oak_sapling,Potted Dark Oak Sapling,0.0,0.0,64,True,default,True,0,0,10436,10436,10436
+419,potted_pale_oak_sapling,Potted Pale Oak Sapling,0.0,0.0,64,True,default,True,0,0,10437,10437,10437
+420,potted_mangrove_propagule,Potted Mangrove Propagule,0.0,0.0,64,True,default,True,0,0,10438,10438,10438
+421,potted_fern,Potted Fern,0.0,0.0,64,True,default,True,0,0,10439,10439,10439
+422,potted_dandelion,Potted Dandelion,0.0,0.0,64,True,default,True,0,0,10440,10440,10440
+423,potted_poppy,Potted Poppy,0.0,0.0,64,True,default,True,0,0,10441,10441,10441
+424,potted_blue_orchid,Potted Blue Orchid,0.0,0.0,64,True,default,True,0,0,10442,10442,10442
+425,potted_allium,Potted Allium,0.0,0.0,64,True,default,True,0,0,10443,10443,10443
+426,potted_azure_bluet,Potted Azure Bluet,0.0,0.0,64,True,default,True,0,0,10444,10444,10444
+427,potted_red_tulip,Potted Red Tulip,0.0,0.0,64,True,default,True,0,0,10445,10445,10445
+428,potted_orange_tulip,Potted Orange Tulip,0.0,0.0,64,True,default,True,0,0,10446,10446,10446
+429,potted_white_tulip,Potted White Tulip,0.0,0.0,64,True,default,True,0,0,10447,10447,10447
+430,potted_pink_tulip,Potted Pink Tulip,0.0,0.0,64,True,default,True,0,0,10448,10448,10448
+431,potted_oxeye_daisy,Potted Oxeye Daisy,0.0,0.0,64,True,default,True,0,0,10449,10449,10449
+432,potted_cornflower,Potted Cornflower,0.0,0.0,64,True,default,True,0,0,10450,10450,10450
+433,potted_lily_of_the_valley,Potted Lily of the Valley,0.0,0.0,64,True,default,True,0,0,10451,10451,10451
+434,potted_wither_rose,Potted Wither Rose,0.0,0.0,64,True,default,True,0,0,10452,10452,10452
+435,potted_red_mushroom,Potted Red Mushroom,0.0,0.0,64,True,default,True,0,0,10453,10453,10453
+436,potted_brown_mushroom,Potted Brown Mushroom,0.0,0.0,64,True,default,True,0,0,10454,10454,10454
+437,potted_dead_bush,Potted Dead Bush,0.0,0.0,64,True,default,True,0,0,10455,10455,10455
+438,potted_cactus,Potted Cactus,0.0,0.0,64,True,default,True,0,0,10456,10456,10456
+439,carrots,Carrots,0.0,0.0,64,True,default,True,0,0,10457,10457,10464
+440,potatoes,Potatoes,0.0,0.0,64,True,default,True,0,0,10465,10465,10472
+441,oak_button,Oak Button,0.5,0.5,64,True,mineable/axe,True,0,0,10482,10473,10496
+442,spruce_button,Spruce Button,0.5,0.5,64,True,mineable/axe,True,0,0,10506,10497,10520
+443,birch_button,Birch Button,0.5,0.5,64,True,mineable/axe,True,0,0,10530,10521,10544
+444,jungle_button,Jungle Button,0.5,0.5,64,True,mineable/axe,True,0,0,10554,10545,10568
+445,acacia_button,Acacia Button,0.5,0.5,64,True,mineable/axe,True,0,0,10578,10569,10592
+446,cherry_button,Cherry Button,0.5,0.5,64,True,mineable/axe,True,0,0,10602,10593,10616
+447,dark_oak_button,Dark Oak Button,0.5,0.5,64,True,mineable/axe,True,0,0,10626,10617,10640
+448,pale_oak_button,Pale Oak Button,0.5,0.5,64,True,mineable/axe,True,0,0,10650,10641,10664
+449,mangrove_button,Mangrove Button,0.5,0.5,64,True,mineable/axe,True,0,0,10674,10665,10688
+450,bamboo_button,Bamboo Button,0.5,0.5,64,True,mineable/axe,True,0,0,10698,10689,10712
+451,skeleton_skull,Skeleton Skull,1.0,1.0,64,True,default,True,0,0,10729,10713,10744
+452,skeleton_wall_skull,Skeleton Skull,1.0,1.0,64,True,default,False,0,0,10746,10745,10752
+453,wither_skeleton_skull,Wither Skeleton Skull,1.0,1.0,64,True,default,True,0,0,10769,10753,10784
+454,wither_skeleton_wall_skull,Wither Skeleton Skull,1.0,1.0,64,True,default,False,0,0,10786,10785,10792
+455,zombie_head,Zombie Head,1.0,1.0,64,True,default,True,0,0,10809,10793,10824
+456,zombie_wall_head,Zombie Head,1.0,1.0,64,True,default,False,0,0,10826,10825,10832
+457,player_head,Player Head,1.0,1.0,64,True,default,True,0,0,10849,10833,10864
+458,player_wall_head,Player Head,1.0,1.0,64,True,default,False,0,0,10866,10865,10872
+459,creeper_head,Creeper Head,1.0,1.0,64,True,default,True,0,0,10889,10873,10904
+460,creeper_wall_head,Creeper Head,1.0,1.0,64,True,default,False,0,0,10906,10905,10912
+461,dragon_head,Dragon Head,1.0,1.0,64,True,default,True,0,0,10929,10913,10944
+462,dragon_wall_head,Dragon Head,1.0,1.0,64,True,default,False,0,0,10946,10945,10952
+463,piglin_head,Piglin Head,1.0,1.0,64,True,default,True,0,0,10969,10953,10984
+464,piglin_wall_head,Piglin Head,1.0,1.0,64,True,default,False,0,0,10986,10985,10992
+465,anvil,Anvil,5.0,1200.0,64,True,mineable/pickaxe,False,0,0,10993,10993,10996
+466,chipped_anvil,Chipped Anvil,5.0,1200.0,64,True,mineable/pickaxe,False,0,0,10997,10997,11000
+467,damaged_anvil,Damaged Anvil,5.0,1200.0,64,True,mineable/pickaxe,False,0,0,11001,11001,11004
+468,trapped_chest,Trapped Chest,2.5,2.5,64,True,mineable/axe,False,0,0,11006,11005,11028
+469,light_weighted_pressure_plate,Light Weighted Pressure Plate,0.5,0.5,64,True,mineable/pickaxe,True,0,0,11029,11029,11044
+470,heavy_weighted_pressure_plate,Heavy Weighted Pressure Plate,0.5,0.5,64,True,mineable/pickaxe,True,0,0,11045,11045,11060
+471,comparator,Redstone Comparator,0.0,0.0,64,True,default,False,0,0,11062,11061,11076
+472,daylight_detector,Daylight Detector,0.2,0.2,64,True,mineable/axe,False,0,0,11093,11077,11108
+473,redstone_block,Block of Redstone,5.0,6.0,64,True,mineable/pickaxe,False,0,15,11109,11109,11109
+474,nether_quartz_ore,Nether Quartz Ore,3.0,3.0,64,True,mineable/pickaxe,False,0,15,11110,11110,11110
+475,hopper,Hopper,3.0,4.8,64,True,mineable/pickaxe,True,0,0,11111,11111,11120
+476,quartz_block,Block of Quartz,0.8,0.8,64,True,mineable/pickaxe,False,0,15,11121,11121,11121
+477,chiseled_quartz_block,Chiseled Quartz Block,0.8,0.8,64,True,mineable/pickaxe,False,0,15,11122,11122,11122
+478,quartz_pillar,Quartz Pillar,0.8,0.8,64,True,mineable/pickaxe,False,0,15,11124,11123,11125
+479,quartz_stairs,Quartz Stairs,0.8,0.8,64,True,mineable/pickaxe,False,0,0,11137,11126,11205
+480,activator_rail,Activator Rail,0.7,0.7,64,True,mineable/pickaxe,True,0,0,11219,11206,11229
+481,dropper,Dropper,3.5,3.5,64,True,mineable/pickaxe,False,0,15,11231,11230,11241
+482,white_terracotta,White Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11242,11242,11242
+483,orange_terracotta,Orange Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11243,11243,11243
+484,magenta_terracotta,Magenta Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11244,11244,11244
+485,light_blue_terracotta,Light Blue Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11245,11245,11245
+486,yellow_terracotta,Yellow Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11246,11246,11246
+487,lime_terracotta,Lime Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11247,11247,11247
+488,pink_terracotta,Pink Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11248,11248,11248
+489,gray_terracotta,Gray Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11249,11249,11249
+490,light_gray_terracotta,Light Gray Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11250,11250,11250
+491,cyan_terracotta,Cyan Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11251,11251,11251
+492,purple_terracotta,Purple Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11252,11252,11252
+493,blue_terracotta,Blue Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11253,11253,11253
+494,brown_terracotta,Brown Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11254,11254,11254
+495,green_terracotta,Green Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11255,11255,11255
+496,red_terracotta,Red Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11256,11256,11256
+497,black_terracotta,Black Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,11257,11257,11257
+498,white_stained_glass_pane,White Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11289,11258,11289
+499,orange_stained_glass_pane,Orange Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11321,11290,11321
+500,magenta_stained_glass_pane,Magenta Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11353,11322,11353
+501,light_blue_stained_glass_pane,Light Blue Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11385,11354,11385
+502,yellow_stained_glass_pane,Yellow Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11417,11386,11417
+503,lime_stained_glass_pane,Lime Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11449,11418,11449
+504,pink_stained_glass_pane,Pink Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11481,11450,11481
+505,gray_stained_glass_pane,Gray Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11513,11482,11513
+506,light_gray_stained_glass_pane,Light Gray Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11545,11514,11545
+507,cyan_stained_glass_pane,Cyan Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11577,11546,11577
+508,purple_stained_glass_pane,Purple Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11609,11578,11609
+509,blue_stained_glass_pane,Blue Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11641,11610,11641
+510,brown_stained_glass_pane,Brown Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11673,11642,11673
+511,green_stained_glass_pane,Green Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11705,11674,11705
+512,red_stained_glass_pane,Red Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11737,11706,11737
+513,black_stained_glass_pane,Black Stained Glass Pane,0.3,0.3,64,True,default,True,0,0,11769,11738,11769
+514,acacia_stairs,Acacia Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,11781,11770,11849
+515,cherry_stairs,Cherry Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,11861,11850,11929
+516,dark_oak_stairs,Dark Oak Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,11941,11930,12009
+517,pale_oak_stairs,Pale Oak Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,12021,12010,12089
+518,mangrove_stairs,Mangrove Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,12101,12090,12169
+519,bamboo_stairs,Bamboo Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,12181,12170,12249
+520,bamboo_mosaic_stairs,Bamboo Mosaic Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,12261,12250,12329
+521,slime_block,Slime Block,0.0,0.0,64,True,default,True,0,1,12330,12330,12330
+522,barrier,Barrier,-1.0,3600000.8,64,False,default,True,0,0,12332,12331,12332
+523,light,Light,-1.0,3600000.8,64,False,default,True,15,0,12364,12333,12364
+524,iron_trapdoor,Iron Trapdoor,5.0,5.0,64,True,mineable/pickaxe,True,0,0,12380,12365,12428
+525,prismarine,Prismarine,1.5,6.0,64,True,mineable/pickaxe,False,0,15,12429,12429,12429
+526,prismarine_bricks,Prismarine Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,12430,12430,12430
+527,dark_prismarine,Dark Prismarine,1.5,6.0,64,True,mineable/pickaxe,False,0,15,12431,12431,12431
+528,prismarine_stairs,Prismarine Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,12443,12432,12511
+529,prismarine_brick_stairs,Prismarine Brick Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,12523,12512,12591
+530,dark_prismarine_stairs,Dark Prismarine Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,12603,12592,12671
+531,prismarine_slab,Prismarine Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,12675,12672,12677
+532,prismarine_brick_slab,Prismarine Brick Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,12681,12678,12683
+533,dark_prismarine_slab,Dark Prismarine Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,12687,12684,12689
+534,sea_lantern,Sea Lantern,0.3,0.3,64,True,default,False,15,15,12690,12690,12690
+535,hay_block,Hay Bale,0.5,0.5,64,True,mineable/hoe,False,0,15,12692,12691,12693
+536,white_carpet,White Carpet,0.1,0.1,64,True,default,False,0,0,12694,12694,12694
+537,orange_carpet,Orange Carpet,0.1,0.1,64,True,default,False,0,0,12695,12695,12695
+538,magenta_carpet,Magenta Carpet,0.1,0.1,64,True,default,False,0,0,12696,12696,12696
+539,light_blue_carpet,Light Blue Carpet,0.1,0.1,64,True,default,False,0,0,12697,12697,12697
+540,yellow_carpet,Yellow Carpet,0.1,0.1,64,True,default,False,0,0,12698,12698,12698
+541,lime_carpet,Lime Carpet,0.1,0.1,64,True,default,False,0,0,12699,12699,12699
+542,pink_carpet,Pink Carpet,0.1,0.1,64,True,default,False,0,0,12700,12700,12700
+543,gray_carpet,Gray Carpet,0.1,0.1,64,True,default,False,0,0,12701,12701,12701
+544,light_gray_carpet,Light Gray Carpet,0.1,0.1,64,True,default,False,0,0,12702,12702,12702
+545,cyan_carpet,Cyan Carpet,0.1,0.1,64,True,default,False,0,0,12703,12703,12703
+546,purple_carpet,Purple Carpet,0.1,0.1,64,True,default,False,0,0,12704,12704,12704
+547,blue_carpet,Blue Carpet,0.1,0.1,64,True,default,False,0,0,12705,12705,12705
+548,brown_carpet,Brown Carpet,0.1,0.1,64,True,default,False,0,0,12706,12706,12706
+549,green_carpet,Green Carpet,0.1,0.1,64,True,default,False,0,0,12707,12707,12707
+550,red_carpet,Red Carpet,0.1,0.1,64,True,default,False,0,0,12708,12708,12708
+551,black_carpet,Black Carpet,0.1,0.1,64,True,default,False,0,0,12709,12709,12709
+552,terracotta,Terracotta,1.25,4.2,64,True,mineable/pickaxe,False,0,15,12710,12710,12710
+553,coal_block,Block of Coal,5.0,6.0,64,True,mineable/pickaxe,False,0,15,12711,12711,12711
+554,packed_ice,Packed Ice,0.5,0.5,64,True,mineable/pickaxe,False,0,15,12712,12712,12712
+555,sunflower,Sunflower,0.0,0.0,64,True,default,True,0,0,12714,12713,12714
+556,lilac,Lilac,0.0,0.0,64,True,default,True,0,0,12716,12715,12716
+557,rose_bush,Rose Bush,0.0,0.0,64,True,default,True,0,0,12718,12717,12718
+558,peony,Peony,0.0,0.0,64,True,default,True,0,0,12720,12719,12720
+559,tall_grass,Tall Grass,0.0,0.0,64,True,default,True,0,0,12722,12721,12722
+560,large_fern,Large Fern,0.0,0.0,64,True,default,True,0,0,12724,12723,12724
+561,white_banner,White Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12725,12725,12740
+562,orange_banner,Orange Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12741,12741,12756
+563,magenta_banner,Magenta Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12757,12757,12772
+564,light_blue_banner,Light Blue Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12773,12773,12788
+565,yellow_banner,Yellow Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12789,12789,12804
+566,lime_banner,Lime Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12805,12805,12820
+567,pink_banner,Pink Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12821,12821,12836
+568,gray_banner,Gray Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12837,12837,12852
+569,light_gray_banner,Light Gray Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12853,12853,12868
+570,cyan_banner,Cyan Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12869,12869,12884
+571,purple_banner,Purple Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12885,12885,12900
+572,blue_banner,Blue Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12901,12901,12916
+573,brown_banner,Brown Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12917,12917,12932
+574,green_banner,Green Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12933,12933,12948
+575,red_banner,Red Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12949,12949,12964
+576,black_banner,Black Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12965,12965,12980
+577,white_wall_banner,White Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12981,12981,12984
+578,orange_wall_banner,Orange Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12985,12985,12988
+579,magenta_wall_banner,Magenta Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12989,12989,12992
+580,light_blue_wall_banner,Light Blue Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12993,12993,12996
+581,yellow_wall_banner,Yellow Banner,1.0,1.0,16,True,mineable/axe,True,0,0,12997,12997,13000
+582,lime_wall_banner,Lime Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13001,13001,13004
+583,pink_wall_banner,Pink Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13005,13005,13008
+584,gray_wall_banner,Gray Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13009,13009,13012
+585,light_gray_wall_banner,Light Gray Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13013,13013,13016
+586,cyan_wall_banner,Cyan Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13017,13017,13020
+587,purple_wall_banner,Purple Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13021,13021,13024
+588,blue_wall_banner,Blue Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13025,13025,13028
+589,brown_wall_banner,Brown Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13029,13029,13032
+590,green_wall_banner,Green Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13033,13033,13036
+591,red_wall_banner,Red Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13037,13037,13040
+592,black_wall_banner,Black Banner,1.0,1.0,16,True,mineable/axe,True,0,0,13041,13041,13044
+593,red_sandstone,Red Sandstone,0.8,0.8,64,True,mineable/pickaxe,False,0,15,13045,13045,13045
+594,chiseled_red_sandstone,Chiseled Red Sandstone,0.8,0.8,64,True,mineable/pickaxe,False,0,15,13046,13046,13046
+595,cut_red_sandstone,Cut Red Sandstone,0.8,0.8,64,True,mineable/pickaxe,False,0,15,13047,13047,13047
+596,red_sandstone_stairs,Red Sandstone Stairs,0.8,0.8,64,True,mineable/pickaxe,False,0,0,13059,13048,13127
+597,oak_slab,Oak Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13131,13128,13133
+598,spruce_slab,Spruce Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13137,13134,13139
+599,birch_slab,Birch Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13143,13140,13145
+600,jungle_slab,Jungle Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13149,13146,13151
+601,acacia_slab,Acacia Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13155,13152,13157
+602,cherry_slab,Cherry Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13161,13158,13163
+603,dark_oak_slab,Dark Oak Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13167,13164,13169
+604,pale_oak_slab,Pale Oak Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13173,13170,13175
+605,mangrove_slab,Mangrove Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13179,13176,13181
+606,bamboo_slab,Bamboo Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13185,13182,13187
+607,bamboo_mosaic_slab,Bamboo Mosaic Slab,2.0,3.0,64,True,mineable/axe,False,0,0,13191,13188,13193
+608,stone_slab,Stone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13197,13194,13199
+609,smooth_stone_slab,Smooth Stone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13203,13200,13205
+610,sandstone_slab,Sandstone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13209,13206,13211
+611,cut_sandstone_slab,Cut Sandstone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13215,13212,13217
+612,petrified_oak_slab,Petrified Oak Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13221,13218,13223
+613,cobblestone_slab,Cobblestone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13227,13224,13229
+614,brick_slab,Brick Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13233,13230,13235
+615,stone_brick_slab,Stone Brick Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13239,13236,13241
+616,mud_brick_slab,Mud Brick Slab,1.5,3.0,64,True,mineable/pickaxe,False,0,0,13245,13242,13247
+617,nether_brick_slab,Nether Brick Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13251,13248,13253
+618,quartz_slab,Quartz Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13257,13254,13259
+619,red_sandstone_slab,Red Sandstone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13263,13260,13265
+620,cut_red_sandstone_slab,Cut Red Sandstone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13269,13266,13271
+621,purpur_slab,Purpur Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,13275,13272,13277
+622,smooth_stone,Smooth Stone,2.0,6.0,64,True,mineable/pickaxe,False,0,15,13278,13278,13278
+623,smooth_sandstone,Smooth Sandstone,2.0,6.0,64,True,mineable/pickaxe,False,0,15,13279,13279,13279
+624,smooth_quartz,Smooth Quartz Block,2.0,6.0,64,True,mineable/pickaxe,False,0,15,13280,13280,13280
+625,smooth_red_sandstone,Smooth Red Sandstone,2.0,6.0,64,True,mineable/pickaxe,False,0,15,13281,13281,13281
+626,spruce_fence_gate,Spruce Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13289,13282,13313
+627,birch_fence_gate,Birch Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13321,13314,13345
+628,jungle_fence_gate,Jungle Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13353,13346,13377
+629,acacia_fence_gate,Acacia Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13385,13378,13409
+630,cherry_fence_gate,Cherry Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13417,13410,13441
+631,dark_oak_fence_gate,Dark Oak Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13449,13442,13473
+632,pale_oak_fence_gate,Pale Oak Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13481,13474,13505
+633,mangrove_fence_gate,Mangrove Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13513,13506,13537
+634,bamboo_fence_gate,Bamboo Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,13545,13538,13569
+635,spruce_fence,Spruce Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13601,13570,13601
+636,birch_fence,Birch Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13633,13602,13633
+637,jungle_fence,Jungle Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13665,13634,13665
+638,acacia_fence,Acacia Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13697,13666,13697
+639,cherry_fence,Cherry Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13729,13698,13729
+640,dark_oak_fence,Dark Oak Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13761,13730,13761
+641,pale_oak_fence,Pale Oak Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13793,13762,13793
+642,mangrove_fence,Mangrove Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13825,13794,13825
+643,bamboo_fence,Bamboo Fence,2.0,3.0,64,True,mineable/axe,False,0,0,13857,13826,13857
+644,spruce_door,Spruce Door,3.0,3.0,64,True,mineable/axe,True,0,0,13869,13858,13921
+645,birch_door,Birch Door,3.0,3.0,64,True,mineable/axe,True,0,0,13933,13922,13985
+646,jungle_door,Jungle Door,3.0,3.0,64,True,mineable/axe,True,0,0,13997,13986,14049
+647,acacia_door,Acacia Door,3.0,3.0,64,True,mineable/axe,True,0,0,14061,14050,14113
+648,cherry_door,Cherry Door,3.0,3.0,64,True,mineable/axe,True,0,0,14125,14114,14177
+649,dark_oak_door,Dark Oak Door,3.0,3.0,64,True,mineable/axe,True,0,0,14189,14178,14241
+650,pale_oak_door,Pale Oak Door,3.0,3.0,64,True,mineable/axe,True,0,0,14253,14242,14305
+651,mangrove_door,Mangrove Door,3.0,3.0,64,True,mineable/axe,True,0,0,14317,14306,14369
+652,bamboo_door,Bamboo Door,3.0,3.0,64,True,mineable/axe,True,0,0,14381,14370,14433
+653,end_rod,End Rod,0.0,0.0,64,True,default,True,14,0,14438,14434,14439
+654,chorus_plant,Chorus Plant,0.4,0.4,64,True,plant;mineable/axe,True,0,1,14503,14440,14503
+655,chorus_flower,Chorus Flower,0.4,0.4,64,True,plant;mineable/axe,True,0,1,14504,14504,14509
+656,purpur_block,Purpur Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14510,14510,14510
+657,purpur_pillar,Purpur Pillar,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14512,14511,14513
+658,purpur_stairs,Purpur Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,14525,14514,14593
+659,end_stone_bricks,End Stone Bricks,3.0,9.0,64,True,mineable/pickaxe,False,0,15,14594,14594,14594
+660,torchflower_crop,Torchflower Crop,0.0,0.0,64,True,default,True,0,0,14595,14595,14596
+661,pitcher_crop,Pitcher Crop,0.0,0.0,64,True,default,True,0,0,14598,14597,14606
+662,pitcher_plant,Pitcher Plant,0.0,0.0,64,True,default,True,0,0,14608,14607,14608
+663,beetroots,Beetroots,0.0,0.0,64,True,default,True,0,0,14609,14609,14612
+664,dirt_path,Dirt Path,0.65,0.65,64,True,mineable/shovel,False,0,0,14613,14613,14613
+665,end_gateway,End Gateway,-1.0,3600000.0,64,False,default,True,15,1,14614,14614,14614
+666,repeating_command_block,Repeating Command Block,-1.0,3600000.0,64,False,default,False,0,15,14621,14615,14626
+667,chain_command_block,Chain Command Block,-1.0,3600000.0,64,False,default,False,0,15,14633,14627,14638
+668,frosted_ice,Frosted Ice,0.5,0.5,64,True,default,True,0,1,14639,14639,14642
+669,magma_block,Magma Block,0.5,0.5,64,True,mineable/pickaxe,False,3,15,14643,14643,14643
+670,nether_wart_block,Nether Wart Block,1.0,1.0,64,True,mineable/hoe,False,0,15,14644,14644,14644
+671,red_nether_bricks,Red Nether Bricks,2.0,6.0,64,True,mineable/pickaxe,False,0,15,14645,14645,14645
+672,bone_block,Bone Block,2.0,2.0,64,True,mineable/pickaxe,False,0,15,14647,14646,14648
+673,structure_void,Structure Void,0.0,0.0,64,True,default,True,0,0,14649,14649,14649
+674,observer,Observer,3.0,3.0,64,True,mineable/pickaxe,False,0,15,14655,14650,14661
+675,shulker_box,Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14666,14662,14667
+676,white_shulker_box,White Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14672,14668,14673
+677,orange_shulker_box,Orange Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14678,14674,14679
+678,magenta_shulker_box,Magenta Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14684,14680,14685
+679,light_blue_shulker_box,Light Blue Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14690,14686,14691
+680,yellow_shulker_box,Yellow Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14696,14692,14697
+681,lime_shulker_box,Lime Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14702,14698,14703
+682,pink_shulker_box,Pink Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14708,14704,14709
+683,gray_shulker_box,Gray Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14714,14710,14715
+684,light_gray_shulker_box,Light Gray Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14720,14716,14721
+685,cyan_shulker_box,Cyan Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14726,14722,14727
+686,purple_shulker_box,Purple Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14732,14728,14733
+687,blue_shulker_box,Blue Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14738,14734,14739
+688,brown_shulker_box,Brown Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14744,14740,14745
+689,green_shulker_box,Green Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14750,14746,14751
+690,red_shulker_box,Red Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14756,14752,14757
+691,black_shulker_box,Black Shulker Box,2.0,2.0,1,True,mineable/pickaxe,True,0,1,14762,14758,14763
+692,white_glazed_terracotta,White Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14764,14764,14767
+693,orange_glazed_terracotta,Orange Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14768,14768,14771
+694,magenta_glazed_terracotta,Magenta Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14772,14772,14775
+695,light_blue_glazed_terracotta,Light Blue Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14776,14776,14779
+696,yellow_glazed_terracotta,Yellow Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14780,14780,14783
+697,lime_glazed_terracotta,Lime Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14784,14784,14787
+698,pink_glazed_terracotta,Pink Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14788,14788,14791
+699,gray_glazed_terracotta,Gray Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14792,14792,14795
+700,light_gray_glazed_terracotta,Light Gray Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14796,14796,14799
+701,cyan_glazed_terracotta,Cyan Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14800,14800,14803
+702,purple_glazed_terracotta,Purple Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14804,14804,14807
+703,blue_glazed_terracotta,Blue Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14808,14808,14811
+704,brown_glazed_terracotta,Brown Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14812,14812,14815
+705,green_glazed_terracotta,Green Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14816,14816,14819
+706,red_glazed_terracotta,Red Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14820,14820,14823
+707,black_glazed_terracotta,Black Glazed Terracotta,1.4,1.4,64,True,mineable/pickaxe,False,0,15,14824,14824,14827
+708,white_concrete,White Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14828,14828,14828
+709,orange_concrete,Orange Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14829,14829,14829
+710,magenta_concrete,Magenta Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14830,14830,14830
+711,light_blue_concrete,Light Blue Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14831,14831,14831
+712,yellow_concrete,Yellow Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14832,14832,14832
+713,lime_concrete,Lime Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14833,14833,14833
+714,pink_concrete,Pink Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14834,14834,14834
+715,gray_concrete,Gray Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14835,14835,14835
+716,light_gray_concrete,Light Gray Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14836,14836,14836
+717,cyan_concrete,Cyan Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14837,14837,14837
+718,purple_concrete,Purple Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14838,14838,14838
+719,blue_concrete,Blue Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14839,14839,14839
+720,brown_concrete,Brown Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14840,14840,14840
+721,green_concrete,Green Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14841,14841,14841
+722,red_concrete,Red Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14842,14842,14842
+723,black_concrete,Black Concrete,1.8,1.8,64,True,mineable/pickaxe,False,0,15,14843,14843,14843
+724,white_concrete_powder,White Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14844,14844,14844
+725,orange_concrete_powder,Orange Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14845,14845,14845
+726,magenta_concrete_powder,Magenta Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14846,14846,14846
+727,light_blue_concrete_powder,Light Blue Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14847,14847,14847
+728,yellow_concrete_powder,Yellow Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14848,14848,14848
+729,lime_concrete_powder,Lime Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14849,14849,14849
+730,pink_concrete_powder,Pink Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14850,14850,14850
+731,gray_concrete_powder,Gray Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14851,14851,14851
+732,light_gray_concrete_powder,Light Gray Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14852,14852,14852
+733,cyan_concrete_powder,Cyan Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14853,14853,14853
+734,purple_concrete_powder,Purple Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14854,14854,14854
+735,blue_concrete_powder,Blue Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14855,14855,14855
+736,brown_concrete_powder,Brown Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14856,14856,14856
+737,green_concrete_powder,Green Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14857,14857,14857
+738,red_concrete_powder,Red Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14858,14858,14858
+739,black_concrete_powder,Black Concrete Powder,0.5,0.5,64,True,mineable/shovel,False,0,15,14859,14859,14859
+740,kelp,Kelp,0.0,0.0,64,True,default,True,0,1,14860,14860,14885
+741,kelp_plant,Kelp Plant,0.0,0.0,64,True,default,True,0,1,14886,14886,14886
+742,dried_kelp_block,Dried Kelp Block,0.5,2.5,64,True,mineable/hoe,False,0,15,14887,14887,14887
+743,turtle_egg,Turtle Egg,0.5,0.5,64,True,default,True,0,0,14888,14888,14899
+744,sniffer_egg,Sniffer Egg,0.5,0.5,64,True,default,True,0,0,14900,14900,14902
+745,dried_ghast,Dried Ghast,0.0,0.0,64,True,default,True,0,0,14904,14903,14934
+746,dead_tube_coral_block,Dead Tube Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14935,14935,14935
+747,dead_brain_coral_block,Dead Brain Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14936,14936,14936
+748,dead_bubble_coral_block,Dead Bubble Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14937,14937,14937
+749,dead_fire_coral_block,Dead Fire Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14938,14938,14938
+750,dead_horn_coral_block,Dead Horn Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14939,14939,14939
+751,tube_coral_block,Tube Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14940,14940,14940
+752,brain_coral_block,Brain Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14941,14941,14941
+753,bubble_coral_block,Bubble Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14942,14942,14942
+754,fire_coral_block,Fire Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14943,14943,14943
+755,horn_coral_block,Horn Coral Block,1.5,6.0,64,True,mineable/pickaxe,False,0,15,14944,14944,14944
+756,dead_tube_coral,Dead Tube Coral,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14945,14945,14946
+757,dead_brain_coral,Dead Brain Coral,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14947,14947,14948
+758,dead_bubble_coral,Dead Bubble Coral,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14949,14949,14950
+759,dead_fire_coral,Dead Fire Coral,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14951,14951,14952
+760,dead_horn_coral,Dead Horn Coral,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14953,14953,14954
+761,tube_coral,Tube Coral,0.0,0.0,64,True,default,True,0,1,14955,14955,14956
+762,brain_coral,Brain Coral,0.0,0.0,64,True,default,True,0,1,14957,14957,14958
+763,bubble_coral,Bubble Coral,0.0,0.0,64,True,default,True,0,1,14959,14959,14960
+764,fire_coral,Fire Coral,0.0,0.0,64,True,default,True,0,1,14961,14961,14962
+765,horn_coral,Horn Coral,0.0,0.0,64,True,default,True,0,1,14963,14963,14964
+766,dead_tube_coral_fan,Dead Tube Coral Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14965,14965,14966
+767,dead_brain_coral_fan,Dead Brain Coral Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14967,14967,14968
+768,dead_bubble_coral_fan,Dead Bubble Coral Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14969,14969,14970
+769,dead_fire_coral_fan,Dead Fire Coral Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14971,14971,14972
+770,dead_horn_coral_fan,Dead Horn Coral Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14973,14973,14974
+771,tube_coral_fan,Tube Coral Fan,0.0,0.0,64,True,default,True,0,1,14975,14975,14976
+772,brain_coral_fan,Brain Coral Fan,0.0,0.0,64,True,default,True,0,1,14977,14977,14978
+773,bubble_coral_fan,Bubble Coral Fan,0.0,0.0,64,True,default,True,0,1,14979,14979,14980
+774,fire_coral_fan,Fire Coral Fan,0.0,0.0,64,True,default,True,0,1,14981,14981,14982
+775,horn_coral_fan,Horn Coral Fan,0.0,0.0,64,True,default,True,0,1,14983,14983,14984
+776,dead_tube_coral_wall_fan,Dead Tube Coral Wall Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14985,14985,14992
+777,dead_brain_coral_wall_fan,Dead Brain Coral Wall Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,14993,14993,15000
+778,dead_bubble_coral_wall_fan,Dead Bubble Coral Wall Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,15001,15001,15008
+779,dead_fire_coral_wall_fan,Dead Fire Coral Wall Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,15009,15009,15016
+780,dead_horn_coral_wall_fan,Dead Horn Coral Wall Fan,0.0,0.0,64,True,mineable/pickaxe,True,0,1,15017,15017,15024
+781,tube_coral_wall_fan,Tube Coral Wall Fan,0.0,0.0,64,True,default,True,0,1,15025,15025,15032
+782,brain_coral_wall_fan,Brain Coral Wall Fan,0.0,0.0,64,True,default,True,0,1,15033,15033,15040
+783,bubble_coral_wall_fan,Bubble Coral Wall Fan,0.0,0.0,64,True,default,True,0,1,15041,15041,15048
+784,fire_coral_wall_fan,Fire Coral Wall Fan,0.0,0.0,64,True,default,True,0,1,15049,15049,15056
+785,horn_coral_wall_fan,Horn Coral Wall Fan,0.0,0.0,64,True,default,True,0,1,15057,15057,15064
+786,sea_pickle,Sea Pickle,0.0,0.0,64,True,default,True,6,1,15065,15065,15072
+787,blue_ice,Blue Ice,2.8,2.8,64,True,mineable/pickaxe,False,0,15,15073,15073,15073
+788,conduit,Conduit,3.0,3.0,64,True,mineable/pickaxe,True,15,1,15074,15074,15075
+789,bamboo_sapling,Bamboo Shoot,1.0,1.0,64,True,sword_instantly_mines,True,0,0,15076,15076,15076
+790,bamboo,Bamboo,1.0,1.0,64,True,sword_instantly_mines,True,0,0,15077,15077,15088
+791,potted_bamboo,Potted Bamboo,0.0,0.0,64,True,default,True,0,0,15089,15089,15089
+792,void_air,Void Air,0.0,0.0,64,False,default,True,0,0,15090,15090,15090
+793,cave_air,Cave Air,0.0,0.0,64,False,default,True,0,0,15091,15091,15091
+794,bubble_column,Bubble Column,0.0,0.0,64,True,default,True,0,1,15092,15092,15093
+795,polished_granite_stairs,Polished Granite Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,15105,15094,15173
+796,smooth_red_sandstone_stairs,Smooth Red Sandstone Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,15185,15174,15253
+797,mossy_stone_brick_stairs,Mossy Stone Brick Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,15265,15254,15333
+798,polished_diorite_stairs,Polished Diorite Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,15345,15334,15413
+799,mossy_cobblestone_stairs,Mossy Cobblestone Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,15425,15414,15493
+800,end_stone_brick_stairs,End Stone Brick Stairs,3.0,9.0,64,True,mineable/pickaxe,False,0,0,15505,15494,15573
+801,stone_stairs,Stone Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,15585,15574,15653
+802,smooth_sandstone_stairs,Smooth Sandstone Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,15665,15654,15733
+803,smooth_quartz_stairs,Smooth Quartz Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,15745,15734,15813
+804,granite_stairs,Granite Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,15825,15814,15893
+805,andesite_stairs,Andesite Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,15905,15894,15973
+806,red_nether_brick_stairs,Red Nether Brick Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,15985,15974,16053
+807,polished_andesite_stairs,Polished Andesite Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16065,16054,16133
+808,diorite_stairs,Diorite Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16145,16134,16213
+809,polished_granite_slab,Polished Granite Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16217,16214,16219
+810,smooth_red_sandstone_slab,Smooth Red Sandstone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,16223,16220,16225
+811,mossy_stone_brick_slab,Mossy Stone Brick Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16229,16226,16231
+812,polished_diorite_slab,Polished Diorite Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16235,16232,16237
+813,mossy_cobblestone_slab,Mossy Cobblestone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,16241,16238,16243
+814,end_stone_brick_slab,End Stone Brick Slab,3.0,9.0,64,True,mineable/pickaxe,False,0,0,16247,16244,16249
+815,smooth_sandstone_slab,Smooth Sandstone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,16253,16250,16255
+816,smooth_quartz_slab,Smooth Quartz Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,16259,16256,16261
+817,granite_slab,Granite Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16265,16262,16267
+818,andesite_slab,Andesite Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16271,16268,16273
+819,red_nether_brick_slab,Red Nether Brick Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,16277,16274,16279
+820,polished_andesite_slab,Polished Andesite Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16283,16280,16285
+821,diorite_slab,Diorite Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16289,16286,16291
+822,brick_wall,Brick Wall,2.0,6.0,64,True,mineable/pickaxe,False,0,0,16295,16292,16615
+823,prismarine_wall,Prismarine Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,16619,16616,16939
+824,red_sandstone_wall,Red Sandstone Wall,0.8,0.8,64,True,mineable/pickaxe,False,0,0,16943,16940,17263
+825,mossy_stone_brick_wall,Mossy Stone Brick Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,17267,17264,17587
+826,granite_wall,Granite Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,17591,17588,17911
+827,stone_brick_wall,Stone Brick Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,17915,17912,18235
+828,mud_brick_wall,Mud Brick Wall,1.5,3.0,64,True,mineable/pickaxe,False,0,0,18239,18236,18559
+829,nether_brick_wall,Nether Brick Wall,2.0,6.0,64,True,mineable/pickaxe,False,0,0,18563,18560,18883
+830,andesite_wall,Andesite Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,18887,18884,19207
+831,red_nether_brick_wall,Red Nether Brick Wall,2.0,6.0,64,True,mineable/pickaxe,False,0,0,19211,19208,19531
+832,sandstone_wall,Sandstone Wall,0.8,0.8,64,True,mineable/pickaxe,False,0,0,19535,19532,19855
+833,end_stone_brick_wall,End Stone Brick Wall,3.0,9.0,64,True,mineable/pickaxe,False,0,0,19859,19856,20179
+834,diorite_wall,Diorite Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,20183,20180,20503
+835,scaffolding,Scaffolding,0.0,0.0,64,True,default,True,0,0,20535,20504,20535
+836,loom,Loom,2.5,2.5,64,True,mineable/axe,False,0,15,20536,20536,20539
+837,barrel,Barrel,2.5,2.5,64,True,mineable/axe,False,0,15,20541,20540,20551
+838,smoker,Smoker,3.5,3.5,64,True,mineable/pickaxe,False,0,15,20553,20552,20559
+839,blast_furnace,Blast Furnace,3.5,3.5,64,True,mineable/pickaxe,False,0,15,20561,20560,20567
+840,cartography_table,Cartography Table,2.5,2.5,64,True,mineable/axe,False,0,15,20568,20568,20568
+841,fletching_table,Fletching Table,2.5,2.5,64,True,mineable/axe,False,0,15,20569,20569,20569
+842,grindstone,Grindstone,2.0,6.0,64,True,mineable/pickaxe,False,0,0,20574,20570,20581
+843,lectern,Lectern,2.5,2.5,64,True,mineable/axe,False,0,0,20585,20582,20597
+844,smithing_table,Smithing Table,2.5,2.5,64,True,mineable/axe,False,0,15,20598,20598,20598
+845,stonecutter,Stonecutter,3.5,3.5,64,True,mineable/pickaxe,False,0,0,20599,20599,20602
+846,bell,Bell,5.0,5.0,64,True,mineable/pickaxe,False,0,0,20604,20603,20634
+847,lantern,Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20638,20635,20638
+848,soul_lantern,Soul Lantern,3.5,3.5,64,True,mineable/pickaxe,True,10,0,20642,20639,20642
+849,copper_lantern,Copper Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20646,20643,20646
+850,exposed_copper_lantern,Exposed Copper Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20650,20647,20650
+851,weathered_copper_lantern,Weathered Copper Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20654,20651,20654
+852,oxidized_copper_lantern,Oxidized Copper Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20658,20655,20658
+853,waxed_copper_lantern,Waxed Copper Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20662,20659,20662
+854,waxed_exposed_copper_lantern,Waxed Exposed Copper Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20666,20663,20666
+855,waxed_weathered_copper_lantern,Waxed Weathered Copper Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20670,20667,20670
+856,waxed_oxidized_copper_lantern,Waxed Oxidized Copper Lantern,3.5,3.5,64,True,mineable/pickaxe,True,15,0,20674,20671,20674
+857,campfire,Campfire,2.0,2.0,64,True,mineable/axe,True,15,0,20678,20675,20706
+858,soul_campfire,Soul Campfire,2.0,2.0,64,True,mineable/axe,True,10,0,20710,20707,20738
+859,sweet_berry_bush,Sweet Berry Bush,0.0,0.0,64,True,default,True,0,0,20739,20739,20742
+860,warped_stem,Warped Stem,2.0,2.0,64,True,mineable/axe,False,0,15,20744,20743,20745
+861,stripped_warped_stem,Stripped Warped Stem,2.0,2.0,64,True,mineable/axe,False,0,15,20747,20746,20748
+862,warped_hyphae,Warped Hyphae,2.0,2.0,64,True,mineable/axe,False,0,15,20750,20749,20751
+863,stripped_warped_hyphae,Stripped Warped Hyphae,2.0,2.0,64,True,mineable/axe,False,0,15,20753,20752,20754
+864,warped_nylium,Warped Nylium,0.4,0.4,64,True,mineable/pickaxe,False,0,15,20755,20755,20755
+865,warped_fungus,Warped Fungus,0.0,0.0,64,True,default,True,0,0,20756,20756,20756
+866,warped_wart_block,Warped Wart Block,1.0,1.0,64,True,mineable/hoe,False,0,15,20757,20757,20757
+867,warped_roots,Warped Roots,0.0,0.0,64,True,default,True,0,0,20758,20758,20758
+868,nether_sprouts,Nether Sprouts,0.0,0.0,64,True,default,True,0,0,20759,20759,20759
+869,crimson_stem,Crimson Stem,2.0,2.0,64,True,mineable/axe,False,0,15,20761,20760,20762
+870,stripped_crimson_stem,Stripped Crimson Stem,2.0,2.0,64,True,mineable/axe,False,0,15,20764,20763,20765
+871,crimson_hyphae,Crimson Hyphae,2.0,2.0,64,True,mineable/axe,False,0,15,20767,20766,20768
+872,stripped_crimson_hyphae,Stripped Crimson Hyphae,2.0,2.0,64,True,mineable/axe,False,0,15,20770,20769,20771
+873,crimson_nylium,Crimson Nylium,0.4,0.4,64,True,mineable/pickaxe,False,0,15,20772,20772,20772
+874,crimson_fungus,Crimson Fungus,0.0,0.0,64,True,default,True,0,0,20773,20773,20773
+875,shroomlight,Shroomlight,1.0,1.0,64,True,mineable/hoe,False,15,15,20774,20774,20774
+876,weeping_vines,Weeping Vines,0.0,0.0,64,True,default,True,0,0,20775,20775,20800
+877,weeping_vines_plant,Weeping Vines Plant,0.0,0.0,64,True,default,True,0,0,20801,20801,20801
+878,twisting_vines,Twisting Vines,0.0,0.0,64,True,default,True,0,0,20802,20802,20827
+879,twisting_vines_plant,Twisting Vines Plant,0.0,0.0,64,True,default,True,0,0,20828,20828,20828
+880,crimson_roots,Crimson Roots,0.0,0.0,64,True,default,True,0,0,20829,20829,20829
+881,crimson_planks,Crimson Planks,2.0,3.0,64,True,mineable/axe,False,0,15,20830,20830,20830
+882,warped_planks,Warped Planks,2.0,3.0,64,True,mineable/axe,False,0,15,20831,20831,20831
+883,crimson_slab,Crimson Slab,2.0,3.0,64,True,mineable/axe,False,0,0,20835,20832,20837
+884,warped_slab,Warped Slab,2.0,3.0,64,True,mineable/axe,False,0,0,20841,20838,20843
+885,crimson_pressure_plate,Crimson Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,20845,20844,20845
+886,warped_pressure_plate,Warped Pressure Plate,0.5,0.5,64,True,mineable/axe,True,0,0,20847,20846,20847
+887,crimson_fence,Crimson Fence,2.0,3.0,64,True,mineable/axe,False,0,0,20879,20848,20879
+888,warped_fence,Warped Fence,2.0,3.0,64,True,mineable/axe,False,0,0,20911,20880,20911
+889,crimson_trapdoor,Crimson Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,20927,20912,20975
+890,warped_trapdoor,Warped Trapdoor,3.0,3.0,64,True,mineable/axe,True,0,0,20991,20976,21039
+891,crimson_fence_gate,Crimson Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,21047,21040,21071
+892,warped_fence_gate,Warped Fence Gate,2.0,3.0,64,True,mineable/axe,False,0,0,21079,21072,21103
+893,crimson_stairs,Crimson Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,21115,21104,21183
+894,warped_stairs,Warped Stairs,2.0,3.0,64,True,mineable/axe,False,0,0,21195,21184,21263
+895,crimson_button,Crimson Button,0.5,0.5,64,True,mineable/axe,True,0,0,21273,21264,21287
+896,warped_button,Warped Button,0.5,0.5,64,True,mineable/axe,True,0,0,21297,21288,21311
+897,crimson_door,Crimson Door,3.0,3.0,64,True,mineable/axe,True,0,0,21323,21312,21375
+898,warped_door,Warped Door,3.0,3.0,64,True,mineable/axe,True,0,0,21387,21376,21439
+899,crimson_sign,Crimson Sign,1.0,1.0,16,True,mineable/axe,True,0,0,21441,21440,21471
+900,warped_sign,Warped Sign,1.0,1.0,16,True,mineable/axe,True,0,0,21473,21472,21503
+901,crimson_wall_sign,Crimson Sign,1.0,1.0,16,True,mineable/axe,True,0,0,21505,21504,21511
+902,warped_wall_sign,Warped Sign,1.0,1.0,16,True,mineable/axe,True,0,0,21513,21512,21519
+903,structure_block,Structure Block,-1.0,3600000.0,64,False,default,False,0,15,21521,21520,21523
+904,jigsaw,Jigsaw Block,-1.0,3600000.0,64,False,default,False,0,15,21534,21524,21535
+905,test_block,Test Block,-1.0,3600000.0,64,False,default,False,0,15,21536,21536,21539
+906,test_instance_block,Test Instance Block,-1.0,3600000.0,64,False,default,True,0,1,21540,21540,21540
+907,composter,Composter,0.6,0.6,64,True,mineable/axe,False,0,0,21541,21541,21549
+908,target,Target,0.5,0.5,64,True,mineable/hoe,False,0,15,21550,21550,21565
+909,bee_nest,Bee Nest,0.3,0.3,64,True,mineable/axe,False,0,15,21566,21566,21589
+910,beehive,Beehive,0.6,0.6,64,True,mineable/axe,False,0,15,21590,21590,21613
+911,honey_block,Honey Block,0.0,0.0,64,True,default,True,0,1,21614,21614,21614
+912,honeycomb_block,Honeycomb Block,0.6,0.6,64,True,default,False,0,15,21615,21615,21615
+913,netherite_block,Block of Netherite,50.0,1200.0,64,True,incorrect_for_wooden_tool,False,0,15,21616,21616,21616
+914,ancient_debris,Ancient Debris,30.0,1200.0,64,True,incorrect_for_wooden_tool,False,0,15,21617,21617,21617
+915,crying_obsidian,Crying Obsidian,50.0,1200.0,64,True,incorrect_for_wooden_tool,False,10,15,21618,21618,21618
+916,respawn_anchor,Respawn Anchor,50.0,1200.0,64,True,incorrect_for_wooden_tool,False,0,15,21619,21619,21623
+917,potted_crimson_fungus,Potted Crimson Fungus,0.0,0.0,64,True,default,True,0,0,21624,21624,21624
+918,potted_warped_fungus,Potted Warped Fungus,0.0,0.0,64,True,default,True,0,0,21625,21625,21625
+919,potted_crimson_roots,Potted Crimson Roots,0.0,0.0,64,True,default,True,0,0,21626,21626,21626
+920,potted_warped_roots,Potted Warped Roots,0.0,0.0,64,True,default,True,0,0,21627,21627,21627
+921,lodestone,Lodestone,3.5,3.5,64,True,mineable/pickaxe,False,0,15,21628,21628,21628
+922,blackstone,Blackstone,1.5,6.0,64,True,mineable/pickaxe,False,0,15,21629,21629,21629
+923,blackstone_stairs,Blackstone Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,21641,21630,21709
+924,blackstone_wall,Blackstone Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,21713,21710,22033
+925,blackstone_slab,Blackstone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,22037,22034,22039
+926,polished_blackstone,Polished Blackstone,2.0,6.0,64,True,mineable/pickaxe,False,0,15,22040,22040,22040
+927,polished_blackstone_bricks,Polished Blackstone Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,22041,22041,22041
+928,cracked_polished_blackstone_bricks,Cracked Polished Blackstone Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,22042,22042,22042
+929,chiseled_polished_blackstone,Chiseled Polished Blackstone,1.5,6.0,64,True,mineable/pickaxe,False,0,15,22043,22043,22043
+930,polished_blackstone_brick_slab,Polished Blackstone Brick Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,22047,22044,22049
+931,polished_blackstone_brick_stairs,Polished Blackstone Brick Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,22061,22050,22129
+932,polished_blackstone_brick_wall,Polished Blackstone Brick Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,22133,22130,22453
+933,gilded_blackstone,Gilded Blackstone,1.5,6.0,64,True,mineable/pickaxe,False,0,15,22454,22454,22454
+934,polished_blackstone_stairs,Polished Blackstone Stairs,2.0,6.0,64,True,mineable/pickaxe,False,0,0,22466,22455,22534
+935,polished_blackstone_slab,Polished Blackstone Slab,2.0,6.0,64,True,mineable/pickaxe,False,0,0,22538,22535,22540
+936,polished_blackstone_pressure_plate,Polished Blackstone Pressure Plate,0.5,0.5,64,True,mineable/pickaxe,True,0,0,22542,22541,22542
+937,polished_blackstone_button,Polished Blackstone Button,0.5,0.5,64,True,mineable/pickaxe,True,0,0,22552,22543,22566
+938,polished_blackstone_wall,Polished Blackstone Wall,2.0,6.0,64,True,mineable/pickaxe,False,0,0,22570,22567,22890
+939,chiseled_nether_bricks,Chiseled Nether Bricks,2.0,6.0,64,True,mineable/pickaxe,False,0,15,22891,22891,22891
+940,cracked_nether_bricks,Cracked Nether Bricks,2.0,6.0,64,True,mineable/pickaxe,False,0,15,22892,22892,22892
+941,quartz_bricks,Quartz Bricks,0.8,0.8,64,True,mineable/pickaxe,False,0,15,22893,22893,22893
+942,candle,Candle,0.1,0.1,64,True,default,True,0,0,22897,22894,22909
+943,white_candle,White Candle,0.1,0.1,64,True,default,True,0,0,22913,22910,22925
+944,orange_candle,Orange Candle,0.1,0.1,64,True,default,True,0,0,22929,22926,22941
+945,magenta_candle,Magenta Candle,0.1,0.1,64,True,default,True,0,0,22945,22942,22957
+946,light_blue_candle,Light Blue Candle,0.1,0.1,64,True,default,True,0,0,22961,22958,22973
+947,yellow_candle,Yellow Candle,0.1,0.1,64,True,default,True,0,0,22977,22974,22989
+948,lime_candle,Lime Candle,0.1,0.1,64,True,default,True,0,0,22993,22990,23005
+949,pink_candle,Pink Candle,0.1,0.1,64,True,default,True,0,0,23009,23006,23021
+950,gray_candle,Gray Candle,0.1,0.1,64,True,default,True,0,0,23025,23022,23037
+951,light_gray_candle,Light Gray Candle,0.1,0.1,64,True,default,True,0,0,23041,23038,23053
+952,cyan_candle,Cyan Candle,0.1,0.1,64,True,default,True,0,0,23057,23054,23069
+953,purple_candle,Purple Candle,0.1,0.1,64,True,default,True,0,0,23073,23070,23085
+954,blue_candle,Blue Candle,0.1,0.1,64,True,default,True,0,0,23089,23086,23101
+955,brown_candle,Brown Candle,0.1,0.1,64,True,default,True,0,0,23105,23102,23117
+956,green_candle,Green Candle,0.1,0.1,64,True,default,True,0,0,23121,23118,23133
+957,red_candle,Red Candle,0.1,0.1,64,True,default,True,0,0,23137,23134,23149
+958,black_candle,Black Candle,0.1,0.1,64,True,default,True,0,0,23153,23150,23165
+959,candle_cake,Cake with Candle,0.5,0.5,64,True,default,False,0,0,23167,23166,23167
+960,white_candle_cake,Cake with White Candle,0.5,0.5,64,True,default,False,0,0,23169,23168,23169
+961,orange_candle_cake,Cake with Orange Candle,0.5,0.5,64,True,default,False,0,0,23171,23170,23171
+962,magenta_candle_cake,Cake with Magenta Candle,0.5,0.5,64,True,default,False,0,0,23173,23172,23173
+963,light_blue_candle_cake,Cake with Light Blue Candle,0.5,0.5,64,True,default,False,0,0,23175,23174,23175
+964,yellow_candle_cake,Cake with Yellow Candle,0.5,0.5,64,True,default,False,0,0,23177,23176,23177
+965,lime_candle_cake,Cake with Lime Candle,0.5,0.5,64,True,default,False,0,0,23179,23178,23179
+966,pink_candle_cake,Cake with Pink Candle,0.5,0.5,64,True,default,False,0,0,23181,23180,23181
+967,gray_candle_cake,Cake with Gray Candle,0.5,0.5,64,True,default,False,0,0,23183,23182,23183
+968,light_gray_candle_cake,Cake with Light Gray Candle,0.5,0.5,64,True,default,False,0,0,23185,23184,23185
+969,cyan_candle_cake,Cake with Cyan Candle,0.5,0.5,64,True,default,False,0,0,23187,23186,23187
+970,purple_candle_cake,Cake with Purple Candle,0.5,0.5,64,True,default,False,0,0,23189,23188,23189
+971,blue_candle_cake,Cake with Blue Candle,0.5,0.5,64,True,default,False,0,0,23191,23190,23191
+972,brown_candle_cake,Cake with Brown Candle,0.5,0.5,64,True,default,False,0,0,23193,23192,23193
+973,green_candle_cake,Cake with Green Candle,0.5,0.5,64,True,default,False,0,0,23195,23194,23195
+974,red_candle_cake,Cake with Red Candle,0.5,0.5,64,True,default,False,0,0,23197,23196,23197
+975,black_candle_cake,Cake with Black Candle,0.5,0.5,64,True,default,False,0,0,23199,23198,23199
+976,amethyst_block,Block of Amethyst,1.5,1.5,64,True,mineable/pickaxe,False,0,15,23200,23200,23200
+977,budding_amethyst,Budding Amethyst,1.5,1.5,64,True,mineable/pickaxe,False,0,15,23201,23201,23201
+978,amethyst_cluster,Amethyst Cluster,1.5,1.5,64,True,mineable/pickaxe,True,5,0,23211,23202,23213
+979,large_amethyst_bud,Large Amethyst Bud,1.5,1.5,64,True,mineable/pickaxe,True,4,0,23223,23214,23225
+980,medium_amethyst_bud,Medium Amethyst Bud,1.5,1.5,64,True,mineable/pickaxe,True,2,0,23235,23226,23237
+981,small_amethyst_bud,Small Amethyst Bud,1.5,1.5,64,True,mineable/pickaxe,True,1,0,23247,23238,23249
+982,tuff,Tuff,1.5,6.0,64,True,mineable/pickaxe,False,0,15,23250,23250,23250
+983,tuff_slab,Tuff Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,23254,23251,23256
+984,tuff_stairs,Tuff Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,23268,23257,23336
+985,tuff_wall,Tuff Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,23340,23337,23660
+986,polished_tuff,Polished Tuff,1.5,6.0,64,True,mineable/pickaxe,False,0,15,23661,23661,23661
+987,polished_tuff_slab,Polished Tuff Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,23665,23662,23667
+988,polished_tuff_stairs,Polished Tuff Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,23679,23668,23747
+989,polished_tuff_wall,Polished Tuff Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,23751,23748,24071
+990,chiseled_tuff,Chiseled Tuff,1.5,6.0,64,True,mineable/pickaxe,False,0,15,24072,24072,24072
+991,tuff_bricks,Tuff Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,24073,24073,24073
+992,tuff_brick_slab,Tuff Brick Slab,1.5,6.0,64,True,mineable/pickaxe,False,0,0,24077,24074,24079
+993,tuff_brick_stairs,Tuff Brick Stairs,1.5,6.0,64,True,mineable/pickaxe,False,0,0,24091,24080,24159
+994,tuff_brick_wall,Tuff Brick Wall,1.5,6.0,64,True,mineable/pickaxe,False,0,0,24163,24160,24483
+995,chiseled_tuff_bricks,Chiseled Tuff Bricks,1.5,6.0,64,True,mineable/pickaxe,False,0,15,24484,24484,24484
+996,calcite,Calcite,0.75,0.75,64,True,mineable/pickaxe,False,0,15,24485,24485,24485
+997,tinted_glass,Tinted Glass,0.3,0.3,64,True,default,True,0,15,24486,24486,24486
+998,powder_snow,Powder Snow,0.25,0.25,1,True,default,True,0,1,24487,24487,24487
+999,sculk_sensor,Sculk Sensor,1.5,1.5,64,True,mineable/hoe,False,1,0,24489,24488,24583
+1000,calibrated_sculk_sensor,Calibrated Sculk Sensor,1.5,1.5,64,True,mineable/hoe,False,1,0,24585,24584,24967
+1001,sculk,Sculk,0.2,0.2,64,True,mineable/hoe,False,0,15,24968,24968,24968
+1002,sculk_vein,Sculk Vein,0.2,0.2,64,True,mineable/hoe,True,0,1,25096,24969,25096
+1003,sculk_catalyst,Sculk Catalyst,3.0,3.0,64,True,mineable/hoe,False,6,15,25098,25097,25098
+1004,sculk_shrieker,Sculk Shrieker,3.0,3.0,64,True,mineable/hoe,False,0,1,25106,25099,25106
+1005,copper_block,Block of Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25107,25107,25107
+1006,exposed_copper,Exposed Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25108,25108,25108
+1007,weathered_copper,Weathered Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25109,25109,25109
+1008,oxidized_copper,Oxidized Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25110,25110,25110
+1009,copper_ore,Copper Ore,3.0,3.0,64,True,incorrect_for_wooden_tool,False,0,15,25111,25111,25111
+1010,deepslate_copper_ore,Deepslate Copper Ore,4.5,3.0,64,True,incorrect_for_wooden_tool,False,0,15,25112,25112,25112
+1011,oxidized_cut_copper,Oxidized Cut Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25113,25113,25113
+1012,weathered_cut_copper,Weathered Cut Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25114,25114,25114
+1013,exposed_cut_copper,Exposed Cut Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25115,25115,25115
+1014,cut_copper,Cut Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25116,25116,25116
+1015,oxidized_chiseled_copper,Oxidized Chiseled Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25117,25117,25117
+1016,weathered_chiseled_copper,Weathered Chiseled Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25118,25118,25118
+1017,exposed_chiseled_copper,Exposed Chiseled Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25119,25119,25119
+1018,chiseled_copper,Chiseled Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25120,25120,25120
+1019,waxed_oxidized_chiseled_copper,Waxed Oxidized Chiseled Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25121,25121,25121
+1020,waxed_weathered_chiseled_copper,Waxed Weathered Chiseled Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25122,25122,25122
+1021,waxed_exposed_chiseled_copper,Waxed Exposed Chiseled Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25123,25123,25123
+1022,waxed_chiseled_copper,Waxed Chiseled Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25124,25124,25124
+1023,oxidized_cut_copper_stairs,Oxidized Cut Copper Stairs,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25136,25125,25204
+1024,weathered_cut_copper_stairs,Weathered Cut Copper Stairs,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25216,25205,25284
+1025,exposed_cut_copper_stairs,Exposed Cut Copper Stairs,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25296,25285,25364
+1026,cut_copper_stairs,Cut Copper Stairs,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25376,25365,25444
+1027,oxidized_cut_copper_slab,Oxidized Cut Copper Slab,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25448,25445,25450
+1028,weathered_cut_copper_slab,Weathered Cut Copper Slab,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25454,25451,25456
+1029,exposed_cut_copper_slab,Exposed Cut Copper Slab,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25460,25457,25462
+1030,cut_copper_slab,Cut Copper Slab,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25466,25463,25468
+1031,waxed_copper_block,Waxed Block of Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25469,25469,25469
+1032,waxed_weathered_copper,Waxed Weathered Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25470,25470,25470
+1033,waxed_exposed_copper,Waxed Exposed Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25471,25471,25471
+1034,waxed_oxidized_copper,Waxed Oxidized Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25472,25472,25472
+1035,waxed_oxidized_cut_copper,Waxed Oxidized Cut Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25473,25473,25473
+1036,waxed_weathered_cut_copper,Waxed Weathered Cut Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25474,25474,25474
+1037,waxed_exposed_cut_copper,Waxed Exposed Cut Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25475,25475,25475
+1038,waxed_cut_copper,Waxed Cut Copper,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,25476,25476,25476
+1039,waxed_oxidized_cut_copper_stairs,Waxed Oxidized Cut Copper Stairs,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25488,25477,25556
+1040,waxed_weathered_cut_copper_stairs,Waxed Weathered Cut Copper Stairs,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25568,25557,25636
+1041,waxed_exposed_cut_copper_stairs,Waxed Exposed Cut Copper Stairs,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25648,25637,25716
+1042,waxed_cut_copper_stairs,Waxed Cut Copper Stairs,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25728,25717,25796
+1043,waxed_oxidized_cut_copper_slab,Waxed Oxidized Cut Copper Slab,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25800,25797,25802
+1044,waxed_weathered_cut_copper_slab,Waxed Weathered Cut Copper Slab,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25806,25803,25808
+1045,waxed_exposed_cut_copper_slab,Waxed Exposed Cut Copper Slab,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25812,25809,25814
+1046,waxed_cut_copper_slab,Waxed Cut Copper Slab,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,25818,25815,25820
+1047,copper_door,Copper Door,3.0,6.0,64,True,mineable/pickaxe,True,0,0,25832,25821,25884
+1048,exposed_copper_door,Exposed Copper Door,3.0,6.0,64,True,mineable/pickaxe,True,0,0,25896,25885,25948
+1049,oxidized_copper_door,Oxidized Copper Door,3.0,6.0,64,True,mineable/pickaxe,True,0,0,25960,25949,26012
+1050,weathered_copper_door,Weathered Copper Door,3.0,6.0,64,True,mineable/pickaxe,True,0,0,26024,26013,26076
+1051,waxed_copper_door,Waxed Copper Door,3.0,6.0,64,True,mineable/pickaxe,True,0,0,26088,26077,26140
+1052,waxed_exposed_copper_door,Waxed Exposed Copper Door,3.0,6.0,64,True,mineable/pickaxe,True,0,0,26152,26141,26204
+1053,waxed_oxidized_copper_door,Waxed Oxidized Copper Door,3.0,6.0,64,True,mineable/pickaxe,True,0,0,26216,26205,26268
+1054,waxed_weathered_copper_door,Waxed Weathered Copper Door,3.0,6.0,64,True,mineable/pickaxe,True,0,0,26280,26269,26332
+1055,copper_trapdoor,Copper Trapdoor,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26348,26333,26396
+1056,exposed_copper_trapdoor,Exposed Copper Trapdoor,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26412,26397,26460
+1057,oxidized_copper_trapdoor,Oxidized Copper Trapdoor,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26476,26461,26524
+1058,weathered_copper_trapdoor,Weathered Copper Trapdoor,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26540,26525,26588
+1059,waxed_copper_trapdoor,Waxed Copper Trapdoor,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26604,26589,26652
+1060,waxed_exposed_copper_trapdoor,Waxed Exposed Copper Trapdoor,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26668,26653,26716
+1061,waxed_oxidized_copper_trapdoor,Waxed Oxidized Copper Trapdoor,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26732,26717,26780
+1062,waxed_weathered_copper_trapdoor,Waxed Weathered Copper Trapdoor,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26796,26781,26844
+1063,copper_grate,Copper Grate,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26846,26845,26846
+1064,exposed_copper_grate,Exposed Copper Grate,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26848,26847,26848
+1065,weathered_copper_grate,Weathered Copper Grate,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26850,26849,26850
+1066,oxidized_copper_grate,Oxidized Copper Grate,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26852,26851,26852
+1067,waxed_copper_grate,Waxed Copper Grate,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26854,26853,26854
+1068,waxed_exposed_copper_grate,Waxed Exposed Copper Grate,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26856,26855,26856
+1069,waxed_weathered_copper_grate,Waxed Weathered Copper Grate,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26858,26857,26858
+1070,waxed_oxidized_copper_grate,Waxed Oxidized Copper Grate,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,26860,26859,26860
+1071,copper_bulb,Copper Bulb,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,26864,26861,26864
+1072,exposed_copper_bulb,Exposed Copper Bulb,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,26868,26865,26868
+1073,weathered_copper_bulb,Weathered Copper Bulb,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,26872,26869,26872
+1074,oxidized_copper_bulb,Oxidized Copper Bulb,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,26876,26873,26876
+1075,waxed_copper_bulb,Waxed Copper Bulb,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,26880,26877,26880
+1076,waxed_exposed_copper_bulb,Waxed Exposed Copper Bulb,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,26884,26881,26884
+1077,waxed_weathered_copper_bulb,Waxed Weathered Copper Bulb,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,26888,26885,26888
+1078,waxed_oxidized_copper_bulb,Waxed Oxidized Copper Bulb,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,26892,26889,26892
+1079,copper_chest,Copper Chest,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,26894,26893,26916
+1080,exposed_copper_chest,Exposed Copper Chest,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,26918,26917,26940
+1081,weathered_copper_chest,Weathered Copper Chest,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,26942,26941,26964
+1082,oxidized_copper_chest,Oxidized Copper Chest,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,26966,26965,26988
+1083,waxed_copper_chest,Waxed Copper Chest,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,26990,26989,27012
+1084,waxed_exposed_copper_chest,Waxed Exposed Copper Chest,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,27014,27013,27036
+1085,waxed_weathered_copper_chest,Waxed Weathered Copper Chest,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,27038,27037,27060
+1086,waxed_oxidized_copper_chest,Waxed Oxidized Copper Chest,3.0,6.0,64,True,incorrect_for_wooden_tool,False,0,0,27062,27061,27084
+1087,copper_golem_statue,Copper Golem Statue,3.0,6.0,64,True,mineable/pickaxe,True,0,0,27086,27085,27116
+1088,exposed_copper_golem_statue,Exposed Copper Golem Statue,3.0,6.0,64,True,mineable/pickaxe,True,0,0,27118,27117,27148
+1089,weathered_copper_golem_statue,Weathered Copper Golem Statue,3.0,6.0,64,True,mineable/pickaxe,True,0,0,27150,27149,27180
+1090,oxidized_copper_golem_statue,Oxidized Copper Golem Statue,3.0,6.0,64,True,mineable/pickaxe,True,0,0,27182,27181,27212
+1091,waxed_copper_golem_statue,Waxed Copper Golem Statue,3.0,6.0,64,True,mineable/pickaxe,True,0,0,27214,27213,27244
+1092,waxed_exposed_copper_golem_statue,Waxed Exposed Copper Golem Statue,3.0,6.0,64,True,mineable/pickaxe,True,0,0,27246,27245,27276
+1093,waxed_weathered_copper_golem_statue,Waxed Weathered Copper Golem Statue,3.0,6.0,64,True,mineable/pickaxe,True,0,0,27278,27277,27308
+1094,waxed_oxidized_copper_golem_statue,Waxed Oxidized Copper Golem Statue,3.0,6.0,64,True,mineable/pickaxe,True,0,0,27310,27309,27340
+1095,lightning_rod,Lightning Rod,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,27360,27341,27364
+1096,exposed_lightning_rod,Exposed Lightning Rod,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,27384,27365,27388
+1097,weathered_lightning_rod,Weathered Lightning Rod,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,27408,27389,27412
+1098,oxidized_lightning_rod,Oxidized Lightning Rod,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,27432,27413,27436
+1099,waxed_lightning_rod,Waxed Lightning Rod,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,27456,27437,27460
+1100,waxed_exposed_lightning_rod,Waxed Exposed Lightning Rod,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,27480,27461,27484
+1101,waxed_weathered_lightning_rod,Waxed Weathered Lightning Rod,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,27504,27485,27508
+1102,waxed_oxidized_lightning_rod,Waxed Oxidized Lightning Rod,3.0,6.0,64,True,incorrect_for_wooden_tool,True,0,0,27528,27509,27532
+1103,pointed_dripstone,Pointed Dripstone,1.5,3.0,64,True,mineable/pickaxe,True,0,0,27538,27533,27552
+1104,dripstone_block,Dripstone Block,1.5,1.0,64,True,mineable/pickaxe,False,0,15,27553,27553,27553
+1105,cave_vines,Cave Vines,0.0,0.0,64,True,default,True,0,0,27555,27554,27605
+1106,cave_vines_plant,Cave Vines Plant,0.0,0.0,64,True,default,True,0,0,27607,27606,27607
+1107,spore_blossom,Spore Blossom,0.0,0.0,64,True,default,True,0,0,27608,27608,27608
+1108,azalea,Azalea,0.0,0.0,64,True,default,True,0,0,27609,27609,27609
+1109,flowering_azalea,Flowering Azalea,0.0,0.0,64,True,default,True,0,0,27610,27610,27610
+1110,moss_carpet,Moss Carpet,0.1,0.1,64,True,mineable/hoe,False,0,0,27611,27611,27611
+1111,pink_petals,Pink Petals,0.0,0.0,64,True,default,True,0,0,27612,27612,27627
+1112,wildflowers,Wildflowers,0.0,0.0,64,True,default,True,0,0,27628,27628,27643
+1113,leaf_litter,Leaf Litter,0.0,0.0,64,True,default,True,0,0,27644,27644,27659
+1114,moss_block,Moss Block,0.1,0.1,64,True,mineable/hoe,False,0,15,27660,27660,27660
+1115,big_dripleaf,Big Dripleaf,0.1,0.1,64,True,plant;mineable/axe,False,0,0,27662,27661,27692
+1116,big_dripleaf_stem,Big Dripleaf Stem,0.1,0.1,64,True,plant;mineable/axe,True,0,0,27694,27693,27700
+1117,small_dripleaf,Small Dripleaf,0.0,0.0,64,True,default,True,0,0,27704,27701,27716
+1118,hanging_roots,Hanging Roots,0.0,0.0,64,True,default,True,0,0,27718,27717,27718
+1119,rooted_dirt,Rooted Dirt,0.5,0.5,64,True,mineable/shovel,False,0,15,27719,27719,27719
+1120,mud,Mud,0.5,0.5,64,True,mineable/shovel,False,0,15,27720,27720,27720
+1121,deepslate,Deepslate,3.0,6.0,64,True,mineable/pickaxe,False,0,15,27722,27721,27723
+1122,cobbled_deepslate,Cobbled Deepslate,3.5,6.0,64,True,mineable/pickaxe,False,0,15,27724,27724,27724
+1123,cobbled_deepslate_stairs,Cobbled Deepslate Stairs,3.5,6.0,64,True,mineable/pickaxe,False,0,0,27736,27725,27804
+1124,cobbled_deepslate_slab,Cobbled Deepslate Slab,3.5,6.0,64,True,mineable/pickaxe,False,0,0,27808,27805,27810
+1125,cobbled_deepslate_wall,Cobbled Deepslate Wall,3.5,6.0,64,True,mineable/pickaxe,False,0,0,27814,27811,28134
+1126,polished_deepslate,Polished Deepslate,3.5,6.0,64,True,mineable/pickaxe,False,0,15,28135,28135,28135
+1127,polished_deepslate_stairs,Polished Deepslate Stairs,3.5,6.0,64,True,mineable/pickaxe,False,0,0,28147,28136,28215
+1128,polished_deepslate_slab,Polished Deepslate Slab,3.5,6.0,64,True,mineable/pickaxe,False,0,0,28219,28216,28221
+1129,polished_deepslate_wall,Polished Deepslate Wall,3.5,6.0,64,True,mineable/pickaxe,False,0,0,28225,28222,28545
+1130,deepslate_tiles,Deepslate Tiles,3.5,6.0,64,True,mineable/pickaxe,False,0,15,28546,28546,28546
+1131,deepslate_tile_stairs,Deepslate Tile Stairs,3.5,6.0,64,True,mineable/pickaxe,False,0,0,28558,28547,28626
+1132,deepslate_tile_slab,Deepslate Tile Slab,3.5,6.0,64,True,mineable/pickaxe,False,0,0,28630,28627,28632
+1133,deepslate_tile_wall,Deepslate Tile Wall,3.5,6.0,64,True,mineable/pickaxe,False,0,0,28636,28633,28956
+1134,deepslate_bricks,Deepslate Bricks,3.5,6.0,64,True,mineable/pickaxe,False,0,15,28957,28957,28957
+1135,deepslate_brick_stairs,Deepslate Brick Stairs,3.5,6.0,64,True,mineable/pickaxe,False,0,0,28969,28958,29037
+1136,deepslate_brick_slab,Deepslate Brick Slab,3.5,6.0,64,True,mineable/pickaxe,False,0,0,29041,29038,29043
+1137,deepslate_brick_wall,Deepslate Brick Wall,3.5,6.0,64,True,mineable/pickaxe,False,0,0,29047,29044,29367
+1138,chiseled_deepslate,Chiseled Deepslate,3.5,6.0,64,True,mineable/pickaxe,False,0,15,29368,29368,29368
+1139,cracked_deepslate_bricks,Cracked Deepslate Bricks,3.5,6.0,64,True,mineable/pickaxe,False,0,15,29369,29369,29369
+1140,cracked_deepslate_tiles,Cracked Deepslate Tiles,3.5,6.0,64,True,mineable/pickaxe,False,0,15,29370,29370,29370
+1141,infested_deepslate,Infested Deepslate,1.5,0.75,64,True,mineable/pickaxe,False,0,15,29372,29371,29373
+1142,smooth_basalt,Smooth Basalt,1.25,4.2,64,True,mineable/pickaxe,False,0,15,29374,29374,29374
+1143,raw_iron_block,Block of Raw Iron,5.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,29375,29375,29375
+1144,raw_copper_block,Block of Raw Copper,5.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,29376,29376,29376
+1145,raw_gold_block,Block of Raw Gold,5.0,6.0,64,True,incorrect_for_wooden_tool,False,0,15,29377,29377,29377
+1146,potted_azalea_bush,Potted Azalea,0.0,0.0,64,True,default,True,0,0,29378,29378,29378
+1147,potted_flowering_azalea_bush,Potted Flowering Azalea,0.0,0.0,64,True,default,True,0,0,29379,29379,29379
+1148,ochre_froglight,Ochre Froglight,0.3,0.3,64,True,default,False,15,15,29381,29380,29382
+1149,verdant_froglight,Verdant Froglight,0.3,0.3,64,True,default,False,15,15,29384,29383,29385
+1150,pearlescent_froglight,Pearlescent Froglight,0.3,0.3,64,True,default,False,15,15,29387,29386,29388
+1151,frogspawn,Frogspawn,0.0,0.0,64,True,default,True,0,0,29389,29389,29389
+1152,reinforced_deepslate,Reinforced Deepslate,55.0,1200.0,64,True,default,False,0,15,29390,29390,29390
+1153,decorated_pot,Decorated Pot,0.0,0.0,64,True,default,True,0,0,29400,29391,29406
+1154,crafter,Crafter,1.5,3.5,64,True,incorrect_for_wooden_tool,False,0,15,29452,29407,29454
+1155,trial_spawner,Trial Spawner,50.0,50.0,64,True,default,True,0,1,29461,29455,29466
+1156,vault,Vault,50.0,50.0,64,True,default,True,6,1,29471,29467,29498
+1157,heavy_core,Heavy Core,10.0,1200.0,64,True,mineable/pickaxe,False,0,0,29500,29499,29500
+1158,pale_moss_block,Pale Moss Block,0.1,0.1,64,True,mineable/hoe,False,0,15,29501,29501,29501
+1159,pale_moss_carpet,Pale Moss Carpet,0.1,0.1,64,True,mineable/hoe,True,0,0,29502,29502,29663
+1160,pale_hanging_moss,Pale Hanging Moss,0.0,0.0,64,True,default,True,0,0,29664,29664,29665
+1161,open_eyeblossom,Open Eyeblossom,0.0,0.0,64,True,default,True,0,0,29666,29666,29666
+1162,closed_eyeblossom,Closed Eyeblossom,0.0,0.0,64,True,default,True,0,0,29667,29667,29667
+1163,potted_open_eyeblossom,Potted Open Eyeblossom,0.0,0.0,64,True,default,True,0,0,29668,29668,29668
+1164,potted_closed_eyeblossom,Potted Closed Eyeblossom,0.0,0.0,64,True,default,True,0,0,29669,29669,29669
+1165,firefly_bush,Firefly Bush,0.0,0.0,64,True,default,True,2,0,29670,29670,29670

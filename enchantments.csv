@@ -1,0 +1,44 @@
+enchantment_id,name,display_name,max_level,min_cost_a,min_cost_b,max_cost_a,max_cost_b,treasure_only,curse,category,weight,tradeable,discoverable
+0,aqua_affinity,Aqua Affinity,1,0,1,0,1,False,False,head_armor,2,True,True
+1,bane_of_arthropods,Bane of Arthropods,5,4,1,4,1,False,False,weapon,5,True,True
+2,binding_curse,Curse of Binding,1,0,1,0,1,True,True,equippable,1,True,True
+3,blast_protection,Blast Protection,4,3,1,3,1,False,False,armor,2,True,True
+4,breach,Breach,4,3,1,3,1,False,False,mace,2,True,True
+5,channeling,Channeling,1,0,1,0,1,False,False,trident,1,True,True
+6,density,Density,5,4,1,4,1,False,False,mace,5,True,True
+7,depth_strider,Depth Strider,3,2,1,2,1,False,False,foot_armor,2,True,True
+8,efficiency,Efficiency,5,4,1,4,1,False,False,mining,10,True,True
+9,feather_falling,Feather Falling,4,3,1,3,1,False,False,foot_armor,5,True,True
+10,fire_aspect,Fire Aspect,2,1,1,1,1,False,False,fire_aspect,2,True,True
+11,fire_protection,Fire Protection,4,3,1,3,1,False,False,armor,5,True,True
+12,flame,Flame,1,0,1,0,1,False,False,bow,2,True,True
+13,fortune,Fortune,3,2,1,2,1,False,False,mining_loot,2,True,True
+14,frost_walker,Frost Walker,2,1,1,1,1,True,False,foot_armor,2,True,True
+15,impaling,Impaling,5,4,1,4,1,False,False,trident,2,True,True
+16,infinity,Infinity,1,0,1,0,1,False,False,bow,1,True,True
+17,knockback,Knockback,2,1,1,1,1,False,False,melee_weapon,5,True,True
+18,looting,Looting,3,2,1,2,1,False,False,melee_weapon,2,True,True
+19,loyalty,Loyalty,3,2,1,2,1,False,False,trident,5,True,True
+20,luck_of_the_sea,Luck of the Sea,3,2,1,2,1,False,False,fishing,2,True,True
+21,lunge,Lunge,3,2,1,2,1,False,False,lunge,5,True,True
+22,lure,Lure,3,2,1,2,1,False,False,fishing,2,True,True
+23,mending,Mending,1,0,1,0,1,True,False,durability,2,True,True
+24,multishot,Multishot,1,0,1,0,1,False,False,crossbow,2,True,True
+25,piercing,Piercing,4,3,1,3,1,False,False,crossbow,10,True,True
+26,power,Power,5,4,1,4,1,False,False,bow,10,True,True
+27,projectile_protection,Projectile Protection,4,3,1,3,1,False,False,armor,5,True,True
+28,protection,Protection,4,3,1,3,1,False,False,armor,10,True,True
+29,punch,Punch,2,1,1,1,1,False,False,bow,2,True,True
+30,quick_charge,Quick Charge,3,2,1,2,1,False,False,crossbow,5,True,True
+31,respiration,Respiration,3,2,1,2,1,False,False,head_armor,2,True,True
+32,riptide,Riptide,3,2,1,2,1,False,False,trident,2,True,True
+33,sharpness,Sharpness,5,4,1,4,1,False,False,sharp_weapon,10,True,True
+34,silk_touch,Silk Touch,1,0,1,0,1,False,False,mining_loot,1,True,True
+35,smite,Smite,5,4,1,4,1,False,False,weapon,5,True,True
+36,soul_speed,Soul Speed,3,2,1,2,1,True,False,foot_armor,1,False,False
+37,sweeping_edge,Sweeping Edge,3,2,1,2,1,False,False,sweeping,2,True,True
+38,swift_sneak,Swift Sneak,3,2,1,2,1,True,False,leg_armor,1,False,False
+39,thorns,Thorns,3,2,1,2,1,False,False,armor,1,True,True
+40,unbreaking,Unbreaking,3,2,1,2,1,False,False,durability,5,True,True
+41,vanishing_curse,Curse of Vanishing,1,0,1,0,1,True,True,vanishing,1,True,True
+42,wind_burst,Wind Burst,3,2,1,2,1,True,False,mace,2,False,False

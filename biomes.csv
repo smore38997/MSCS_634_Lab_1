@@ -1,0 +1,66 @@
+biome_id,name,display_name,category,temperature,has_precipitation,dimension,color
+0,badlands,Badlands,mesa,2.0,False,overworld,7254527
+1,bamboo_jungle,Bamboo Jungle,jungle,0.95,True,overworld,7842047
+2,basalt_deltas,Basalt Deltas,nether,2.0,False,nether,0
+3,beach,Beach,beach,0.8,True,overworld,7907327
+4,birch_forest,Birch Forest,forest,0.6,True,overworld,8037887
+5,cherry_grove,Cherry Grove,forest,0.5,True,overworld,8103167
+6,cold_ocean,Cold Ocean,ocean,0.5,True,overworld,8103167
+7,crimson_forest,Crimson Forest,nether,2.0,False,nether,0
+8,dark_forest,Dark Forest,forest,0.7,True,overworld,7972607
+9,deep_cold_ocean,Deep Cold Ocean,ocean,0.5,True,overworld,8103167
+10,deep_dark,Deep Dark,underground,0.8,True,overworld,7907327
+11,deep_frozen_ocean,Deep Frozen Ocean,ocean,0.5,True,overworld,8103167
+12,deep_lukewarm_ocean,Deep Lukewarm Ocean,ocean,0.5,True,overworld,8103167
+13,deep_ocean,Deep Ocean,ocean,0.5,True,overworld,8103167
+14,desert,Desert,desert,2.0,False,overworld,7254527
+15,dripstone_caves,Dripstone Caves,underground,0.8,True,overworld,7907327
+16,end_barrens,End Barrens,the_end,0.5,False,end,0
+17,end_highlands,End Highlands,the_end,0.5,False,end,0
+18,end_midlands,End Midlands,the_end,0.5,False,end,0
+19,eroded_badlands,Eroded Badlands,mesa,2.0,False,overworld,7254527
+20,flower_forest,Flower Forest,forest,0.7,True,overworld,7972607
+21,forest,Forest,forest,0.7,True,overworld,7972607
+22,frozen_ocean,Frozen Ocean,ocean,0.0,True,overworld,8364543
+23,frozen_peaks,Frozen Peaks,ice,-0.7,True,overworld,8756735
+24,frozen_river,Frozen River,ice,0.0,True,overworld,8364543
+25,grove,Grove,forest,-0.2,True,overworld,8495359
+26,ice_spikes,Ice Spikes,ice,0.0,True,overworld,8364543
+27,jagged_peaks,Jagged Peaks,mountain,-0.7,True,overworld,8756735
+28,jungle,Jungle,jungle,0.95,True,overworld,7842047
+29,lukewarm_ocean,Lukewarm Ocean,ocean,0.5,True,overworld,8103167
+30,lush_caves,Lush Caves,underground,0.5,True,overworld,8103167
+31,mangrove_swamp,Mangrove Swamp,forest,0.8,True,overworld,7907327
+32,meadow,Meadow,mountain,0.5,True,overworld,8103167
+33,mushroom_fields,Mushroom Fields,mushroom,0.9,True,overworld,7842047
+34,nether_wastes,Nether Wastes,nether,2.0,False,nether,0
+35,ocean,Ocean,ocean,0.5,True,overworld,8103167
+36,old_growth_birch_forest,Old Growth Birch Forest,forest,0.6,True,overworld,8037887
+37,old_growth_pine_taiga,Old Growth Pine Taiga,taiga,0.3,True,overworld,8168447
+38,old_growth_spruce_taiga,Old Growth Spruce Taiga,taiga,0.25,True,overworld,8233983
+39,pale_garden,Pale Garden,none,0.7,True,overworld,12171705
+40,plains,Plains,plains,0.8,True,overworld,7907327
+41,river,River,river,0.5,True,overworld,8103167
+42,savanna,Savanna,savanna,2.0,False,overworld,7254527
+43,savanna_plateau,Savanna Plateau,savanna,2.0,False,overworld,7254527
+44,small_end_islands,Small End Islands,the_end,0.5,False,end,0
+45,snowy_beach,Snowy Beach,beach,0.05,True,overworld,8364543
+46,snowy_plains,Snowy Plains,plains,0.0,True,overworld,8364543
+47,snowy_slopes,Snowy Slopes,mountain,-0.3,True,overworld,8560639
+48,snowy_taiga,Snowy Taiga,taiga,-0.5,True,overworld,8625919
+49,soul_sand_valley,Soul Sand Valley,nether,2.0,False,nether,0
+50,sparse_jungle,Sparse Jungle,jungle,0.95,True,overworld,7842047
+51,stony_peaks,Stony Peaks,mountain,1.0,True,overworld,7776511
+52,stony_shore,Stony Shore,beach,0.2,True,overworld,8233727
+53,sunflower_plains,Sunflower Plains,plains,0.8,True,overworld,7907327
+54,swamp,Swamp,swamp,0.8,True,overworld,7907327
+55,taiga,Taiga,taiga,0.25,True,overworld,8233983
+56,the_end,The End,the_end,0.5,False,end,0
+57,the_void,The Void,none,0.5,False,overworld,8103167
+58,warm_ocean,Warm Ocean,ocean,0.5,True,overworld,8103167
+59,warped_forest,Warped Forest,nether,2.0,False,nether,0
+60,windswept_forest,Windswept Forest,forest,0.2,True,overworld,8233727
+61,windswept_gravelly_hills,Windswept Gravelly Hills,extreme_hills,0.2,True,overworld,8233727
+62,windswept_hills,Windswept Hills,extreme_hills,0.2,True,overworld,8233727
+63,windswept_savanna,Windswept Savanna,savanna,2.0,False,overworld,7254527
+64,wooded_badlands,Wooded Badlands,mesa,2.0,False,overworld,7254527
